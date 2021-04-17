@@ -136,21 +136,14 @@ class Footer extends React.Component {
             </FooterNavColumn>
             <FooterNavColumn headline="Technology">
               <FooterLink content="Technology" href="https://nuchain.network/technology" />
-              <FooterLink content="Token" href="https://nuchain.network/dot-token" />
-              <FooterLink content="Telemetry" href="https://telemetry.polkadot.io/" />
-              <FooterLink content="Substrate" href="https://www.parity.io/substrate" />
-              <FooterLink content="Whitepaper" href="https://nuchain.network/PolkaDotPaper.pdf" />
-              <FooterLink
-                content="Lightpaper"
-                href="https://nuchain.network/Nuchain-lightpaper.pdf"
-              />
+              <FooterLink content="Token" href="https://nuchain.network/token" />
+              <FooterLink content="Telemetry" href="https://telemetry.nuchain.network/" />
             </FooterNavColumn>
             <FooterNavColumn headline="Community">
               <FooterLink content="Community" href="https://nuchain.network/community" />
               <FooterLink content="Documentation" href="http://wiki.nuchain.network/en/latest/" />
               <FooterLink content="Brand Assets" href="https://nuchain.network/brand-assets" />
               <FooterLink content="Blog" href="https://nuchain.network/blog" />
-              <FooterLink content="Medium" href="https://medium.com/polkadot-network" />
             </FooterNavColumn>
             <FooterSocialColumn />
           </Row>

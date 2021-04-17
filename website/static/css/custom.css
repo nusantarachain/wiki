@@ -607,12 +607,12 @@ body {
 }
 
 .mainpage-maintain-btn:hover {
-  background: #e6007a;
+  background: #09791b;
   cursor: pointer;
 }
 
 .mainpage-build-btn {
-  background: #e6007a;
+  background: #09791b;
   border: none;
   color: white;
   font-weight: 500;
@@ -671,7 +671,7 @@ body {
 }
 
 .myButton:hover {
-  background: #e6007a;
+  background: #09791b;
   cursor: pointer;
 }
 
