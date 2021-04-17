@@ -9,7 +9,7 @@ const siteConfig = {
   url: 'https://wiki.nuchain.network', // Your website URL
   baseUrl: isBuilding ? baseUrlPattern : "/",
   projectName: "nuchain-wiki",
-  organizationName: "w3f",
+  organizationName: "rantainusantara",
   cname: "wiki.nuchain.network",
 
   // For no header links in the top nav bar -> headerLinks: [],

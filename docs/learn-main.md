@@ -5,4 +5,4 @@ sidebar_label: Getting Started
 ---
 
 Untuk bisa memulai menggunakan Nuchain yang perlu Anda lakukan pertama kali adalah
-[membuat akun](learn-account).
+[membuat akun](learn-account.md).
