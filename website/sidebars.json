@@ -1,0 +1,23 @@
+{
+  "docs": {
+    "General": [
+      "welcome",
+      "community",
+      "contributing",
+      "glossary",
+      {
+        "type": "subcategory",
+        "label": "FAQ",
+        "ids": [
+          "faq-network-maintainer",
+          "faq-technical",
+          "faq-general"
+        ]
+      }
+    ],
+    "Learn": [      
+        "learn-account",
+        "learn-validator"
+    ]
+  }
+}

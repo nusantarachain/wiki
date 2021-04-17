@@ -1,0 +1,58 @@
+[
+  {
+    "tpl": "num_validators",
+    "default": 150,
+    "path": "query.staking.validatorCount"
+  },
+  {
+    "tpl": "treasury_proposal_total",
+    "default": 10,
+    "path": "query.treasury.proposalCount"
+  },
+  {
+    "tpl": "babe_epoch_duration",
+    "default": 500,
+    "path": "consts.babe.epochDuration"
+  },
+  {
+    "tpl": "dot_proxy_deposit_base",
+    "default": 0,
+    "computed": true
+  },
+  {
+    "tpl": "dot_proxy_deposit_factor",
+    "default": 0,
+    "computed": true
+  },
+  {
+    "tpl": "proposal_min_bond",
+    "default": { "kusama": 3.333, "polkadot": 100 },
+    "path": "consts.treasury.proposalBondMinimum",
+    "filters": ["humanReadableToken"]
+  },
+  {
+    "tpl": "tip_deposit_amount",
+    "default": { "kusama": 0.166, "polkadot": 1 },
+    "path": "consts.treasury.tipReportDepositBase",
+    "filters": ["humanReadableToken"]
+  },
+  {
+    "tpl": "tip_finders_fee",
+    "default": { "kusama": 20, "polkadot": 20 },
+    "path": "consts.treasury.tipFindersFee"
+  },
+  {
+    "tpl": "spend_period",
+    "default": { "kusama": 6, "polkadot": 24 },
+    "path": "consts.treasury.spendPeriod",
+    "filters": ["blocksToDays"]
+  },
+  {
+    "tpl": "kusama_max_nominators",
+    "default": "128"
+  },
+  {
+    "tpl": "polkadot_max_nominators",
+    "default": "128"
+  }
+]
