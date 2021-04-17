@@ -16,6 +16,7 @@
       }
     ],
     "Learn": [
+        "learn-main",
         "learn-account",
         "learn-validator"
     ],

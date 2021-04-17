@@ -6,7 +6,7 @@ const isPub = process.env.PUBLISHING;
 const siteConfig = {
   title: "Nuchain/Rantara Wiki", // Title for your website.
   tagline: "The hub for those interested in learning, building, or running a node on Polkadot.",
-  // url: 'https://wiki.nuchain.network', // Your website URL
+  url: 'https://wiki.nuchain.network', // Your website URL
   baseUrl: isBuilding ? baseUrlPattern : "/",
   projectName: "nuchain-wiki",
   organizationName: "w3f",

@@ -15,5 +15,4 @@ terdistribusi dan aman yang disebut dengan rantai blok
 
 ## Getting Started
 
-Untuk bisa memulai menggunakan Nuchain yang perlu Anda lakukan pertama kali adalah
-[membuat akun](learn-account).
+Baca panduan awal untuk [memulai menggunakan Nuchain](learn-main).
