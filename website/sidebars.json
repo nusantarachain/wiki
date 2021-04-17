@@ -15,9 +15,22 @@
         ]
       }
     ],
-    "Learn": [      
+    "Learn": [
         "learn-account",
         "learn-validator"
+    ],
+    "Build": [
+        "build-intro",
+        {
+          "type": "subcategory",
+          "label": "Dasar",
+          "ids": [
+            "build-did",
+            "build-organization",
+            "build-certificate",
+            "build-supply-chain"
+          ]
+        }
     ]
   }
 }
