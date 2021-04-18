@@ -9,20 +9,17 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - uses: actions/checkout@master
-        # - uses: actions/setup-node@v1
-        #   with:
-        #     node-version: '14'
+        - uses: actions/setup-node@v2
+          with:
+            node-version: '14'
         # - name: Install Yarn
-        #   run: npm install -g yarn
+          # run: npm install -g yarn
         # - name: Building
         #   run: |
         #     yarn && BUILDING=true yarn run nuchain:build
         - name: Deploying
-          uses: burnett01/rsync-deployments@4.1
-          with:
-            switches: -avzrhcP --delete-after --include="" --filter=""
-            path: website/build/nuchain-wiki/
-            remote_path: /home/www/nuchain-wiki
-            remote_host: ${{ secrets.DEPLOY_HOST }}
-            remote_user: ${{ secrets.DEPLOY_USER }}
-            remote_key: ${{ secrets.DEPLOY_KEY }}
+          run: |
+            git config --global user.email "nuchain-wiki-deploy@users.noreply.github.com"
+            git config --global user.name "Nuchain Wiki CI"
+            echo "machine github.com login nusantarachain password ${{ secrets.ACCESS_KEY }}" > ~/.netrc
+            yarn && GIT_USER=nusantarachain PUBLISHING=true yarn run nuchain:publish-gh-pages
