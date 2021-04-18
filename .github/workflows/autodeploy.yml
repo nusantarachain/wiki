@@ -12,8 +12,8 @@ jobs:
         - uses: actions/setup-node@v2
           with:
             node-version: '14'
-        # - name: Install Yarn
-          # run: npm install -g yarn
+        - name: Install Yarn
+          run: npm install -g yarn
         # - name: Building
         #   run: |
         #     yarn && BUILDING=true yarn run nuchain:build
