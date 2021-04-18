@@ -9,7 +9,7 @@ const siteConfig = {
   url: 'https://wiki.nuchain.network', // Your website URL
   baseUrl: isBuilding ? baseUrlPattern : "/",
   projectName: "wiki",
-  organizationName: "rantainusantara",
+  organizationName: "nusantarachain",
   cname: "wiki.nuchain.network",
   docsUrl: "docs",
   language: "id",
