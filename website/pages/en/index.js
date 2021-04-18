@@ -44,12 +44,12 @@ class HomeNav extends React.Component {
         <NavItem
           href={this.props.docUrl("build-index")}
           title="Build"
-          content="Most up-to-date information on the status of the development tools in the Polkadot ecosystem."
+          content="Most up-to-date information on the status of the development tools in the Nuchain ecosystem."
           aosDelay="0"
         />
         <NavItem
           href={this.props.docUrl("learn-main")}
-          content="Polkadot is a sharded protocol that enables blockchain networks to operate together seamlessly."
+          content="Nuchain is a sharded protocol that enables blockchain networks to operate together seamlessly."
           title="Learn"
           aosDelay="300"
         />
@@ -83,8 +83,8 @@ class HomeFooter extends React.Component {
           <h3 className="h2 font-weight-bold">Help improve this wiki</h3>
           <p className="mb-5">
             This wiki was started by and is maintained by Rantai Nusantara Foundation. It is an open-source-ish
-            project and aims to be the most extensive resource of knowledge on Polkadot and the
-            Polkadot ecosystem.
+            project and aims to be the most extensive resource of knowledge on Nuchain and the
+            Nuchain ecosystem.
           </p>
         </Col>
         <Col>
