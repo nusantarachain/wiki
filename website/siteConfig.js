@@ -8,7 +8,7 @@ const siteConfig = {
   tagline: "The hub for those interested in learning, building, or running a node on Nuchain.",
   url: 'https://wiki.nuchain.network', // Your website URL
   baseUrl: isBuilding ? baseUrlPattern : "/",
-  projectName: "nuchain-wiki",
+  projectName: "wiki",
   organizationName: "rantainusantara",
   cname: "wiki.nuchain.network",
   docsUrl: "docs",
