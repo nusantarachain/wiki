@@ -1,0 +1,24 @@
+---
+id: community
+title: Community
+sidebar_label: Community
+---
+
+The Nuchain community is expanding every day. Below are the most essential links to the community
+channels. Keep in mind that no admin or moderator will ever DM you for any reason whatsoever without
+prior contact and anyone doing so is likely trying to scam you.
+
+## General
+
+- [Nuchain GitHub](https://github.com/nusantarachain/nuchain/) - Parity maintained repository that
+  houses the Rust implementation of the Nuchain Host. Information on hosting meetups, applying for
+  funding, and materials for running it. [Nuchain Support Email](mailto:support@nuchain.network)
+
+## Matrix Chats
+
+- [Nuchain Lounge](https://app.element.io/#/room/!aYWUxhUvutqbMBQIsN:matrix.org) - All about Nuchain
+  discussion.
+
+### Social media and forums
+
+- [Nuchain Twitter](https://twitter.com/nusantarachain)

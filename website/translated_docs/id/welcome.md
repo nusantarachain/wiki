@@ -16,4 +16,3 @@ terdistribusi dan aman yang disebut dengan rantai blok
 ## Getting Started
 
 Baca panduan awal untuk [memulai menggunakan Nuchain](learn-main).
-

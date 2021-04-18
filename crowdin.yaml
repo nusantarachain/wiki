@@ -10,6 +10,7 @@ files:
     translation: '/website/translated_docs/%locale%/%original_file_name%'
     languages_mapping: &anchor
       locale:
+        'en': 'en'
         'af': 'af'
         'ar': 'ar'
         'bs-BA': 'bs-BA'
@@ -45,6 +46,6 @@ files:
         'zh-CN': 'zh-CN'
         'zh-TW': 'zh-TW'
   -
-    source: '/website/i18n/en.json'
+    source: '/website/i18n/id.json'
     translation: '/website/i18n/%locale%.json'
     languages_mapping: *anchor
