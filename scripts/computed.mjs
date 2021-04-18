@@ -10,7 +10,7 @@ const dotDeposit = (items, bytes) => {
   return items * 20 * DOLLARS + bytes * 100 * MILLICENTS;
 }
 
-// Polkadot
+// Nuchain
 // https://github.com/paritytech/polkadot/blob/master/runtime/polkadot/src/lib.rs#L747
 const dotProxyDepositBase = dotDeposit(1, 8) / DotDecimals;
 const dotProxyDepositFactor = dotDeposit(0, 33) / DotDecimals;

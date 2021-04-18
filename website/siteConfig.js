@@ -5,12 +5,14 @@ const isPub = process.env.PUBLISHING;
 
 const siteConfig = {
   title: "Nuchain/Rantara Wiki", // Title for your website.
-  tagline: "The hub for those interested in learning, building, or running a node on Polkadot.",
+  tagline: "The hub for those interested in learning, building, or running a node on Nuchain.",
   url: 'https://wiki.nuchain.network', // Your website URL
   baseUrl: isBuilding ? baseUrlPattern : "/",
   projectName: "nuchain-wiki",
   organizationName: "rantainusantara",
   cname: "wiki.nuchain.network",
+  docsUrl: "docs",
+  language: "id",
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
@@ -21,7 +23,7 @@ const siteConfig = {
   ],
 
   /* path to images for header/footer */
-  headerIcon: "img/logo_nuchain_wiki.svg",
+  headerIcon: "img/logo_nuchain_wiki.png",
   footerIcon: "img/logo-nuchain-light.svg",
   favicon: "img/favicon.ico",
 

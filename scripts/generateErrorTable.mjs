@@ -5,7 +5,7 @@ let output = `
 
 ## Error Table
 
-The below table is a reference to the errors that exists in Polkadot. It 
+The below table is a reference to the errors that exists in Nuchain. It 
 is generated from the runtime's metadata.
 
 |Pallet | Error | Documentation |

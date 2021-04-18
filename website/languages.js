@@ -6,6 +6,11 @@
  */
 
 const languages = [
+   {
+    enabled: true,
+    name: 'Bahasa Indonesia',
+    tag: 'id',
+  },
   {
     enabled: true,
     name: 'English',
@@ -80,11 +85,6 @@ const languages = [
     enabled: false,
     name: 'Magyar',
     tag: 'hu',
-  },
-  {
-    enabled: false,
-    name: 'Bahasa Indonesia',
-    tag: 'id-ID',
   },
   {
     enabled: false,

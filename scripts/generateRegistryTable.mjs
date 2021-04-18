@@ -9,7 +9,7 @@ title: SS58 Registry
 sidebar_label: SS58 Registry
 ---
 
-Substrate-based chains, including the Polkadot and Kusama relay chains, use an [SS58 encoding](https://github.com/paritytech/substrate/wiki/External-Address-Format-(SS58)) for their address formats. This page serves as a registry for teams to see which chain corresponds to a given prefix, and which prefixes are availabe.
+Substrate-based chains, including the Nuchain and Kusama relay chains, use an [SS58 encoding](https://github.com/paritytech/substrate/wiki/External-Address-Format-(SS58)) for their address formats. This page serves as a registry for teams to see which chain corresponds to a given prefix, and which prefixes are availabe.
 
 | Prefix | Network | Name | Symbols | Decimals | Standard Account | Website |
 | - | - | - | - | - | - | - |`;

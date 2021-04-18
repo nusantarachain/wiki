@@ -42,17 +42,23 @@ class HomeNav extends React.Component {
     return (
       <NavContainer>
         <NavItem
-          href={this.props.docUrl("build-index")}
-          title="Build"
-          content="Most up-to-date information on the status of the development tools in the Nuchain ecosystem."
+          href={this.props.docUrl("build-intro")}
+          title="Bangun"
+          content="Informasi paling up-to-date tentang status pengembangan, perangkat pengembangan, serta cara penggunaannya untuk memanfaatkan jaringan Nuchain."
           aosDelay="0"
         />
         <NavItem
           href={this.props.docUrl("learn-main")}
-          content="Nuchain is a sharded protocol that enables blockchain networks to operate together seamlessly."
-          title="Learn"
+          content="Nuchain adalah protokol terdesentralisasi yang memungkinkan kita membangun sistem dan aplikasi di atasnya."
+          title="Pelajari"
           aosDelay="300"
         />
+        {/* <NavItem
+          href={this.props.docUrl("maintain-index")}
+          title="Hidupi"
+          content="Informasi dan tata-cara bagaimana menjadi validator, menyebarkan node dan menghidupi jaringan."
+          aosDelay="600"
+        /> */}
       </NavContainer>
     );
   }
@@ -74,23 +80,23 @@ class HomeFooter extends React.Component {
           <span className="material-icons" style={{ fontSize: 50 + "px" }}>
             language
           </span>
-          <h3 className="h2 font-weight-bold">Help improve this wiki</h3>
+          <h3 className="h2 font-weight-bold">Bantu kembangkan wiki ini</h3>
           <p className="mb-5">
-            This wiki was started by and is maintained by Rantai Nusantara Foundation. It is an open-source-ish
-            project and aims to be the most extensive resource of knowledge on Nuchain and the
-            Nuchain ecosystem.
+            Wiki ini dimulai dan dikelola oleh Yayasan Rantai Nusantara. Ini adalah proyek sumber terbuka (open source)
+             proyek dan bertujuan untuk menjadi sumber pengetahuan yang luas tentang Nuchain dan
+             Ekosistem Nuchain.
           </p>
         </Col>
         <Col>
           <a href={this.props.docUrl("contributing")}>
-            <button className="btn btn-lg btn-primary btn-bg-primary mr-3">Contribute</button>
+            <button className="btn btn-lg btn-primary btn-bg-primary mr-3">Kontribusi</button>
           </a>
           <a
             href={this.props.siteConfig.translationRecruitingLink}
             target="_blank"
             rel="noreferrer noopener"
           >
-            <button className="btn btn-lg btn-primary btn-bg-primary">Help Translate</button>
+            <button className="btn btn-lg btn-primary btn-bg-primary">Bantu Terjemahkan</button>
           </a>
         </Col>
       </Col>
@@ -106,7 +112,8 @@ class HomeFooter extends React.Component {
 
 class Index extends React.Component {
   render() {
-    const { config: siteConfig, language = "" } = this.props;
+    const { config: siteConfig } = this.props;
+    const language = siteConfig.language;
     const { baseUrl, docsUrl } = siteConfig;
     const docsPart = `${docsUrl ? `${docsUrl}/` : ""}`;
     const langPart = `${language ? `${language}/` : ""}`;
