@@ -37,7 +37,7 @@ Alur kerja:
    - `products` - list/array ID dari produk yang akan didaftarkan.
 
 3. **Melakukan update status**, memperbaharui (update) status setiap proses yang dilalui oleh produk
-   dengan cara mengirimkan transaksi menggunakan fungsi ekstrinsik `productTracking.update_status`
+   dengan cara mengirimkan transaksi menggunakan fungsi ekstrinsik `productTracking.updateStatus`
    dengan parameter:
 
    - `id` - ID kode tracking.
