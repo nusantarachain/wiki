@@ -1,7 +1,7 @@
 ---
 id: build-did
 title: Decentralized Identity (DId)
-sidebar_label: DId
+sidebar_label: Decentralized Identity
 ---
 
 Nuchain mendukung DId dan bahkan menjadikannya sebagai fondasi untuk mengontrol akses dan otorisasi
