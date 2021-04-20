@@ -37,8 +37,8 @@ organisasi di Nuchain, silahkan baca [Organisasi](build-organization.md).
    - `products` - list/array ID dari produk yang akan didaftarkan.
 
 3. **Melakukan update status**, memperbaharui (update) status setiap proses yang dilalui oleh produk
-   dengan cara mengirimkan transaksi menggunakan fungsi [ekstrinsik](learn-extrinsic.md) `productTracking.updateStatus`
-   dengan parameter:
+   dengan cara mengirimkan transaksi menggunakan fungsi [ekstrinsik](learn-extrinsic.md)
+   `productTracking.updateStatus` dengan parameter:
 
    - `id` - ID kode tracking.
    - `status` - (string) status yang akan diberikan.
@@ -48,19 +48,19 @@ organisasi di Nuchain, silahkan baca [Organisasi](build-organization.md).
 
 ## Verifikasi
 
-Untuk memverifikasi kita bisa melakukan _query_ menggunakan fungsi _query_ `productTracking.tracking(ID)`.
-Fungsi tersebut bisa digunakan untuk mendapatkan detail data tracking yang berisi _metadata_ dan list ID produk yang disertakan.
+Untuk memverifikasi kita bisa melakukan _query_ menggunakan fungsi _query_
+`productTracking.tracking(ID)`. Fungsi tersebut bisa digunakan untuk mendapatkan detail data
+tracking yang berisi _metadata_ dan list ID produk yang disertakan.
 
-Sementara untuk mendapatkan _event-event_ yang terjadi pada objek _tracking_ bisa menggunakan fungsi _query_ `productTracking.eventsOfTracking(ID)`. 
-Fungsi tersebut hanya mengembalikan
-ID dari event. Untuk mendapatkan detail event-nya bisa melakukan _query_ menggunakan fungsi
+Sementara untuk mendapatkan _event-event_ yang terjadi pada objek _tracking_ bisa menggunakan fungsi
+_query_ `productTracking.eventsOfTracking(ID)`. Fungsi tersebut hanya mengembalikan ID dari event.
+Untuk mendapatkan detail event-nya bisa melakukan _query_ menggunakan fungsi
 `productTracking.eventByIdx(IDX)`.
 
 ## Notifikasi
 
-Nuchain dapat mengirimkan notifikasi secara _real-time_ ke luar jaringan
-(_off-chain_) menggunakan _Web hook_ untuk setiap pergantian status _tracking_ produk yang terjadi
-di jaringan _blockchain_.
+Nuchain dapat mengirimkan notifikasi secara _real-time_ ke luar jaringan (_off-chain_) menggunakan
+_Web hook_ untuk setiap _event_ yang terjadi pada _tracking_ di jaringan _blockchain_.
 
 Nuchain menggunakan _Off-chain Worker_ untuk keperluan ini.
 
