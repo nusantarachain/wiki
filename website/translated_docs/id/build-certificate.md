@@ -21,7 +21,7 @@ cara membuat organisasi bisa baca bagian [Organisasi](build-organization.md).
 
 Pembuatan sertifikat di Nuchain bisa digambarkan sebagai berikut:
 
-![Nuchain Certificate](/img/nuchain-certificate.svg)
+![Nuchain Certificate](/img/nuchain-certificate.png)
 
 1. Organisasi perlu membuat sertifikat (sebagai template) untuk kemudian bisa digunakan untuk diberikan (issued)
 kepada penerima sertifikat tersebut. Orang yang bisa membuat sertifikat adalah `admin` dari organisasi atau orang yang memiliki akses [DId](build-did.md) ke organisasi. Pembuatan sertifikat bisa menggunakan fungsi ekstrinsik `certificate.createCert`.
