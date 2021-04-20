@@ -6,7 +6,7 @@ sidebar_label: Organisasi
 
 Nuchain mendukung pembuatan organisasi di dalam _blockchain_.
 
-Organisasi adalah obyek yang sama seperti akun menggunakan _address_ yang sama seperti akun biasa
+Organisasi adalah objek yang sama seperti akun menggunakan _address_ yang sama seperti akun biasa
 bedanya organisasi tidak dikontrol secara langsung tetapi dikontrol oleh `admin` atau orang yang
 memiliki akses sebagai `admin` melalui delegasi [Decentralized ID](build-did.md).
 

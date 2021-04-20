@@ -28,16 +28,16 @@ Alur kerja:
      kadaluarsa, berat, asal pertanian, waktu panen, dll.
 
 2. **Mendaftarkan tracking**, produk yang akan di-_track_ perlu didaftarkan terlebih dahulu
-   menggunakan fungsi ekstrinsik `productTracking.register` dengan parameter:
+   menggunakan fungsi [ekstrinsik](learn-extrinsic.md) `productTracking.register` dengan parameter:
 
-   - `id` - berupa id _tracking_-nya.
+   - `id` - id _tracking_-nya.
    - `org_id` - merupakan ID dari organisasi/instansi yang merepresentasikan kepemilikan atas
      produk.
    - `year` - tahun inisiasi _tracking_, contoh "2021".
    - `products` - list/array ID dari produk yang akan didaftarkan.
 
 3. **Melakukan update status**, memperbaharui (update) status setiap proses yang dilalui oleh produk
-   dengan cara mengirimkan transaksi menggunakan fungsi ekstrinsik `productTracking.updateStatus`
+   dengan cara mengirimkan transaksi menggunakan fungsi [ekstrinsik](learn-extrinsic.md) `productTracking.updateStatus`
    dengan parameter:
 
    - `id` - ID kode tracking.
@@ -46,11 +46,24 @@ Alur kerja:
    - `location` - lokasi di mana _tracking_ dilakukan.
    - `readings` - informasi tambahan yang akan dimasukkan berkaitan dengan produknya.
 
-### Off-chain Worker
+## Verifikasi
 
-Modul Product Tracking dapat mengirimkan notifikasi secara _real-time_ ke luar jaringan
+Untuk memverifikasi kita bisa melakukan _query_ menggunakan fungsi _query_ `productTracking.tracking(ID)`.
+Fungsi tersebut bisa digunakan untuk mendapatkan detail data tracking yang berisi _metadata_ dan list ID produk yang disertakan.
+
+Sementara untuk mendapatkan _event-event_ yang terjadi pada objek _tracking_ bisa menggunakan fungsi _query_ `productTracking.eventsOfTracking(ID)`. 
+Fungsi tersebut hanya mengembalikan
+ID dari event. Untuk mendapatkan detail event-nya bisa melakukan _query_ menggunakan fungsi
+`productTracking.eventByIdx(IDX)`.
+
+## Notifikasi
+
+Nuchain dapat mengirimkan notifikasi secara _real-time_ ke luar jaringan
 (_off-chain_) menggunakan _Web hook_ untuk setiap pergantian status _tracking_ produk yang terjadi
-di jaringan _blockchain_ Nuchain. Hal ini bisa dilakukan karena Nuchain memiliki fitur _off-chain
-worker_.
+di jaringan _blockchain_.
+
+Nuchain menggunakan _Off-chain Worker_ untuk keperluan ini.
+
+_tbc_
 
 _todo: add sample code here_
