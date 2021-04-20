@@ -17,7 +17,7 @@ organisasi di Nuchain, silahkan baca [Organisasi](build-organization.md).
 Alur kerja:
 
 1. **Mendaftarkan produk**, produk perlu didaftarkan terlebih dahulu dengan cara mengirim transaksi
-   menggunakan fungsi ekstrinsik `productRegistry.register` dengan parameter:
+   menggunakan fungsi [ekstrinsik](learn-extrinsic.md) `productRegistry.register` dengan parameter:
 
    - `id` - sebagai id produk, ini bebas bisa berupa numeric atau alpha-numeric, bisa juga GS1 GTIN
      (Global Trade Item Number) atau ASIN (Amazon Standard Identification Number).
