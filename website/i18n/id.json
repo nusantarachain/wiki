@@ -6,8 +6,8 @@
     "tagline": "The hub for those interested in learning, building, or running a node on Nuchain.",
     "docs": {
       "build-certificate": {
-        "title": "Certificate",
-        "sidebar_label": "Certificate"
+        "title": "Sertifikat Digital",
+        "sidebar_label": "Sertifikat Digital"
       },
       "build-did": {
         "title": "Decentralized Identity (DId)",
@@ -18,8 +18,8 @@
         "sidebar_label": "Intro"
       },
       "build-organization": {
-        "title": "Organization",
-        "sidebar_label": "Organization"
+        "title": "Organisasi",
+        "sidebar_label": "Organisasi"
       },
       "build-supply-chain": {
         "title": "Supply Chain",

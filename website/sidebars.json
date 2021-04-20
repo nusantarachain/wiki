@@ -18,7 +18,8 @@
     "Learn": [
         "learn-main",
         "learn-account",
-        "learn-validator"
+        "learn-validator",
+        "learn-extrinsic"
     ],
     "Build": [
         "build-intro",
