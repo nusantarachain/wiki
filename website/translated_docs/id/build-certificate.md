@@ -6,7 +6,7 @@ sidebar_label: Sertifikat Digital
 
 Nuchain mendukung pembuatan sertifikat digital.
 
-Data sertifikat di Nuchain bersifiat _abadi_, sekali ditulis tidak dapat dihapus, namun validitasnya
+Data sertifikat di Nuchain bersifiat abadi, sekali ditulis tidak dapat dihapus, namun validitasnya
 tetap bisa dicabut (revoke).
 
 ### Membuat Sertifikat
