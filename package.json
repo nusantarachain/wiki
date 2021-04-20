@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "start": "yarn nuchain:start",
-    "nuchain:start": "cd website; docusaurus-start",
+    "start": "cd website; docusaurus-start",
+    "build": "yarn nuchain:build",
     "nuchain:build": "BUILDING=true; cd website; docusaurus-build; node ./postprocess",
     "nuchain:inject": "node --experimental-json-modules scripts/inject.mjs --rootDir website/build/nuchain-wiki --node wss://node-sg.nuchain.riset.tech",
     "nuchain:publish-gh-pages": "PUBLISHING=true; cd website; docusaurus-publish",

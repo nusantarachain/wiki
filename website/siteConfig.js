@@ -34,7 +34,7 @@ const siteConfig = {
   },
 
   algolia: {
-    apiKey: "8bfa06b56bb8f33e5698c7f40b00b38f",
+    apiKey: "924bf0cc4613ecf0c591de85ae7818ec",
     indexName: "nuchain",
     algoliaOptions: {
       facetFilters: ["language:LANGUAGE"],
