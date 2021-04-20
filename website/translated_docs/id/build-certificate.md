@@ -9,11 +9,6 @@ Nuchain mendukung pembuatan sertifikat digital.
 Data sertifikat di Nuchain bersifiat _abadi_, sekali ditulis tidak dapat dihapus, namun tetap bisa 
 dicabut (revoke) untuk mencabut validitasnya.
 
-### Sifat Sertifikat
-
-1. Sertifikat bisa dicabut oleh organisasi yang menerbitkan sertifikat, sehingga menjadikan sertifikat tidak lagi valid.
-2. Sertifikat bisa kadaluarsa apabila diset oleh organisasi penerbit.
-
 ### Membuat Sertifikat
 
 Untuk dapat membuat sertifikat maka diperlukan organisasi sebagai wadah (holder) dari penerbit sertifikat tersebut, 
@@ -39,7 +34,7 @@ Validitas sertifikat bisa dibuktikan dengan memastikan dua hal:
 
 ### Pencabutan
 
-Sertifikat digital di Nuchain bisa dicabut sehingga menghilangkan validitasnya, untuk mencabutnya bisa menggunakan fungsi ekstrinsik `certificate.revoke_cert`.
+Sertifikat digital di Nuchain bisa dicabut sehingga menghilangkan validitasnya, untuk mencabutnya bisa menggunakan fungsi ekstrinsik `certificate.revokeCert`.
 
 ### Kadaluarsa
 
