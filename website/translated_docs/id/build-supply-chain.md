@@ -14,7 +14,7 @@ Kode untuk kebutuhan tersebut bisa ditemukan di tiga modul berikut:
 Sistem rantai pasok membutuhkan organisasi sebagai holder utama. Pastikan Anda telah mendaftarkan
 organisasi di Nuchain, silahkan baca [Organisasi](build-organization.md).
 
-Alur kerja:
+## Alur kerja:
 
 1. **Mendaftarkan produk**, produk perlu didaftarkan terlebih dahulu dengan cara mengirim transaksi
    menggunakan fungsi [ekstrinsik](learn-extrinsic.md) `productRegistry.register` dengan parameter:
