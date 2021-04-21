@@ -11,10 +11,10 @@ Kode untuk kebutuhan tersebut bisa ditemukan di tiga modul berikut:
 - [Product Registry](https://github.com/nusantarachain/nuchain/tree/supplychain/frame/product-registry).
 - [Product Tracking](https://github.com/nusantarachain/nuchain/tree/supplychain/frame/product-tracking).
 
-Sistem rantai pasok membutuhkan organisasi sebagai holder utama. Pastikan Anda telah mendaftarkan
-organisasi di Nuchain, silahkan baca [Organisasi](build-organization.md).
+Sistem rantai pasok membutuhkan organisasi sebagai holder produk. Tentang organisasi dan bagaimana
+cara membuatnya bisa baca di bagian [Organisasi](build-organization.md).
 
-## Alur kerja:
+## Alur Kerja
 
 1. **Mendaftarkan produk**, produk perlu didaftarkan terlebih dahulu dengan cara mengirim transaksi
    menggunakan fungsi [ekstrinsik](learn-extrinsic.md) `productRegistry.register` dengan parameter:

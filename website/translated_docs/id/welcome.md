@@ -1,11 +1,11 @@
 ---
 id: welcome
-title: Welcome
-sidebar_label: Welcome
+title: Selamat Datang
+sidebar_label: Selamat Datang
 ---
 
-Selamat datang di Wiki Nuchain/Rantara, website ini berisi informasi tentang Nuchain dan cara
-memanfaatkan jaringan Nuchain.
+Selamat datang di Wiki Nuchain/Rantara. Website ini berisi informasi tentang Nuchain dan bagaimana
+kita bisa memanfaatkan jaringan Nuchain.
 
 ## Apa itu Nuchain/Rantara?
 
