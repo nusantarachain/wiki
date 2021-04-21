@@ -1,22 +1,20 @@
 ---
-id: learn-validator
-title: Cara Menjadi Validator
+id: learn-become-validator
+title: Menjadi Validator
 sidebar_label: Menjadi Validator
 ---
 
-Dokumen ini berisi prosedur dan cara menjadi validator Nuchain. Untuk menjadi validator pastikan
-Anda telah memiliki akun Nuchain terlebih dahulu, cara membuat akun bisa baca
-[di sini](https://github.com/nusantarachain/nuchain/wiki/Membuat-Akun).
+Untuk menjadi validator pastikan Anda telah memiliki akun Nuchain terlebih dahulu, cara membuat akun
+bisa baca [di sini](learn-account.md).
 
 ## Memasang Nuchain Node
 
-Pertama yang Anda butuhkan adalah memasang Nuchain node di server/komputer Anda dengan cara
-mengkompilasi kode sumber dari `master` _branch_ di repository ini atau download _pre-built
-binary_-nya di halaman [releases](https://github.com/nusantarachain/nuchain/releases).
+Anda bisa memasang Nuchain node di server/komputer Anda dengan cara mengkompilasi kode sumber dari
+`master` _branch_ di [repository](https://github.com/nusantarachain/nuchain) atau download
+_pre-built binary_-nya di halaman [releases](https://github.com/nusantarachain/nuchain/releases).
 
 Jika ingin memasang dari kode sumber bisa ikuti langkah-langkah
-[pasang dari kode sumber](https://github.com/nusantarachain/nuchain/blob/master/README.md#dari-kode-sumber)
-di README.md.
+[pasang dari kode sumber](https://github.com/nusantarachain/nuchain/blob/master/README.md#dari-kode-sumber).
 
 Setelah Anda _download_ dari halaman [releases](https://github.com/nusantarachain/nuchain/releases)
 extract/unzip file zip-nya, contoh:
@@ -35,7 +33,7 @@ $ ./nuchain --validator
 secara otomatis.
 
 Cara lain tercepat untuk dapat menjalankan Nuchain node adalah dengan menggunakan
-[Docker](https://docker.com/), baca caranya [di sini](/nusantarachain/nuchain/wiki/Docker-Setup).
+[Docker](https://docker.com/), baca caranya [di sini](learn-docker.md).
 
 ## Hubungkan
 

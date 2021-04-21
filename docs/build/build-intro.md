@@ -4,7 +4,8 @@ title: Build
 sidebar_label: Intro
 ---
 
-Nuchain mendukung pengembangan aplikasi di atas _blockchain_ (on-chain app) yang biasa disebut juga dengan _smart contract_ dan _distributed app_ (DApp).
+Nuchain mendukung pengembangan aplikasi di atas _blockchain_ (on-chain app) yang biasa disebut juga
+dengan _smart contract_ dan _distributed app_ (DApp).
 
 Saat ini Nuchain secara _native_ memilik fitur untuk membangun aplikasi berbasis:
 

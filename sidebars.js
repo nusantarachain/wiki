@@ -31,7 +31,15 @@ module.exports = {
       items: [
           'learn/learn-main',
           'learn/learn-account',
-          'learn/learn-validator'
+          {
+              type: 'category',
+              label: 'Validator',
+              items: [
+                'learn/learn-validator-basic',
+                'learn/learn-become-validator',
+                'learn/learn-docker'
+              ]
+          }
       ],
     },
     {

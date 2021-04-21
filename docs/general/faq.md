@@ -3,15 +3,14 @@ id: faq
 title: Frequently Asked Questions (FAQ)
 sidebar_label: FAQ
 ---
-<!-- 
+
+<!--
 Dokumen ini dibagikan menjadi tiga topik utama:
 
 - [Teknikal](faq-technical) untuk yang berkaitan dengan pengembangan aplikasi di Nuchain.
 - [Pemelihara Jaringan](faq-network-maintainer) untuk yang berkaitan dengan pemeliharaan jaringan
   Nuchain seperti mekanisme validator dan nominator.
 - [General](faq-general) untuk yang berkaitan dengan pertanyaan seputar Nuchain secara general. -->
-
-
 
 ## Bagaimana cara menjadi validator?
 

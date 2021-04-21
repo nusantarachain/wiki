@@ -1,20 +1,25 @@
 ---
 id: learn-account
-title: Nuchain Account
-sidebar_label: Account
+title: Akun Nuchain
+sidebar_label: Akun
 ---
 
-Istilah akun pada Nuchain sebenarnya hanyalah sebuah simbol dari representasi kata kunci publik
-(public key) dari sebuah pasangan kunci kripto.
+Akun pada Nuchain sebenarnya hanyalah sebuah simbol dari representasi kunci kirpto yang terdiri dari
+kunci publik dan kunci rahasia. Kunci publik digunakan sebagai identifikasi akun di dalam jaringan
+dan kunci rahasia digunakan untuk mengakses sumber daya di jaringan atas nama akun kita.
 
-Membuat akun di Nuchain sangat mudah, tidak perlu konfirmasi email dsb, hanya perlu menggenerasikan
-kunci kriptografi dan semua bisa dilakukan di komputer lokal tanpa perlu koneksi internet.
+Membuat akun di Nuchain sangat mudah, tidak perlu konfirmasi email seperti pada layanan terpusat
+pada umumnya. Yang diperlukan hanyalah menggenerasikan pasangan kunci kripto, dan semua itu bisa
+dilakukan di komputer lokal tanpa perlu koneksi internet sama sekali.
 
-## Langkah-langkah
+## Membuat Akun
 
-Ada beberapa cara dalam membuat akun Nuchain:
+Ada beberapa cara dalam membuat akun di Nuchain:
 
 ### Menggunakan Dashboard
+
+Menggunakan dashboard adalah cara paling mudah dalam membuat pasangan kunci kripto. Berikut
+langkah-langkahnya:
 
 - Buka [Dashboard Nuchain](https://dashboard.nuchain.network).
 - Buka tab `Account` klik tombol `+ Add acocunt`, di awal Anda akan langsung mendapatkan _mnemonic
@@ -50,6 +55,12 @@ Secret phrase `shoulder lizard sea lion eye dignity current major clutch call an
 
 Anda sudah memiliki SS58 Address tersebut sebagai representasi akun Anda di Nuchain.
 
-**PERHATIAN!**: Simpan **Secret phrase** dengan aman dan jangan pernah ditunjukkan ke orang lain,
-karena **Secret phrase** tersebut bisa digunakan untuk mengembalikan (recovery) akun Anda suatu
-saat.
+:::caution
+
+Simpan **Secret phrase** dengan aman dan jangan pernah ditunjukkan ke orang lain, karena siapapun
+yang memiliki **Secret phrase** bisa menggunakannya untuk mengembalikan (recovery) akun Anda.
+
+Mengapa Anda butuh **Secret phrase**? Karena manusia adalah tempatnya lupa, ketika Anda lupa kata
+kunci, maka hanya **Secret phrase** inilah yang dapat membantu mengembalikan akunnya.
+
+:::
