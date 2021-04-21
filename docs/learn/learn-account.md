@@ -1,33 +1,45 @@
 ---
 id: learn-account
-title: Nuchain Account
-sidebar_label: Account
+title: Akun Nuchain
+sidebar_label: Akun
 ---
 
-Istilah akun pada Nuchain sebenarnya hanyalah sebuah simbol dari representasi kata kunci publik
-(public key) dari sebuah pasangan kunci kripto.
+Akun pada Nuchain sebenarnya hanyalah sebuah simbol dari representasi kunci kirpto yang terdiri dari
+kunci publik dan kunci rahasia. Kunci publik digunakan sebagai identifikasi akun di dalam jaringan
+dan kunci rahasia digunakan untuk mengakses sumber daya di jaringan atas nama akun kita.
 
-Membuat akun di Nuchain sangat mudah, tidak perlu konfirmasi email dsb, hanya perlu menggenerasikan
-kunci kriptografi dan semua bisa dilakukan di komputer lokal tanpa perlu koneksi internet.
+Membuat akun di Nuchain sangat mudah, tidak perlu konfirmasi email seperti pada layanan terpusat
+pada umumnya. Yang diperlukan hanyalah menggenerasikan pasangan kunci kripto, dan semua itu bisa
+dilakukan di komputer lokal tanpa perlu koneksi internet sama sekali.
 
-## Langkah-langkah
+## Membuat Akun
 
-Ada beberapa cara dalam membuat akun Nuchain:
+Ada beberapa cara dalam membuat akun di Nuchain:
 
 ### Menggunakan Dashboard
 
-- Buka [Dashboard Nuchain](https://dashboard.nuchain.network).
-- Buka tab `Account` klik tombol `+ Add acocunt`, di awal Anda akan langsung mendapatkan _mnemonic
-  seed_ yang digenerasikan secara otomatis oleh program, Anda perlu menyimpan dan merahasiakan
-  _mnemonic seed_ ini karena bisa digunakan untuk me-_recovery_ akun Anda apabila Anda lupa kata
-  kunci atau kehilangan _json_-nya. Dan pastikan dicatat di tempat yang aman dan jangan sampai
-  hilang.
-- klik **I have saved my mnemonic seed safely** dan klik tombol **Next**.
-- Pada halaman selanjutnya isi nama yang Anda inginkan, kata kunci dan **Next**.
-- Selesai Anda akan diberikan file _json_ yang bisa digunakan untuk _import_ akun ke platform
-  lainnya, seperti mobile App dll.
+Menggunakan dashboard adalah cara paling mudah dalam membuat pasangan kunci kripto. Berikut
+langkah-langkahnya:
+
+1. Buka [Dashboard Nuchain](https://dashboard.nuchain.network).
+2. Buka tab `Account` klik tombol `+ Add acocunt`, di awal Anda akan langsung mendapatkan _mnemonic
+   seed_ yang digenerasikan secara otomatis oleh program, Anda perlu menyimpan dan merahasiakan
+   _mnemonic seed_ ini karena bisa digunakan untuk me-_recovery_ akun Anda apabila Anda lupa kata
+   kunci atau kehilangan _json_-nya. Dan pastikan dicatat di tempat yang aman dan jangan sampai
+   hilang.
+
+   ![Add Account](/img/add-account.png)
+
+   :::caution Jangan gunakan mnemonic seeds pada contoh akun pada gambar di atas.
+
+3. klik **I have saved my mnemonic seed safely** dan klik tombol **Next**.
+4. Pada halaman selanjutnya isi nama yang Anda inginkan, kata kunci dan **Next**.
+5. Selesai Anda akan diberikan file _json_ yang bisa digunakan untuk _import_ akun ke platform
+   lainnya, seperti mobile App dll.
 
 ### Menggunakan CLI
+
+Membuat pasangan kunci kripto menggunakan CLI adalah cara paling aman.
 
 Yang Anda perlukan hanya program Nuchain, Anda bisa mendapatkannya dengan cara mengunduh dari
 halaman [releases](https://github.com/nusantarachain/nuchain/releases).
@@ -50,6 +62,12 @@ Secret phrase `shoulder lizard sea lion eye dignity current major clutch call an
 
 Anda sudah memiliki SS58 Address tersebut sebagai representasi akun Anda di Nuchain.
 
-**PERHATIAN!**: Simpan **Secret phrase** dengan aman dan jangan pernah ditunjukkan ke orang lain,
-karena **Secret phrase** tersebut bisa digunakan untuk mengembalikan (recovery) akun Anda suatu
-saat.
+:::caution
+
+Simpan **Secret phrase** dengan aman dan jangan pernah ditunjukkan ke orang lain, karena siapapun
+yang memiliki **Secret phrase** bisa menggunakannya untuk mengembalikan (recovery) akun Anda.
+
+Mengapa Anda butuh **Secret phrase**? Karena manusia adalah tempatnya lupa, ketika Anda lupa kata
+kunci, maka hanya **Secret phrase** inilah yang dapat membantu mengembalikan akunnya.
+
+:::

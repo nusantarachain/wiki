@@ -24,4 +24,4 @@ Berikut beberapa peraturan dasar untuk kontributor:
 1. Jangan melakukan `--force` push atau memodifikasi Git _history_ dari Wiki.
 2. Pull request disarankan terelasi dengan _issue_ apabila ada.
 3. Kita menggunakan plugin _Prettier_ untuk menstandarkan _style_ penulisan di setiap dokumen. Anda
-   bisa menjalankannya menggunakan perintah `npx run prettier --save`.
+   bisa menjalankannya menggunakan perintah `npx prettier --write ./docs`.

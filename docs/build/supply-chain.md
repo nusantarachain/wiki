@@ -1,5 +1,5 @@
 ---
-id: build-supply-chain
+id: supply-chain
 title: Rantai Pasok
 sidebar_label: Rantai Pasok
 ---
@@ -11,13 +11,39 @@ Kode untuk kebutuhan tersebut bisa ditemukan di tiga modul berikut:
 - [Product Registry](https://github.com/nusantarachain/nuchain/tree/supplychain/frame/product-registry).
 - [Product Tracking](https://github.com/nusantarachain/nuchain/tree/supplychain/frame/product-tracking).
 
+:::info
+
+Untuk bisa mengikuti materi ini pastikan Anda telah membaca bagian
+[Getting Started](../learn/learn-main.md) dan [Build](build-intro.md).
+
+:::
+
 Sistem rantai pasok membutuhkan organisasi sebagai holder produk. Tentang organisasi dan bagaimana
 cara membuatnya bisa baca di bagian [Organisasi](build-organization.md).
+
+Secara gambaran besar sistem rantai pasok di Nuchain dikontrol oleh organisasi. Organisasi bisa
+digunakan untuk melakukan:
+
+1. Registrasi produk.
+2. Registrasi _tracking_.
+3. Memberikan akses _tracker_.
+
+_**Tracker**_ adalah entitas/individu yang bisa melakukan _update_ status _tracking_ atas ijin akses
+dari organisasi melalui [DIDs](build-did.md).
+
+![Nuchain Supply Chain](/img/nuchain-supply-chain.png)
+
+_(gambar: skema supply chain di Nuchain)_
+
+Setiap _update_ yang dilakukan oleh _tracker_ akan memunculkan _event_ dan _event_ akan diproses
+oleh [off-chain worker](../general/glossary.md#off-chain-worker) untuk dibuatkan notifikasi kemudian
+notifikasi akan di-_push_ melalui _webhook_.
 
 ## Alur Kerja
 
 1. **Mendaftarkan produk**, produk perlu didaftarkan terlebih dahulu dengan cara mengirim transaksi
-   menggunakan fungsi [ekstrinsik](learn-extrinsic.md) `productRegistry.register` dengan parameter:
+   menggunakan fungsi [ekstrinsik](../learn/learn-extrinsic.md) `productRegistry.register` dengan
+   parameter:
 
    - `id` - sebagai id produk, ini bebas bisa berupa numeric atau alpha-numeric, bisa juga GS1 GTIN
      (Global Trade Item Number) atau ASIN (Amazon Standard Identification Number).
@@ -28,7 +54,8 @@ cara membuatnya bisa baca di bagian [Organisasi](build-organization.md).
      kadaluarsa, berat, asal pertanian, waktu panen, dll.
 
 2. **Mendaftarkan tracking**, produk yang akan di-_track_ perlu didaftarkan terlebih dahulu
-   menggunakan fungsi [ekstrinsik](learn-extrinsic.md) `productTracking.register` dengan parameter:
+   menggunakan fungsi [ekstrinsik](../learn/learn-extrinsic.md) `productTracking.register` dengan
+   parameter:
 
    - `id` - id _tracking_-nya.
    - `org_id` - merupakan ID dari organisasi/instansi yang merepresentasikan kepemilikan atas
@@ -37,7 +64,7 @@ cara membuatnya bisa baca di bagian [Organisasi](build-organization.md).
    - `products` - list/array ID dari produk yang akan didaftarkan.
 
 3. **Melakukan update status**, memperbaharui (update) status setiap proses yang dilalui oleh produk
-   dengan cara mengirimkan transaksi menggunakan fungsi [ekstrinsik](learn-extrinsic.md)
+   dengan cara mengirimkan transaksi menggunakan fungsi [ekstrinsik](../learn/learn-extrinsic.md)
    `productTracking.updateStatus` dengan parameter:
 
    - `id` - ID kode tracking.
@@ -45,6 +72,12 @@ cara membuatnya bisa baca di bagian [Organisasi](build-organization.md).
    - `timestamp` - timestamp dalam bentuk miliseconds.
    - `location` - lokasi di mana _tracking_ dilakukan.
    - `readings` - informasi tambahan yang akan dimasukkan berkaitan dengan produknya.
+
+Untuk bisa melakukan _update status_ maka _caller_ harus terlebih dahulu memiliki akses sebagai
+_tracker_ yang diberikan oleh organisasi kepada akun yang ditunjuk. Cara memberikan akses bisa
+menggunakan fungsi ekstrinsik `did.createDelegate` dengan tipe `ProductTracker` yang berada di modul
+`did`. Akses ini bisa diberikan secara terbatas (dengan _expritaion time_) atau secara bebas (tanpa
+_expiration time_).
 
 ## Verifikasi
 
@@ -64,6 +97,7 @@ _Web hook_ untuk setiap _event_ yang terjadi pada _tracking_ di jaringan _blockc
 
 Nuchain menggunakan _Off-chain Worker_ untuk keperluan ini.
 
-_tbc_
+## Demo
 
-_todo: add sample code here_
+Contoh kode demo penggunannya bisa ditemukan di Github
+[supplychain-sample-py](https://github.com/nusantarachain/supplychain-sample-py).

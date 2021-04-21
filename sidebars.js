@@ -31,7 +31,15 @@ module.exports = {
       items: [
           'learn/learn-main',
           'learn/learn-account',
-          'learn/learn-validator'
+          {
+              type: 'category',
+              label: 'Validator',
+              items: [
+                'learn/learn-validator-basic',
+                'learn/learn-become-validator',
+                'learn/learn-docker'
+              ]
+          }
       ],
     },
     {
@@ -39,10 +47,11 @@ module.exports = {
       label: 'Build',
       items: [
           'build/build-intro',
+          'build/network',
           'build/build-did',
           'build/build-organization',
           'build/build-certificate',
-          'build/build-supply-chain'
+          'build/supply-chain'
       ],
     },
   ],

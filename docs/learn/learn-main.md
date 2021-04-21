@@ -4,28 +4,15 @@ title: Memulai Pertama
 sidebar_label: Memulai Pertama
 ---
 
-Hal paling pertama untuk bisa mulai menggunakan Nuchain adalah
-[membuat akun](learn-account.md).
+Hal pertama yang paling penting untuk masuk ke jaringan Nuchain adalah akses, untuk memiliki akses
+dibutuhkan akun, untuk membuat akun bisa ikuti langkah-langkahnya di bagian
+[akun](learn-account.md).
 
-Kemudian coba melakukan operasi/transaksi, hal ini bisa dilakukan dengan beberapa cara, cara yang paling mudah adalah dengan melakukannya melalui [dashboard](https://wiki.nuchain.network).
+Setelah memiliki akses/akun cobalah melakukan operasi/transaksi, hal ini bisa dilakukan dengan
+beberapa cara, dan cara yang paling mudah adalah dengan melakukannya melalui
+[dashboard](https://wiki.nuchain.network).
 
-Sebagai permulaan cobalah untuk melakukan operasi/transaksi berikut:
+## Validator
 
-## Transfer
-
-Melakukan transfer antar akun melalui [dashboard](https://dashboard.nuchain.network) > Accounts > Transfer.
-
-_todo: add image here_
-
-Melakukan transfer melalui fungsi ekstrinsik `balance.transfer`.
-
-## Ekstrinsik
-
-Untuk melakukan pemanggilan fungsi ekstrinsik bisa melalui [dashboard](https://dashboard.nuchain.network) > Developer > Extrinsics.
-
-Pilih modul yg akan digunakan beserta nama fungsi di dalam modulenya.
-
-## Query
-
-Anda bisa membaca state/data dari _blockchain_ menggunakan fungsi [dashoard](https://dashboard.nuchain.network/
-
+Apabila Anda ke sini dengan tujuan untuk menjadi validator silahkan baca bagian
+[Validator](learn-validator-basic.md).

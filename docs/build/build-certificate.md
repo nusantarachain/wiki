@@ -11,8 +11,9 @@ validitasnya tetap bisa dicabut (revoke).
 
 :::info
 
-Sertifikat di Nuchain hanya sebagai _platform_ penyimpanan saja, bukan sebagai otoritas. Namun data di dalam _blockchain_ dengan sifat dasarnya yang abadi bisa
-dijadikan sebagai bukti keberadaan (eksistensi) sertifikat secara digital.
+Sertifikat di Nuchain hanya sebagai _platform_ penyimpanan saja, bukan sebagai otoritas. Namun data
+di dalam _blockchain_ dengan sifat dasarnya yang abadi bisa dijadikan sebagai bukti keberadaan
+(eksistensi) sertifikat secara digital.
 
 :::
 
@@ -25,7 +26,7 @@ Pembuatan sertifikat di Nuchain bisa digambarkan sebagai berikut:
 
 ![Nuchain Certificate](/img/nuchain-certificate.svg)
 
-1. Organisasi perlu membuat sertifikat (sebagai template) untuk kemudian bisa digunakan untuk
+1. Organisasi perlu membuat sertifikat (sebagai _template_) untuk kemudian bisa digunakan untuk
    diberikan (issued) kepada penerima sertifikat tersebut. Akun yang bisa membuat sertifikat adalah
    `admin` dari organisasi atau akun yang memiliki akses [DId](build-did.md) ke organisasi.
    Pembuatan sertifikat bisa menggunakan fungsi ekstrinsik `certificate.createCert`.
