@@ -120,3 +120,8 @@ layer).
 _Proof of work_ adalah mekanisme dalam _blockchain_ yang digunakan untuk mengamankan jaringan dari
 serangan dan sebagai bukti publik bahwa seseorang telah melakukan pekerjaannya dalam mengamankan
 sehingga layak untuk mendapatkan _rewards_.
+
+## Testnet
+
+Adalah jaringan untuk ujicoba, biasanya digunakan oleh para pengembang dalam membangun aplikasi di
+jaringan _blockchain_ sebelum di-deploy ke jaringan utama (Mainnet).

@@ -11,13 +11,21 @@ Kode untuk kebutuhan tersebut bisa ditemukan di tiga modul berikut:
 - [Product Registry](https://github.com/nusantarachain/nuchain/tree/supplychain/frame/product-registry).
 - [Product Tracking](https://github.com/nusantarachain/nuchain/tree/supplychain/frame/product-tracking).
 
+:::info
+
+Untuk bisa mengikuti materi ini pastikan Anda telah membaca
+[Getting Started](../learn/learn-main.md) dan [Build](build.md) terlebih dahulu.
+
+:::
+
 Sistem rantai pasok membutuhkan organisasi sebagai holder produk. Tentang organisasi dan bagaimana
 cara membuatnya bisa baca di bagian [Organisasi](build-organization.md).
 
 ## Alur Kerja
 
 1. **Mendaftarkan produk**, produk perlu didaftarkan terlebih dahulu dengan cara mengirim transaksi
-   menggunakan fungsi [ekstrinsik](../learn/learn-extrinsic.md) `productRegistry.register` dengan parameter:
+   menggunakan fungsi [ekstrinsik](../learn/learn-extrinsic.md) `productRegistry.register` dengan
+   parameter:
 
    - `id` - sebagai id produk, ini bebas bisa berupa numeric atau alpha-numeric, bisa juga GS1 GTIN
      (Global Trade Item Number) atau ASIN (Amazon Standard Identification Number).
@@ -28,7 +36,8 @@ cara membuatnya bisa baca di bagian [Organisasi](build-organization.md).
      kadaluarsa, berat, asal pertanian, waktu panen, dll.
 
 2. **Mendaftarkan tracking**, produk yang akan di-_track_ perlu didaftarkan terlebih dahulu
-   menggunakan fungsi [ekstrinsik](../learn/learn-extrinsic.md) `productTracking.register` dengan parameter:
+   menggunakan fungsi [ekstrinsik](../learn/learn-extrinsic.md) `productTracking.register` dengan
+   parameter:
 
    - `id` - id _tracking_-nya.
    - `org_id` - merupakan ID dari organisasi/instansi yang merepresentasikan kepemilikan atas

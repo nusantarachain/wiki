@@ -8,8 +8,11 @@ Hal pertama yang paling penting untuk masuk ke jaringan Nuchain adalah akses, un
 dibutuhkan akun, untuk membuat akun bisa ikuti langkah-langkahnya di bagian
 [akun](learn-account.md).
 
-> Buatlah akun terlebih dahulu, setelah selesai kembali ke halaman ini.
-
 Setelah memiliki akses/akun cobalah melakukan operasi/transaksi, hal ini bisa dilakukan dengan
 beberapa cara, dan cara yang paling mudah adalah dengan melakukannya melalui
 [dashboard](https://wiki.nuchain.network).
+
+## Validator
+
+Apabila Anda ke sini dengan tujuan untuk menjadi validator silahkan baca bagian
+[Validator](learn-validator-basic.md).

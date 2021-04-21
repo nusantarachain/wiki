@@ -58,8 +58,7 @@ Ada beberapa kemungkinan:
 3. **Mesin mati** - mesin yang digunakan untuk validator mati atau tidak aktif sehingga tidak
    membuat blok sama sekali.
 4. **Belum dihubungkan** - mesin validator belum dihubungkan menggunakan _session key_, baca
-   [cara menjadi validator](../learn/learn-validator.md) untuk
-   melihat cara menghubungkannya.
+   [cara menjadi validator](../learn/learn-validator.md) untuk melihat cara menghubungkannya.
 
 ## Apakah Nuchain mendukung Smart Contract?
 
