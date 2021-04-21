@@ -16,4 +16,4 @@ Saat ini Nuchain secara _native_ memilik fitur untuk membangun aplikasi berbasis
 - Digital Certificate Platform.
 - NFT (Non Fungible Token).
 
-Semua fungsi tersebut bisa dipanggil menggunakan [Ekstrinsik](learn-extrinsic.md).
+Semua fungsi tersebut bisa dipanggil menggunakan [Ekstrinsik](../learn/learn-extrinsic.md).

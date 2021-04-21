@@ -14,7 +14,7 @@ Dokumen ini dibagikan menjadi tiga topik utama:
 
 ## Bagaimana cara menjadi validator?
 
-Baca: [cara menjadi validator](Learn/learn-validator.md)
+Baca: [cara menjadi validator](../learn/learn-validator.md)
 
 ## Kenapa validator saya berada di waiting list terus?
 
@@ -58,7 +58,7 @@ Ada beberapa kemungkinan:
 3. **Mesin mati** - mesin yang digunakan untuk validator mati atau tidak aktif sehingga tidak
    membuat blok sama sekali.
 4. **Belum dihubungkan** - mesin validator belum dihubungkan menggunakan _session key_, baca
-   [cara menjadi validator](https://github.com/nusantarachain/nuchain/wiki/Menjadi-Validator) untuk
+   [cara menjadi validator](../learn/learn-validator.md) untuk
    melihat cara menghubungkannya.
 
 ## Apakah Nuchain mendukung Smart Contract?
