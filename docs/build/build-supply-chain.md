@@ -14,7 +14,7 @@ Kode untuk kebutuhan tersebut bisa ditemukan di tiga modul berikut:
 :::info
 
 Untuk bisa mengikuti materi ini pastikan Anda telah membaca bagian
-[Getting Started](../learn/learn-main.md) dan [Build](build.md).
+[Getting Started](../learn/learn-main.md) dan [Build](build-intro.md).
 
 :::
 
