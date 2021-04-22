@@ -125,3 +125,8 @@ sehingga layak untuk mendapatkan _rewards_.
 
 Adalah jaringan untuk ujicoba, biasanya digunakan oleh para pengembang dalam membangun aplikasi di
 jaringan _blockchain_ sebelum di-deploy ke jaringan utama (Mainnet).
+
+## Off-chain Worker
+
+Adalah mekanisme dalam menangani operasi _non deterministic_ dan hanya tersedia di luar jaringan
+_blockchain_, seperti pemanggilan fungsi Rest API dari layanan luar.

@@ -21,6 +21,24 @@ Untuk bisa mengikuti materi ini pastikan Anda telah membaca bagian
 Sistem rantai pasok membutuhkan organisasi sebagai holder produk. Tentang organisasi dan bagaimana
 cara membuatnya bisa baca di bagian [Organisasi](build-organization.md).
 
+Secara gambaran besar sistem rantai pasok di Nuchain dikontrol oleh organisasi. Organisasi bisa
+digunakan untuk melakukan:
+
+1. Registrasi produk.
+2. Registrasi _tracking_.
+3. Memberikan akses _tracker_.
+
+_**Tracker**_ adalah entitas/individu yang bisa melakukan _update_ status _tracking_. Akses pada
+_tracker_ deberikan oleh organisasi melalui [DIDs](build-did.md).
+
+![Nuchain Supply Chain](/img/nuchain-supply-chain.png)
+
+_(gambar: skema supply chain di Nuchain)_
+
+Setiap _update_ yang dilakukan oleh _tracker_ akan memunculkan _event_ dan _event_ akan diproses
+oleh [off-chain worker](../general/glossary.md#off-chain-worker) untuk dibuatkan notifikasi kemudian
+notifikasi akan di-_push_ melalui _webhook_.
+
 ## Alur Kerja
 
 1. **Mendaftarkan produk**, produk perlu didaftarkan terlebih dahulu dengan cara mengirim transaksi
@@ -55,6 +73,12 @@ cara membuatnya bisa baca di bagian [Organisasi](build-organization.md).
    - `location` - lokasi di mana _tracking_ dilakukan.
    - `readings` - informasi tambahan yang akan dimasukkan berkaitan dengan produknya.
 
+Untuk bisa melakukan _update status_ maka _caller_ harus terlebih dahulu memiliki akses sebagai
+_tracker_ yang diberikan oleh organisasi kepada akun yang ditunjuk. Cara memberikan akses bisa
+menggunakan fungsi ekstrinsik `did.createDelegate` dengan tipe `ProductTracker` yang berada di modul
+`did`. Akses ini bisa diberikan secara terbatas (dengan _expritaion time_) atau secara bebas (tanpa
+_expiration time_).
+
 ## Verifikasi
 
 Untuk memverifikasi kita bisa melakukan _query_ menggunakan fungsi _query_
@@ -72,6 +96,8 @@ Nuchain dapat mengirimkan notifikasi secara _real-time_ ke luar jaringan (_off-c
 _Web hook_ untuk setiap _event_ yang terjadi pada _tracking_ di jaringan _blockchain_.
 
 Nuchain menggunakan _Off-chain Worker_ untuk keperluan ini.
+
+## Demo
 
 _tbc_
 
