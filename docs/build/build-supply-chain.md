@@ -28,8 +28,7 @@ digunakan untuk melakukan:
 2. Registrasi _tracking_.
 3. Memberikan akses _tracker_.
 
-_**Tracker**_ adalah entitas/individu yang bisa melakukan _update_ status _tracking_. Akses pada
-_tracker_ deberikan oleh organisasi melalui [DIDs](build-did.md).
+_**Tracker**_ adalah entitas/individu yang bisa melakukan _update_ status _tracking_ atas ijin akses dari organisasi melalui [DIDs](build-did.md).
 
 ![Nuchain Supply Chain](/img/nuchain-supply-chain.png)
 
