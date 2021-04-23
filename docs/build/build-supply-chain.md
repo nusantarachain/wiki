@@ -28,7 +28,8 @@ digunakan untuk melakukan:
 2. Registrasi _tracking_.
 3. Memberikan akses _tracker_.
 
-_**Tracker**_ adalah entitas/individu yang bisa melakukan _update_ status _tracking_ atas ijin akses dari organisasi melalui [DIDs](build-did.md).
+_**Tracker**_ adalah entitas/individu yang bisa melakukan _update_ status _tracking_ atas ijin akses
+dari organisasi melalui [DIDs](build-did.md).
 
 ![Nuchain Supply Chain](/img/nuchain-supply-chain.png)
 
@@ -98,4 +99,5 @@ Nuchain menggunakan _Off-chain Worker_ untuk keperluan ini.
 
 ## Demo
 
-Contoh kode demo penggunannya bisa ditemukan di Github [supplychain-sample-py](https://github.com/nusantarachain/supplychain-sample-py).
+Contoh kode demo penggunannya bisa ditemukan di Github
+[supplychain-sample-py](https://github.com/nusantarachain/supplychain-sample-py).
