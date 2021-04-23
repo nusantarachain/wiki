@@ -98,6 +98,4 @@ Nuchain menggunakan _Off-chain Worker_ untuk keperluan ini.
 
 ## Demo
 
-_tbc_
-
-_todo: add sample code here_
+Contoh kode demo penggunannya bisa ditemukan di Github [supplychain-sample-py](https://github.com/nusantarachain/supplychain-sample-py).
