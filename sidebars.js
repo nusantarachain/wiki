@@ -47,6 +47,7 @@ module.exports = {
       label: 'Build',
       items: [
           'build/build-intro',
+          'build/network',
           'build/build-did',
           'build/build-organization',
           'build/build-certificate',

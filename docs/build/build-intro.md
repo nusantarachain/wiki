@@ -20,7 +20,7 @@ Semua fungsi yang dibutuhkan bisa diakses menggunakan [Ekstrinsik](../learn/lear
 
 ## Testnet
 
-Untuk mempermudah proses development Anda bisa menggunakan jaringan
+Untuk mempermudah proses development Anda bisa menggunakan [jaringan](network.md)
 [Testnet](../general/glossary.md#testnet). Jaringan Testnet Nuchain bisa diakses melalui
 [dashboard](https://dashboard.nuchain.network), caranya:
 
