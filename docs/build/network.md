@@ -23,7 +23,7 @@ Dan berikut adalah daftar _nodes_ yang dihosting oleh Rantai Nusantara Foundatio
 
 - `node-sg.nuchain.riset.tech` (Singapura)
 - `node-id.nuchain.riset.tech` (Indonesia)
-- `node-id.nuchain.riset.tech` (Indonesia)
+- `node-id2.nuchain.riset.tech` (Indonesia)
 - `node-ind.nuchain.riset.tech` (India)
 
 #### Testnet
