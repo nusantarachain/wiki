@@ -1,6 +1,6 @@
 # Nuchain Wiki
 
-This is repo for Nuchain Wiki website https://wiki.nuchain.network
+This is repo for Nuchain website https://nuchain.network
 
 ## Installation
 
