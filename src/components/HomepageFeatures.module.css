@@ -11,3 +11,9 @@
   height: 200px;
   width: 200px;
 }
+
+.footer {
+  background-color: #dce2dd;
+  padding: 2em;
+  /* color: rgb(58, 58, 58); */
+}

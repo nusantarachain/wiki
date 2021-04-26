@@ -32,7 +32,7 @@ module.exports = {
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/nusantarachain/wiki',
+          href: 'https://github.com/nusantarachain/nuchain',
           label: 'GitHub',
           position: 'right',
         },

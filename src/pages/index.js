@@ -5,6 +5,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
+import HomepageFooter from '../components/HomepageFooter';
 
 function HomepageHeader() {
     const { siteConfig } = useDocusaurusContext();
@@ -26,12 +27,9 @@ function HomepageHeader() {
                         </div>
                     </div>
                     <div className="col col--6">
-                        <img src="/img/nuchain-ecosystem.png" class="main-logo" />
+                        <img src="/img/nuchain-ecosystem.png" className="main-logo" />
                     </div>
                 </div>
-
-
-
             </div>
         </header>
     );
@@ -47,6 +45,7 @@ export default function Home() {
             <main>
                 <HomepageFeatures />
             </main>
+            <HomepageFooter />
         </Layout>
     );
 }
