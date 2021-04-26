@@ -29,9 +29,9 @@ Pembuatan sertifikat di Nuchain bisa digambarkan sebagai berikut:
 1. Organisasi perlu membuat sertifikat (sebagai _template_) untuk kemudian bisa digunakan untuk
    diberikan (issued) kepada penerima sertifikat tersebut. Akun yang bisa membuat sertifikat adalah
    `admin` dari organisasi atau akun yang memiliki akses [DId](build-did.md) ke organisasi.
-   Pembuatan sertifikat bisa menggunakan fungsi ekstrinsik `certificate.createCert`.
+   Pembuatan sertifikat bisa menggunakan fungsi ekstrinsik `certificate.create`.
 2. Organisasi memberikan sertifikat kepada seseorang, menggunakan fungsi ekstrinsik
-   `certificate.issueCert`.
+   `certificate.issue`.
 
 ## Memeriksa Sertifikat
 
@@ -52,7 +52,7 @@ let cert = await api.query.certificate.issuedCert("A35tYxqSP6i");
 ## Pencabutan
 
 Sertifikat digital di Nuchain bisa dicabut sehingga menghilangkan validitasnya, untuk mencabutnya
-bisa menggunakan fungsi ekstrinsik `certificate.revokeCert`.
+bisa menggunakan fungsi ekstrinsik `certificate.revoke`.
 
 ## Kadaluarsa
 
