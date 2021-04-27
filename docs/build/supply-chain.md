@@ -1,12 +1,12 @@
 ---
-id: build-supply-chain
+id: supply-chain
 title: Rantai Pasok
 sidebar_label: Rantai Pasok
 ---
 
 Nuchain mendukung fungsi-fungsi untuk membangun sistem rantai pasok (supply chain).
 
-Kode untuk kebutuhan tersebut bisa ditemukan di tiga modul berikut:
+Kode untuk kebutuhan tersebut bisa ditemukan di dua modul berikut:
 
 - [Product Registry](https://github.com/nusantarachain/nuchain/tree/supplychain/frame/product-registry).
 - [Product Tracking](https://github.com/nusantarachain/nuchain/tree/supplychain/frame/product-tracking).

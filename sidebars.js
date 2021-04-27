@@ -51,7 +51,7 @@ module.exports = {
           'build/build-did',
           'build/build-organization',
           'build/build-certificate',
-          'build/build-supply-chain'
+          'build/supply-chain'
       ],
     },
   ],

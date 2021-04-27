@@ -17,9 +17,8 @@ const FeatureList = [
     Img: require('../../static/img/platform-of-trust.png').default,
     description: (
       <>
-        <p>Makes your data your own, authentic, and safe. Resilient access with
-        Decentralized ID (DIDs).</p>
-        <a href="/docs/build/build-did">read more</a>
+        Makes your data your own, authentic, and safe. Resilient access with
+        Decentralized ID (DId) and perfect platform for providing trustworthy assets.
       </>
     ),
   },
@@ -30,38 +29,6 @@ const FeatureList = [
       <>
         <p>Build App for the future. Web 3.0 support, serverless, and fully decentralized.</p>
         <a href="/docs/build/build-intro">read more</a>
-      </>
-    ),
-  },
-];
-
-const FeatureList2 = [
-  {
-    title: 'Supply Chain',
-    Svg: require('../../static/img/supply-chain.svg').default,
-    description: (
-      <>
-        <p>Records all production activity on-chain, make it transparent and globally verifiable.</p>
-        <a href="/docs/build/supply-chain">read more</a>
-      </>
-    ),
-  },
-  {
-    title: 'Digital Certificate',
-    Svg: require('../../static/img/certificate.svg').default,
-    description: (
-      <>
-        <p>Publish and keep the digital certificate on-chain. Make it globally available and eternal</p>
-        <a href="/docs/build/build-certificate">read more</a>
-      </>
-    ),
-  },
-  {
-    title: 'Digital Assets',
-    Svg: require('../../static/img/digital-assets.svg').default,
-    description: (
-      <>
-        Create, publish, and monetize your digital assets. Build your own NFT.
       </>
     ),
   }
@@ -97,17 +64,19 @@ function FeatureSvg({Svg, title, description}) {
 
 export default function HomepageFeatures() {
   return (
-    <section className={styles.features}>
+    <section className={styles.footer}>
+      
       <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
-        </div>
-        <div className="row">
-          {FeatureList2.map((props, idx) => (
-            <FeatureSvg key={idx + '2'} {...props} />
-          ))}
+        
+          <h3 className="text--center">Next Generation Blockchain Technology</h3>
+        
+        <div className="text--center">
+          <img src={require("../../static/img/substrate.png").default} className={styles.featureSvg} alt="Substrate Logo" />
+          <div>
+          <p>Nuchain developed using Substrate.<br />
+          Substrate is the most powerful blockchain technology available today.
+          </p>
+          </div>
         </div>
       </div>
     </section>

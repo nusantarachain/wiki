@@ -17,18 +17,38 @@ Baik jaringan Mainnet maupun Testnet berasal dari genesis yang sama:
 
 ## Daftar Nodes
 
-Dan berikut adalah daftar nodes yang dihosting oleh Rantai Nusantara Foundation:
+Dan berikut adalah daftar _nodes_ yang dihosting oleh Rantai Nusantara Foundation:
 
 #### Mainnet
 
 - `node-sg.nuchain.riset.tech` (Singapura)
 - `node-id.nuchain.riset.tech` (Indonesia)
-- `node-id.nuchain.riset.tech` (Indonesia)
+- `node-id2.nuchain.riset.tech` (Indonesia)
 - `node-ind.nuchain.riset.tech` (India)
 
 #### Testnet
 
 - `testnet.nuchain.riset.tech` (Indonesia)
+
+## Lokal
+
+Nuchain bisa juga dijalankan di jaringan intranet lokal tanpa perlu terhubung dengan jaringan utama
+(mainnet) maupun jaringan test (testnet). Jaringan lokal ini sangat membantu ketika kita ingin
+mencoba sistem secara terisolir dan dengan akun preset yang telah memiliki token.
+
+Untuk menjalankan Nuchain di jaringan lokal kita bisa menjalankan Nuchain dengan parameter `--dev`:
+
+```console
+./nuchain --dev
+```
+
+Apabila kita ingin _storage_-nya bersifat temporer (hilang ketika restart), yang mana sangat
+bermanfaat ketika sedang mengembangkan modul Nuchain di lapisan _runtime_, maka Anda bisa
+menjalankannya dengan penambahan parameter `--tmp`:
+
+```console
+./nuchain --dev --tmp
+```
 
 ## Telemetry
 
