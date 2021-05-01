@@ -16,7 +16,7 @@ function HomepageHeader() {
         "kepastian kepemilikan aset digital",
         "kekuasan mengontrol data sendiri", 
         "transaksi tanpa perantara",
-        "TRANSPARANSI"
+        "Transparansi dalam proses"
     ];
     return (
         <header className={clsx('hero hero--primary', styles.heroBanner)}>
@@ -24,7 +24,7 @@ function HomepageHeader() {
 
                 <div className="row">
                     <div className="col col--6">
-                        <div className="hero-tagline" style={{ textAlign: "center" }}>
+                        <div className={styles.heroTagline} style={{ textAlign: "center" }}>
                             <h1 className="hero__title">Nusantara Chain</h1>
                             <p className={clsx('hero__subtitle')}>
                                 Selamat Datang di <strong>Web Generasi ke 3</strong>.<br />
@@ -33,7 +33,7 @@ function HomepageHeader() {
                             <div className={clsx('hero__subtitle', styles.tagline)}>
                                 <ReactTypingEffect
                                     text={Taglines}
-                                    speed={40}
+                                    speed={30}
                                     eraseSpeed={20}
                                     eraseDelay={2000}
                                     typingDelay={500}

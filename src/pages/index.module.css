@@ -12,10 +12,26 @@
   overflow: hidden;
 }
 
+.heroTagline {
+  padding-top: 160px;
+}
+
 @media screen and (max-width: 966px) {
   .heroBanner {
     padding: 2rem;
   }
+  .heroBanner p {
+    font-size: 1rem;
+  }
+  .heroTagline {
+    padding-top: 1.5em !important;
+    margin-top: 1.5em !important;
+  }
+  
+  .taglineFont {
+    font-size: 0.7em !important;
+  }
+
 }
 
 .buttons {
