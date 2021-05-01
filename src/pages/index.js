@@ -12,10 +12,10 @@ import ReactTypingEffect from 'react-typing-effect';
 function HomepageHeader() {
     // const { siteConfig } = useDocusaurusContext();
     const Taglines = [
-        "keamanan total pada privasi", 
-        "kepastian kepemilikan aset digital",
-        "kekuasan mengontrol data sendiri", 
-        "transaksi tanpa perantara",
+        "Keamanan total pada privasi", 
+        "Kepastian kepemilikan aset digital",
+        "Kekuasan mengontrol data sendiri", 
+        "Sarana transaksi tanpa perantara",
         "Transparansi dalam proses"
     ];
     return (
