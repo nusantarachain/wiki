@@ -15,7 +15,7 @@ function HomepageHeader() {
         "Keamanan total pada privasi", 
         "Kepastian kepemilikan aset digital",
         "Kekuasan mengontrol data sendiri", 
-        "Sarana transaksi tanpa perantara",
+        "Sarana tanpa perantara",
         "Transparansi dalam proses"
     ];
     return (
