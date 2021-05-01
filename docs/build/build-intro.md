@@ -9,7 +9,7 @@ dengan _smart contract_.
 
 Saat ini Nuchain secara _native_ memilik fitur untuk membangun aplikasi berbasis:
 
-- DId (Decentralized Identity)
+- DIDs (Decentralized Identifiers)
 - Organisasi
 - DAO (Decentralized Autonomous Organization).
 - Supply Chain.
