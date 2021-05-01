@@ -63,7 +63,7 @@ export default function Home() {
     return (
         <Layout
             title="Nusantara Chain / Rantai Nusantara"
-            description="Description will go into a meta tag in <head />">
+            description="Platform Web Generasi ke 3.0">
             <HomepageHeader />
             <main>
                 <HomepageFeatures />
