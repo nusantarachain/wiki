@@ -7,23 +7,46 @@ import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
 import HomepageFooter from '../components/HomepageFooter';
 
+import ReactTypingEffect from 'react-typing-effect';
+
 function HomepageHeader() {
-    const { siteConfig } = useDocusaurusContext();
+    // const { siteConfig } = useDocusaurusContext();
+    const Taglines = [
+        "keamanan total pada privasi", 
+        "kepastian kepemilikan aset digital",
+        "kekuasan mengontrol data sendiri", 
+        "transaksi tanpa perantara",
+        "TRANSPARANSI"
+    ];
     return (
         <header className={clsx('hero hero--primary', styles.heroBanner)}>
             <div className="container">
 
                 <div className="row">
                     <div className="col col--6">
-                        <div className="hero-tagline" style={{textAlign: "center"}}>
-                        <h1 className="hero__title">Nusantara Chain</h1>
-                        <p className="hero__subtitle">{siteConfig.tagline}</p>
-                        <div className={styles.buttons}>
-                            <Link
-                                className="button button--secondary button--lg"
-                                to="/docs/general/welcome">
-                                Let's do it!</Link>
-                        </div>
+                        <div className="hero-tagline" style={{ textAlign: "center" }}>
+                            <h1 className="hero__title">Nusantara Chain</h1>
+                            <p className={clsx('hero__subtitle')}>
+                                Selamat Datang di <strong>Web Generasi ke 3</strong>.<br />
+                                Sebuah Dunia yang memberikan Anda:
+                            </p>
+                            <div className={clsx('hero__subtitle', styles.tagline)}>
+                                <ReactTypingEffect
+                                    text={Taglines}
+                                    speed={40}
+                                    eraseSpeed={20}
+                                    eraseDelay={2000}
+                                    typingDelay={500}
+                                    cursor="▌"
+                                    className={clsx(styles.taglineFont)}
+                                />
+                            </div>
+                            <div className={styles.buttons}>
+                                <Link
+                                    className="button button--secondary button--lg"
+                                    to="/docs/general/welcome">
+                                    Masuk!</Link>
+                            </div>
                         </div>
                     </div>
                     <div className="col col--6">

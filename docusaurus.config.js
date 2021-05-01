@@ -28,7 +28,7 @@ module.exports = {
           type: 'doc',
           docId: 'general/welcome',
           position: 'right',
-          label: 'Getting Started',
+          label: 'Memulai Pertama',
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {

@@ -23,3 +23,13 @@
   align-items: center;
   justify-content: center;
 }
+
+.tagline {
+    padding-bottom: 3em;
+}
+
+.taglineFont {
+    font-family: monospace, 'Courier New', Courier;
+    font-weight: bold;
+    color: #0d5330;
+}
