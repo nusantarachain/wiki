@@ -39,7 +39,8 @@ module.exports = {
                 'learn/learn-become-validator',
                 'learn/docker'
               ]
-          }
+          },
+          'learn/nominator'
       ],
     },
     {
