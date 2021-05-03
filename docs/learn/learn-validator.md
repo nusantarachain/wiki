@@ -33,7 +33,7 @@ $ ./nuchain --validator
 secara otomatis.
 
 Cara lain tercepat untuk dapat menjalankan Nuchain node adalah dengan menggunakan
-[Docker](https://docker.com/), baca caranya [di sini](learn-docker.md).
+[Docker](https://docker.com/), baca caranya [di sini](docker.md).
 
 ## Hubungkan
 
