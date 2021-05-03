@@ -22,8 +22,8 @@ berkontribusi ke beberapa sub proyek Nuchain berikut:
 - [Arascan](https://github.com/nusantarachain/arascan) - Merupakan data indexer jaringan Nuchain.
 - [Arascan UI](https://github.com/nusantarachain/arascan-ui) - Web user interface untuk
   [Arascan](https://github.com/nusantarachain/arascan).
-- [Nuchain App](https://github.com/nusantarachain/nuchain-app) - Merupakan aplikasi mobile untuk Nuchain,
-  ditulis menggunakan Flutter.
+- [Nuchain App](https://github.com/nusantarachain/nuchain-app) - Merupakan aplikasi mobile untuk
+  Nuchain, ditulis menggunakan Flutter.
 - [Dokumentasi](https://github.com/nusantarachain/wiki) - Website ini.
 
 Kami menggunakan [Github project](https://github.com/orgs/nusantarachain/projects/1) untuk mengelola
@@ -34,8 +34,8 @@ Sebagai kontributor nama Anda akan ditulis sebagai kredit di halaman ini.
 
 :::info
 
-Beberapa _tasks_ yang tersedia ada yang bersifat _bounty_, dan yang menyelesaikannya akan mendapatkan
-ARA sesuai nilai _bounty_ yang tertera.
+Beberapa _tasks_ yang tersedia ada yang bersifat _bounty_, dan yang menyelesaikannya akan
+mendapatkan ARA sesuai nilai _bounty_ yang tertera.
 
 :::
 
@@ -45,19 +45,18 @@ Berikut beberapa peraturan dasar untuk kontributor:
 
 1. Jangan melakukan `--force` push atau memodifikasi Git _history_.
 2. Pull request disarankan terelasi dengan _issue_ apabila ada.
-3. Untuk kontribusi di dokumentasi kami menggunakan plugin _Prettier_ dalam menyesuaikan _style_ penulisan 
-   di setiap dokumen. Anda bisa menjalankannya menggunakan perintah 
+3. Untuk kontribusi di dokumentasi kami menggunakan plugin _Prettier_ dalam menyesuaikan _style_
+   penulisan di setiap dokumen. Anda bisa menjalankannya menggunakan perintah
    `npx prettier --write ./docs`.
-
 
 ## Kontributor
 
-Terimakasih Buat para kontributor Nuchain yang telah ikut mendukung visi & misi Nuchain.
-Berikut adalah para kontributor Nuchain:
+Terimakasih Buat para kontributor Nuchain yang telah ikut mendukung visi & misi Nuchain. Berikut
+adalah para kontributor Nuchain:
 
-* Dian Asmarajati
-* Kadek Arika Pramana
-* Muslim Hidayat
-* Reza
-* Robin Syihab (anvie)
-* Rony (lantip)
+- Dian Asmarajati
+- Kadek Arika Pramana
+- Muslim Hidayat
+- Reza
+- Robin Syihab (anvie)
+- Rony (lantip)

@@ -10,9 +10,7 @@ prior contact and anyone doing so is likely trying to scam you.
 
 ## General
 
-- [Nuchain GitHub](https://github.com/nusantarachain/nuchain/) - Parity maintained repository that
-  houses the Rust implementation of the Nuchain Host. Information on hosting meetups, applying for
-  funding, and materials for running it. [Nuchain Support Email](mailto:support@nuchain.network)
+- [Nuchain GitHub](https://github.com/nusantarachain/nuchain/) - Source repository for Nuchain.
 
 ## Matrix Chats
 

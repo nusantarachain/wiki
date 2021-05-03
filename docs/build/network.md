@@ -50,6 +50,13 @@ menjalankannya dengan penambahan parameter `--tmp`:
 ./nuchain --dev --tmp
 ```
 
+Tersedia juga pre built docker image apabila Anda ingin menjalankannya di platform yang belum
+tersedia pre compiled binary-nya dan tidak mau repot dengan proses kompilasi:
+
+```bash
+docker run --rm anvie/nuchain:latest nuchain --dev --tmp
+```
+
 ## Telemetry
 
 Anda bisa memantau semua aktifitas jaringan Nuchain melalui _telemetry_ di

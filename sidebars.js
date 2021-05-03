@@ -37,7 +37,7 @@ module.exports = {
               items: [
                 'learn/learn-validator-basic',
                 'learn/learn-become-validator',
-                'learn/learn-docker'
+                'learn/docker'
               ]
           }
       ],

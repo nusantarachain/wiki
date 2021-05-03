@@ -1,5 +1,5 @@
 ---
-id: learn-docker
+id: docker
 title: Menggunakan Docker
 sidebar_label: Docker
 ---
@@ -10,7 +10,7 @@ Berikut adalah cara-cara menjalankan Nuchain Node menggunakan Docker.
 Pull latest Nuchain docker image:
 
 ```bash
-$ docker pull anvie/nuchain:latest-alpine
+$ docker pull anvie/nuchain:latest
 ```
 
 Menjalankan:
@@ -21,7 +21,7 @@ $ docker run --rm \
   -p '9933:9933' \
   -p '9944:9944' \
   -p '30333:30333' \
-   --name nuchain anvie/nuchain:latest-alpine \
+   --name nuchain anvie/nuchain:latest \
    nuchain --base-path=/data \
    --ws-external \
    --rpc-external \
@@ -48,7 +48,7 @@ StartLimitBurst=5
 LimitNOFILE=10000
 ExecStartPre=-/usr/bin/docker stop nuchain
 ExecStartPre=-/usr/bin/docker rm nuchain
-ExecStart=/usr/bin/docker run --rm -v '/var/data:/data' -p '9933:9933' -p '9944:9944' -p '30333:30333' --name nuchain anvie/nuchain:latest-alpine nuchain --validator --base-path=/data --ws-external --rpc-external --rpc-methods=Unsafe
+ExecStart=/usr/bin/docker run --rm -v '/var/data:/data' -p '9933:9933' -p '9944:9944' -p '30333:30333' --name nuchain anvie/nuchain:latest nuchain --validator --base-path=/data --ws-external --rpc-external --rpc-methods=Unsafe
 
 [Install]
 WantedBy=multi-user.target
