@@ -21,22 +21,23 @@ module.exports = {
           'general/welcome',
           'general/contributing',
           'general/community',
-          'general/glossary',
-          'general/faq'
+          'general/faucet',
+          'general/faq',
+          'general/glossary'
       ],
     },
     {
       type: 'category',
       label: 'Learn',
       items: [
-          'learn/learn-main',
+          'learn/main',
           'learn/learn-account',
           {
               type: 'category',
               label: 'Validator',
               items: [
-                'learn/learn-validator-basic',
-                'learn/learn-become-validator',
+                'learn/validator-basic',
+                'learn/become-validator',
                 'learn/docker'
               ]
           },

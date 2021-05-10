@@ -1,5 +1,5 @@
 ---
-id: learn-validator-basic
+id: validator-basic
 title: Apa itu Validator
 sidebar_label: Apa itu Validator
 ---
@@ -15,3 +15,10 @@ berat.
 
 Siapapun bisa berkontribusi untuk mengamankan jaringan Nuchain dengan cara menjadi validator, dan
 sebagai gantinya kontributor akan mendapatkan token [ARA](../general/glossary.md#ara).
+
+:::info
+
+Konsep PoS (Proof of Stake) membutuhkan token untuk bisa menjadi validator. Apabila Anda belum
+memiliki token bisa ikut program [Faucet](../general/faucet.md).
+
+:::
