@@ -27,5 +27,5 @@ This command generates static content into the `build` directory and can be serv
 ## Reformat Docs
 
 ```console
-npx prettier --write ./docs
+make tidy
 ```
