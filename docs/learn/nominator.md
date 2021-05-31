@@ -12,7 +12,7 @@ token ARA sesuai dengan prosentase bagi hasil yang diset oleh validator.
 
 ## Cara Menjadi Nominator
 
-Untuk menjadi nominator Anda perlu [membuat akun](learn-account.md) terlebih dahulu.
+Untuk menjadi nominator Anda perlu [membuat akun](account.md) terlebih dahulu.
 
 Buka [Nuchain Dashboard](https://dashboard.nuchain.network) lalu pilih menu `Network` > `Staking` >
 `Account actions` lalu klik tombol `Nominator`

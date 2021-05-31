@@ -5,7 +5,7 @@ sidebar_label: Menjadi Validator
 ---
 
 Untuk menjadi validator pastikan Anda telah memiliki akun Nuchain terlebih dahulu, cara membuat akun
-bisa baca [di sini](learn-account.md).
+bisa baca [di sini](account.md).
 
 ## Memasang Nuchain Node
 
