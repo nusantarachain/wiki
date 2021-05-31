@@ -1,5 +1,5 @@
 ---
-id: learn-account
+id: account
 title: Akun Nuchain
 sidebar_label: Akun
 ---
@@ -71,3 +71,63 @@ Mengapa Anda butuh **Secret phrase**? Karena manusia adalah tempatnya lupa, keti
 kunci, maka hanya **Secret phrase** inilah yang dapat membantu mengembalikan akunnya.
 
 :::
+
+## Memindah Akun
+
+Perlu diketahui bahwa akun di dunia desentralisasi dimiliki oleh pengguna sendiri, sehingga akses
+perlu selalu Anda bawa dan ketika berpindah perangkat maka diperlukan memindah akun tersebut ke
+perangkat lain, lebih tepatnya memindah akses.
+
+:::caution
+
+Nuchain tidak memiliki akses pada akun Anda, kehilangan kunci akses akan membuat akun Anda terkunci
+selamanya.
+
+:::
+
+Dokumentasi ini lebih menjelaskan tentang aspek _best practice_-nya untuk keamanan, karena pada
+dasarnya akun di dunia desentralisasi tidak perlu dipindahkan, tetapi hanya kunci akses-nya saja
+yang dipindahkan ketika berganti perangkat.
+
+### Backup
+
+Anda perlu membuat backup file berupa json terlebih dahulu sebagai langkah awal dalam memindahkan
+akun, cara ini tidak diperlukan apabila Anda sudah memiliki file json akun Anda dan bisa langsung
+baca bagian [Restore](#restore).
+
+Untuk pengguna web [dashboard](https://dashboard.nuchain.network), backup akun bisa dilakukan
+melalui menu **Accounts** lalu klik menu konteks (icon titik tiga vertikal sebelah kanan) pada
+daftar akun yang ingin di-_backup_, kemudian pilih "Create backup file for this account".
+
+Maka akun muncul modal dialog seperti berikut:
+
+![Backup Account](/img/backup-account.png)
+
+Masukkan kata kunci akun Anda dan klik tombol **Download**.
+
+### Restore
+
+Anda bisa mengembalikan akses akun menggunakan fitur restore apabila Anda telah memiliki file json
+yang Anda dapatkan ketika pertama kali membuat akun atau melalui prosedur [Backup](#backup).
+
+Untuk pengguna web [dashboard](https://dashboard.nuchain.network), restore akun bisa dilakukan
+melalui menu **Accounts** > **Restore JSON**. Akan muncul jendela untuk mengunggah file json dan
+kata kunci (password) untuk membuka file json-nya. Klik **Restore** dan akun Anda akan ditambahkan
+ke dashboard.
+
+## Menambahkan Akun via QR-Code
+
+Cara lain dalam mengakses akun adalah dengan menggunakan QR-Code.
+
+### Pada Web
+
+Untuk pengguna web [dashboard](https://dashboard.nuchain.network) buka menu **Accounts** kemudian
+klik **Add via Qr**, maka akan muncul jendela kurang lebih seperti berikut:
+
+![Add Account QR-Code](/img/add-account-qrcode.png)
+
+Ijinkan sementara browser Anda untuk mengakses kamera dan arahkan gambar QR-code ke kamera. Pastikan
+gambar QR-code berada di dalam garis kotak merah dengan jelas.
+
+Apabila berhasil terdeteksi maka akan muncul jendela baru untuk mengisi nama dan kata kunci yang
+akan digunakan untuk mengakses akun tersebut.

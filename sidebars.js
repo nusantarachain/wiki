@@ -31,7 +31,7 @@ module.exports = {
       label: 'Learn',
       items: [
           'learn/main',
-          'learn/learn-account',
+          'learn/account',
           {
               type: 'category',
               label: 'Validator',

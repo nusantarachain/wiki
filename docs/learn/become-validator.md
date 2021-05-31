@@ -89,7 +89,8 @@ proses singkronisasi Anda bisa download _presync_ data berikut:
   (6GB)
 - [Nuchain Data 14 April 2021 full](http://dmcd6hvaqrxz0.cloudfront.net/nuchain/presync-data/nuchain-snapshot-20210421-full-rocks.7z)
   (2GB)
-- [Nuchain Data 21 Mei 2021 pruning 1000](http://dmcd6hvaqrxz0.cloudfront.net/nuchain/presync-data/nuchain-snapshot-20210521-pruning1000-rocks.7z) (993M)
+- [Nuchain Data 21 Mei 2021 pruning 1000](http://dmcd6hvaqrxz0.cloudfront.net/nuchain/presync-data/nuchain-snapshot-20210521-pruning1000-rocks.7z)
+  (993M)
 
 Extract menggunakan [7zip](https://www.7-zip.org/) dan arahkan _Nuchain node_ ke data tersebut
 menggunakan parameter `--base-path`.
