@@ -15,14 +15,27 @@ dll.
 
 ### Membuat Organisasi
 
-Untuk membuat organisasi cukup dengan melakukan pemanggilan fungsi ekstrinsik `organization.create`
-dengan parameter:
+Untuk mendaftar sebagai organisasi masuk ke [Nuchain Dashboard](https://nuchain.riset.tech)
+lalu menuju ke menu **Accounts** > **Organizations** kemudian klik tombol "**+
+Register**":
+Kemudian isi data dengan parameter sebagai berikut:
 
+![Set Session Key](https://i.imgur.com/WmVC5CU.png)
+
+Keterangan:
 - `name` - nama dari organisasi.
 - `description` - deskripsi singkat yang menjelaskan tentang organisasi.
 - `admin` - ID akun yang akan memiliki akses pada organisasi.
 - `website` - URL website organisasi.
 - `email` - Email organisasi.
 
-Pembuatan organisasi di jaringan Nuchain membutuhkan biaya 10 ARA (belum termasuk biaya transaksi)
+Kemudian masukkan **password** akun yang digunakan sebagai admin dan klik tombol **Sign and Submit**.
+
+![Set Session Key](https://i.imgur.com/ks7Hyjh.png)
+
+Maka muncul organisasi yang telah dibuat di dashboard My organizations.
+
+![Set Session Key](https://i.imgur.com/PSbwVEP.png)
+
+***Catatan:*** Pembuatan organisasi di jaringan Nuchain **membutuhkan biaya 10 ARA** (belum termasuk biaya transaksi)
 biaya ini akan masuk ke kebendaharaan.
