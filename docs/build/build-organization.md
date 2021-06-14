@@ -16,8 +16,8 @@ dll.
 ### Membuat Organisasi
 
 Untuk mendaftar sebagai organisasi masuk ke [Nuchain Dashboard](https://nuchain.riset.tech)
-lalu menuju ke menu **Accounts** > **Organizations** kemudian klik tombol "**+
-Register**":
+lalu menuju ke menu **Accounts** > **Organizations** kemudian klik tombol **+
+Register**.
 Kemudian isi data dengan parameter sebagai berikut:
 
 ![Set Session Key](https://i.imgur.com/WmVC5CU.png)
