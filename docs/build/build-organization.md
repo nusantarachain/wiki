@@ -17,8 +17,8 @@ dll.
 
 Untuk mendaftar sebagai organisasi masuk ke [Nuchain Dashboard](https://nuchain.riset.tech)
 lalu menuju ke menu **Accounts** > **Organizations** kemudian klik tombol **+
-Register**.
-**NOTE:** `Fitur organizations sementara tersedia di jaringan testnet`
+Register**. `**NOTE!** Fitur organizations sementara tersedia di jaringan testnet`
+
 Kemudian isi data dengan parameter sebagai berikut:
 
 ![Set Session Key](https://i.imgur.com/WmVC5CU.png)
