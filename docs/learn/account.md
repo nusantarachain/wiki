@@ -137,21 +137,21 @@ akan digunakan untuk mengakses akun tersebut.
 
 Nuchain memiliki gift card yang akan dibagikan pada saat event nuchain berlangsung.
 
-![Set Session Key](https://imgur.com/SezyyEw)
+![Set Session Key](https://imgur.com/SezyyEw.jpg)
 
 Untuk mengenai event nuchain yang akan datang, bisa bergabung pada grup [telegram nuchain](https://t.me/nusantarachain) untuk informasi selanjutnya. Sebelum menggunakan gift card nuchain, pastikan telah memasang [Nuchain App](https://play.google.com/store/apps/details?id=network.nuchain.app). Setalah Nuchain App terpasang buka aplikasi kemudian pilih **Import Account** > **Source Type** > **QR Code**. Kemudian akan ada form untuk informasi akun nuchain seperti gambar di bawah ini.
 
-![Set Session Key](https://imgur.com/VFDmYhK)
+![Set Session Key](https://imgur.com/VFDmYhK.jpg)
 
 Keterangan:
 - `Address` - untuk mengisi alamat nuchain, klik **gambar kamera** untuk mekukan proses scan Qr Code pada gift card agar muncul alamat adrress secara otomatis.
-- `name` - nama akun nuchain.
-- `password` - password akun nuchain.
+- `name` - nama akun baru.
+- `password` - masukkan password baru.
 - `confirm password` - konfirmasi password.
 
 Setelah selesai mengisi form tersebut klik **Next** maka akan muncul dashboard akun anda.
 
-![Set Session Key](https://imgur.com/XzEtfoc)
+![Set Session Key](https://imgur.com/XzEtfoc.jpg)
 
 
 
