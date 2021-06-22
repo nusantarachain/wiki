@@ -23,7 +23,8 @@ module.exports = {
           'general/community',
           'general/faucet',
           'general/faq',
-          'general/glossary'
+          'general/glossary',
+          'general/privacy'
       ],
     },
     {
