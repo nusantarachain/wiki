@@ -135,7 +135,11 @@ akan digunakan untuk mengakses akun tersebut.
 
 ## Menambahkan Akun Nuchain Menggunakan Gift Card pada Nuchain App
 
-Nuchain memiliki gift card yang akan dibagikan pada saat event nuchain berlangsung. Untuk mengenai event nuchain yang akan datang, bisa bergabung pada grup [telegram nuchain](https://t.me/nusantarachain). Sebelum menggunakan gift card nuchain, pastikan telah memasang [Nuchain App](https://play.google.com/store/apps/details?id=network.nuchain.app). Setalah Nuchain App terpasang buka aplikasi kemudian pilih **Import Account** > **Source Type** > **QR Code**. Kemudian akan ada form untuk informasi akun nuchain seperti gambar di bawah ini.
+Nuchain memiliki gift card yang akan dibagikan pada saat event nuchain berlangsung.
+
+(https://imgur.com/SezyyEw)
+
+Untuk mengenai event nuchain yang akan datang, bisa bergabung pada grup [telegram nuchain](https://t.me/nusantarachain). Sebelum menggunakan gift card nuchain, pastikan telah memasang [Nuchain App](https://play.google.com/store/apps/details?id=network.nuchain.app). Setalah Nuchain App terpasang buka aplikasi kemudian pilih **Import Account** > **Source Type** > **QR Code**. Kemudian akan ada form untuk informasi akun nuchain seperti gambar di bawah ini.
 
 ![Set Session Key](https://imgur.com/VFDmYhK)
 
