@@ -131,3 +131,29 @@ gambar QR-code berada di dalam garis kotak merah dengan jelas.
 
 Apabila berhasil terdeteksi maka akan muncul jendela baru untuk mengisi nama dan kata kunci yang
 akan digunakan untuk mengakses akun tersebut.
+
+
+## Cara menggunakan Nuchain gift card
+
+Nuchain memiliki gift card yang biasanya dibagikan pada saat event nuchain berlangsung.
+
+![Gift Card Nuchain](https://imgur.com/SezyyEw.jpg)
+
+Untuk informasi mengenai event nuchain yang akan datang, bisa bergabung pada grup [telegram nuchain](https://t.me/nusantarachain) untuk informasi selanjutnya. Sebelum menggunakan gift card nuchain, pastikan telah memasang [Nuchain App](https://play.google.com/store/apps/details?id=network.nuchain.app). Setalah Nuchain App terpasang buka aplikasi kemudian pilih **Import Account** > **Source Type** > **QR Code**. Kemudian akan ada form untuk informasi akun nuchain seperti gambar di bawah ini.
+
+![Form Add Account via Gift Card](https://imgur.com/FxzeEzd.jpg)
+
+Keterangan:
+- `Address` - untuk mengisi alamat nuchain, klik tombol **kamera** untuk mekukan proses scan Qr Code pada gift card agar muncul alamat adrress secara otomatis.
+- `name` - nama akun baru.
+- `password` - masukkan password baru.
+- `confirm password` - konfirmasi password.
+
+Setelah selesai mengisi form tersebut klik tombol **Next** maka akan muncul dashboard akun anda.
+
+![Dashboard Nuchain App](https://imgur.com/nXoTcIj.jpg)
+
+***Catatan:*** Setelah akun berhasil diimport segera transfer ARA Anda ke akun lainnya, karena akun pada gift card sifatnya temporer. Apabila kadaluarsa maka ARA-nya akan hangus.
+
+
+
