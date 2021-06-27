@@ -153,6 +153,7 @@ Setelah selesai mengisi form tersebut klik tombol **Next** maka akan muncul dash
 
 ![Dashboard Nuchain App](https://imgur.com/nXoTcIj.jpg)
 
+***Catatan:*** Setelah akun berhasil diimport segera transfer ARA Anda ke akun lainnya, karena akun pada gift card sifatnya temporer. Apabila kadaluarsa maka ARA-nya akan hangus.
 
 
 
