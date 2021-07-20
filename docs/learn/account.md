@@ -16,7 +16,7 @@ dilakukan di komputer lokal tanpa perlu koneksi internet sama sekali.
 
 Ada beberapa cara dalam membuat akun di Nuchain:
 
-### Menggunakan Dashboard
+### Menggunakan dashboard
 
 Menggunakan dashboard adalah cara paling mudah dalam membuat pasangan kunci kripto. Berikut
 langkah-langkahnya:
@@ -36,6 +36,39 @@ langkah-langkahnya:
 4. Pada halaman selanjutnya isi nama yang Anda inginkan, kata kunci dan **Next**.
 5. Selesai Anda akan diberikan file _json_ yang bisa digunakan untuk _import_ akun ke platform
    lainnya, seperti mobile App dll.
+
+
+### Menggunakan ekstensi peramban
+
+Selain menggunakan dashboard Anda juga bisa membuat akun menggunakan ekstensi peramban, yang diperlukan adalah Nuchain App
+_browser extension_ yang saat ini telah tersedia dan bisa dipasang dari [Chrome webstore](https://chrome.google.com/webstore/detail/nuchain-app/hfcdboaniimgkememgmilhmnkdgggkne).
+
+Setelah ekstensi terpasang silahkan buka ekstensi dengan cara klik ikon Nuchain yang ada di navbar browser:
+
+![Nuchain App web extension](/img/nuchain-app-web-extension1.png)
+
+Kemudian klik tombol "+" dan pilih menu "Create new account":
+
+![Nuchain App web extension create new account](/img/nuchain-app-web-extension2.png)
+
+Kemudian akan muncul jendela kurang lebih seperti berikut:
+
+![Nuchain App web extension create new account generate seet](/img/nuchain-app-web-extension3.png)
+
+Ekstensi secara otomatis telah membuatkan pasangan kunci kriptografi sebagai akun Anda, dan di sini yang perlu diperhatikan adalah
+12 kata rahasia (mnemonic seed) yang perlu Anda simpan dengan baik jangan sampai hilang dan jangan sampai dicuri orang.
+
+Catat 12 kata rahasia yang muncul di tampilan jendela tersebut sebelum klik tombol "Next step".
+
+:::caution
+Kehilangan kata rahasia (mnemonic seed) bisa mengakibatkan akun Anda tidak bisa diakses selamanya ketika lupa _password json_-nya.
+:::
+
+Berikan tanda centang pada "I have saved my mnemonic seed safely", lalu klik tombol "Next step".
+
+Pada jendela selanjutnya tinggal isi nama dan kata kunci (_password_) _json_ Anda, lalu klik tombol "Add the account with the generated seed".
+
+Selesai Akun anda telah berhasil dibuat.
 
 ### Menggunakan CLI
 
@@ -131,7 +164,6 @@ gambar QR-code berada di dalam garis kotak merah dengan jelas.
 
 Apabila berhasil terdeteksi maka akan muncul jendela baru untuk mengisi nama dan kata kunci yang
 akan digunakan untuk mengakses akun tersebut.
-
 
 ## Cara menggunakan Nuchain gift card
 
