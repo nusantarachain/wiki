@@ -27,5 +27,5 @@ Hal ini lebih aman daripada Anda menaruh kunci privat ke aplikasi pihak ke-3, da
 
 ## Membuat akun
 
-Anda juga bisa membuat akun melalui ekstensi. Pada hakekatnya akun di dunia Web3 itu hanyalah pasangan asimetris kunci kriptografi, jadi ekstensi ini hanya membuatkan kunci kriptografi secara acak.
+Ekstensi peramban bisa juga untuk membuat akun. Pada hakekatnya akun di dunia Web3 itu hanyalah pasangan asimetris kunci kriptografi, jadi ekstensi ini hanya membuatkan kunci kriptografi secara acak.
 Untuk lebih detailnya silahkan baca bagian [Membuat akun menggunakan ekstensi peramban](account.md#menggunakan-ekstensi-peramban).
