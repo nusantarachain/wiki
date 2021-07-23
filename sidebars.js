@@ -42,7 +42,8 @@ module.exports = {
                 'learn/docker'
               ]
           },
-          'learn/nominator'
+          'learn/nominator',
+          'learn/browser-extension'
       ],
     },
     {
