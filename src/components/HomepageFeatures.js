@@ -51,7 +51,7 @@ const FeatureList2 = [
     Svg: require('../../static/img/certificate.svg').default,
     description: (
       <>
-        <p>Publish and keep the digital certificate on-chain. Make it globally available and eternal</p>
+        <p>Publish and keep the digital certificate on-chain. Make it globally available and eternal.</p>
         <a href="/docs/build/build-certificate">read more</a>
       </>
     ),
