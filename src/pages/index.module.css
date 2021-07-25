@@ -19,6 +19,7 @@
 .videoContainer {
     text-align: center;
     padding-top: 10px;
+    padding-bottom: 2px;
     background-color: #dce2dd;
 }
 
