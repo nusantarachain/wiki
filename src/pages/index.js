@@ -12,16 +12,15 @@ import ReactTypingEffect from 'react-typing-effect';
 function HomepageHeader() {
     // const { siteConfig } = useDocusaurusContext();
     const Taglines = [
-        "Keamanan pada privasi", 
+        "Keamanan pada privasi",
         "Kepemilikan aset digital",
-        "Kekuasan data sendiri", 
+        "Kekuasan data sendiri",
         "Sarana tanpa perantara",
         "Transparansi dalam proses"
     ];
     return (
         <header className={clsx('hero hero--primary', styles.heroBanner)}>
             <div className="container">
-
                 <div className="row">
                     <div className="col col--6">
                         <div className={styles.heroTagline} style={{ textAlign: "center" }}>
@@ -58,6 +57,17 @@ function HomepageHeader() {
     );
 }
 
+function NuchainVideo() {
+    return (
+        <div className={styles.videoContainer + ' row'}>
+            <div className={'col-lg-1 ' + styles.colCentered}>
+            <iframe width="700" height="394" src="https://www.youtube.com/embed/AqyNvEf5gwk" title="YouTube video player"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    );
+}
+
 export default function Home() {
     const { siteConfig } = useDocusaurusContext();
     return (
@@ -65,6 +75,7 @@ export default function Home() {
             title="Nusantara Chain / Rantai Nusantara"
             description="Platform Web Generasi ke 3.0">
             <HomepageHeader />
+            <NuchainVideo />
             <main>
                 <HomepageFeatures />
             </main>

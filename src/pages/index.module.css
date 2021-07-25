@@ -16,6 +16,17 @@
   padding-top: 160px;
 }
 
+.videoContainer {
+    text-align: center;
+    padding-top: 10px;
+    background-color: #dce2dd;
+}
+
+.colCentered {
+    float: none;
+    margin: 0 auto;
+}
+
 @media screen and (max-width: 966px) {
   .heroBanner {
     padding: 2rem;
