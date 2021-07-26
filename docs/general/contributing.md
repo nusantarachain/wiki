@@ -4,8 +4,8 @@ title: Kontribusi
 sidebar_label: Kontribusi
 ---
 
-Proyek Nuchain diinisiasi oleh Rantai Nusantara Foundation dan merupakan proyek sumber terbuka (open
-source).
+Proyek Nuchain diinisiasi oleh Yayasan Rantai Nusantara Teknologi dan merupakan proyek sumber
+terbuka (open source).
 
 Kami menerima _pull request_, _diskusi_, dan kontribusi lain untuk komunitas sangat kami apresiasi.
 Anggota komunitas yang aktif dan paling sering memberikan kontribusi yang bagus mungkin akan kami

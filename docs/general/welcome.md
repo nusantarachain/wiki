@@ -14,6 +14,13 @@ service_. Didesain sebagai platform pengembangan aplikasi terdistribusi yang kua
 Dikembangkan secara _open source_ dan kodenya bisa diakses secara publik di
 [Github](https://github.com/nusantarachain).
 
+Saat ini nuchain dikembangkan di bawah naungan yayasan Rantai Nusantara Teknologi (RNT), sebuah
+organisasi non profit yang bertujuan memajukan ekosistem digital di Indonesia khususnya pada
+aplikasi desentral.
+
+Yayasan Rantai Nusantara Teknologi telah terdaftar di Kemenkumham RI dengan nomor
+**AHU-0017288.AH.01.04**, tahun 2021.
+
 ## Motivasi
 
 Nuchain diciptakan dengan tujuan untuk menyongsong Web generasi ke 3 (Web 3.0) melalui sistem

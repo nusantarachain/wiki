@@ -37,13 +37,15 @@ langkah-langkahnya:
 5. Selesai Anda akan diberikan file _json_ yang bisa digunakan untuk _import_ akun ke platform
    lainnya, seperti mobile App dll.
 
-
 ### Menggunakan ekstensi peramban
 
-Selain menggunakan dashboard Anda juga bisa membuat akun menggunakan ekstensi peramban, yang diperlukan adalah Nuchain App
-_browser extension_ yang saat ini telah tersedia dan bisa dipasang dari [Chrome webstore](https://chrome.google.com/webstore/detail/nuchain-app/hfcdboaniimgkememgmilhmnkdgggkne).
+Selain menggunakan dashboard Anda juga bisa membuat akun menggunakan ekstensi peramban, yang
+diperlukan adalah Nuchain App _browser extension_ yang saat ini telah tersedia dan bisa dipasang
+dari
+[Chrome webstore](https://chrome.google.com/webstore/detail/nuchain-app/hfcdboaniimgkememgmilhmnkdgggkne).
 
-Setelah ekstensi terpasang silahkan buka ekstensi dengan cara klik ikon Nuchain yang ada di navbar browser:
+Setelah ekstensi terpasang silahkan buka ekstensi dengan cara klik ikon Nuchain yang ada di navbar
+browser:
 
 ![Nuchain App web extension](/img/nuchain-app-web-extension1.png)
 
@@ -55,18 +57,19 @@ Kemudian akan muncul jendela kurang lebih seperti berikut:
 
 ![Nuchain App web extension create new account generate seet](/img/nuchain-app-web-extension3.png)
 
-Ekstensi secara otomatis telah membuatkan pasangan kunci kriptografi sebagai akun Anda, dan di sini yang perlu diperhatikan adalah
-12 kata rahasia (mnemonic seed) yang perlu Anda simpan dengan baik jangan sampai hilang dan jangan sampai dicuri orang.
+Ekstensi secara otomatis telah membuatkan pasangan kunci kriptografi sebagai akun Anda, dan di sini
+yang perlu diperhatikan adalah 12 kata rahasia (mnemonic seed) yang perlu Anda simpan dengan baik
+jangan sampai hilang dan jangan sampai dicuri orang.
 
 Catat 12 kata rahasia yang muncul di tampilan jendela tersebut sebelum klik tombol "Next step".
 
-:::caution
-Kehilangan kata rahasia (mnemonic seed) bisa mengakibatkan akun Anda tidak bisa diakses selamanya ketika lupa _password json_-nya.
-:::
+:::caution Kehilangan kata rahasia (mnemonic seed) bisa mengakibatkan akun Anda tidak bisa diakses
+selamanya ketika lupa _password json_-nya. :::
 
 Berikan tanda centang pada "I have saved my mnemonic seed safely", lalu klik tombol "Next step".
 
-Pada jendela selanjutnya tinggal isi nama dan kata kunci (_password_) _json_ Anda, lalu klik tombol "Add the account with the generated seed".
+Pada jendela selanjutnya tinggal isi nama dan kata kunci (_password_) _json_ Anda, lalu klik tombol
+"Add the account with the generated seed".
 
 Selesai Akun anda telah berhasil dibuat.
 
@@ -171,12 +174,19 @@ Nuchain memiliki gift card yang biasanya dibagikan pada saat event nuchain berla
 
 ![Gift Card Nuchain](https://imgur.com/SezyyEw.jpg)
 
-Untuk informasi mengenai event nuchain yang akan datang, bisa bergabung pada grup [telegram nuchain](https://t.me/nusantarachain) untuk informasi selanjutnya. Sebelum menggunakan gift card nuchain, pastikan telah memasang [Nuchain App](https://play.google.com/store/apps/details?id=network.nuchain.app). Setalah Nuchain App terpasang buka aplikasi kemudian pilih **Import Account** > **Source Type** > **QR Code**. Kemudian akan ada form untuk informasi akun nuchain seperti gambar di bawah ini.
+Untuk informasi mengenai event nuchain yang akan datang, bisa bergabung pada grup
+[telegram nuchain](https://t.me/nusantarachain) untuk informasi selanjutnya. Sebelum menggunakan
+gift card nuchain, pastikan telah memasang
+[Nuchain App](https://play.google.com/store/apps/details?id=network.nuchain.app). Setalah Nuchain
+App terpasang buka aplikasi kemudian pilih **Import Account** > **Source Type** > **QR Code**.
+Kemudian akan ada form untuk informasi akun nuchain seperti gambar di bawah ini.
 
 ![Form Add Account via Gift Card](https://imgur.com/FxzeEzd.jpg)
 
 Keterangan:
-- `Address` - untuk mengisi alamat nuchain, klik tombol **kamera** untuk mekukan proses scan Qr Code pada gift card agar muncul alamat adrress secara otomatis.
+
+- `Address` - untuk mengisi alamat nuchain, klik tombol **kamera** untuk mekukan proses scan Qr Code
+  pada gift card agar muncul alamat adrress secara otomatis.
 - `name` - nama akun baru.
 - `password` - masukkan password baru.
 - `confirm password` - konfirmasi password.
@@ -185,7 +195,5 @@ Setelah selesai mengisi form tersebut klik tombol **Next** maka akan muncul dash
 
 ![Dashboard Nuchain App](https://imgur.com/nXoTcIj.jpg)
 
-***Catatan:*** Setelah akun berhasil diimport segera transfer ARA Anda ke akun lainnya, karena akun pada gift card sifatnya temporer. Apabila kadaluarsa maka ARA-nya akan hangus.
-
-
-
+**_Catatan:_** Setelah akun berhasil diimport segera transfer ARA Anda ke akun lainnya, karena akun
+pada gift card sifatnya temporer. Apabila kadaluarsa maka ARA-nya akan hangus.
