@@ -52,7 +52,11 @@ module.exports = {
               label: 'FAQ',
               to: '/docs/general/faq',
             },
-          ],
+            {
+                label: 'Learn',
+                to: '/docs/learn/main',
+              }
+        ],
         },
         {
           title: 'Community',
@@ -64,6 +68,10 @@ module.exports = {
             {
               label: 'Telegram',
               href: 'https://t.me/nusantarachain',
+            },
+            {
+              label: 'Youtube',
+              href: 'https://www.youtube.com/channel/UC2of6i3ywKX5xyMvcPZt8AQ',
             },
           ],
         },
