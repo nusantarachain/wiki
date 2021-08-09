@@ -9,7 +9,7 @@ dibutuhkan akun, untuk membuat akun bisa ikuti langkah-langkahnya di bagian [aku
 
 Setelah memiliki akses/akun cobalah melakukan operasi/transaksi, hal ini bisa dilakukan dengan
 beberapa cara, dan cara yang paling mudah adalah dengan melakukannya melalui
-[dashboard](https://wiki.nuchain.network).
+[dashboard](https://dashboard.nuchain.network).
 
 ## Validator
 
