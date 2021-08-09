@@ -1,86 +1,90 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'NUCHAIN',
-  tagline: 'Own your data, Rule your privacy, Make it trust!',
-  url: 'https://wiki.nuchain.network',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'nusantarachain',
-  projectName: 'wiki',
+  title: "NUCHAIN",
+  tagline: "Own your data, Rule your privacy, Make it trust!",
+  url: "https://wiki.nuchain.network",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
+  organizationName: "nusantarachain",
+  projectName: "wiki",
   stylesheets: [
     "https://fonts.googleapis.com/css?family=Work+Sans:400,700&display=swap",
     "https://fonts.googleapis.com/icon?family=Material+Icons",
   ],
   themeConfig: {
-      /* Custom fonts for website */
-  fonts: {
-    myFont: ["Work Sans", "sans-serif"],
-  },
+    /* Custom fonts for website */
+    fonts: {
+      myFont: ["Work Sans", "sans-serif"],
+    },
     navbar: {
       logo: {
-        alt: 'Nuchain Logo',
-        src: 'img/logo_nuchain_wiki.png',
+        alt: "Nuchain Logo",
+        src: "img/logo_nuchain_wiki.png",
       },
       items: [
         {
-          type: 'doc',
-          docId: 'general/welcome',
+          type: 'localeDropdown',
           position: 'right',
-          label: 'Memulai Pertama',
+        },
+        {
+          type: "doc",
+          docId: "general/welcome",
+          position: "right",
+          label: "Memulai Pertama",
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/nusantarachain/nuchain',
-          label: 'GitHub',
-          position: 'right',
+          href: "https://github.com/nusantarachain/nuchain",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Docs',
+          title: "Docs",
           items: [
             {
-              label: 'Build',
-              to: '/docs/build/build-intro',
+              label: "Build",
+              to: "/docs/build/build-intro",
             },
             {
-              label: 'FAQ',
-              to: '/docs/general/faq',
+              label: "FAQ",
+              to: "/docs/general/faq",
             },
             {
-                label: 'Learn',
-                to: '/docs/learn/main',
-              }
-        ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/nusantarachain',
-            },
-            {
-              label: 'Telegram',
-              href: 'https://t.me/nusantarachain',
-            },
-            {
-              label: 'Youtube',
-              href: 'https://www.youtube.com/channel/UC2of6i3ywKX5xyMvcPZt8AQ',
+              label: "Learn",
+              to: "/docs/learn/main",
             },
           ],
         },
         {
-          title: 'More',
+          title: "Community",
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/nusantarachain',
+              label: "Twitter",
+              href: "https://twitter.com/nusantarachain",
+            },
+            {
+              label: "Telegram",
+              href: "https://t.me/nusantarachain",
+            },
+            {
+              label: "Youtube",
+              href: "https://www.youtube.com/channel/UC2of6i3ywKX5xyMvcPZt8AQ",
+            },
+          ],
+        },
+        {
+          title: "More",
+          items: [
+            {
+              label: "GitHub",
+              href: "https://github.com/nusantarachain",
             },
           ],
         },
@@ -90,24 +94,26 @@ module.exports = {
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/nusantarachain/wiki/edit/master/',
+          editUrl: "https://github.com/nusantarachain/wiki/edit/master/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/nusantarachain/wiki/edit/master/docs/blog/',
+          editUrl: "https://github.com/nusantarachain/wiki/edit/master/docs/blog/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],
   ],
+  i18n: {
+    defaultLocale: 'id',
+    locales: ['en', 'id']
+  }
 };

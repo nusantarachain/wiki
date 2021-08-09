@@ -1,0 +1,10 @@
+{
+  "item.label.Memulai Pertama": {
+    "message": "Memulai Pertama",
+    "description": "Navbar item with label Memulai Pertama"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

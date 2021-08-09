@@ -2,6 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
+import Translate, {translate} from '@docusaurus/Translate';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
@@ -12,11 +13,11 @@ import ReactTypingEffect from 'react-typing-effect';
 function HomepageHeader() {
     // const { siteConfig } = useDocusaurusContext();
     const Taglines = [
-        "Keamanan pada privasi",
-        "Kepemilikan aset digital",
-        "Kekuasan data sendiri",
-        "Sarana tanpa perantara",
-        "Transparansi dalam proses"
+        translate({id: "frontpage.msg.securePrivacy", message: "Keamanan pada privasi"}),
+        translate({id: "frontpage.msg.ownedAssets", message: "Kepemilikan aset digital"}),
+        translate({id: "frontpage.msg.selfDataControl", message: "Kekuasaan data sendiri"}),
+        translate({id: "frontpage.msg.mediumNoThirdParty", message: "Sarana tanpa perantara"}),
+        translate({id: "frontpage.msg.transparency", message: "Transparansi dalam proses"})
     ];
     return (
         <header className={clsx('hero hero--primary', styles.heroBanner)}>
@@ -26,8 +27,8 @@ function HomepageHeader() {
                         <div className={styles.heroTagline} style={{ textAlign: "center" }}>
                             <h1 className="hero__title">Nusantara Chain</h1>
                             <p className={clsx('hero__subtitle')}>
-                                Selamat Datang di <strong>Web Generasi ke 3</strong>.<br />
-                                Sebuah Dunia yang memberikan Anda:
+                                <Translate id="frontpage.welcomeTo">Selamat Datang di</Translate> <strong><Translate id="frontpage.welcomeToWebGen3">Web Generasi ke 3</Translate></strong>.<br />
+                                <Translate id="frontpage.welcomeToGiveYou">Sebuah Dunia yang memberikan Anda</Translate>:
                             </p>
                             <div className={clsx('hero__subtitle', styles.tagline)}>
                                 <ReactTypingEffect
@@ -44,7 +45,7 @@ function HomepageHeader() {
                                 <Link
                                     className="button button--secondary button--lg"
                                     to="/docs/general/welcome">
-                                    Masuk!</Link>
+                                    <Translate id="frontpage.enterButton">Masuk!</Translate></Link>
                             </div>
                         </div>
                     </div>
@@ -73,7 +74,7 @@ export default function Home() {
     return (
         <Layout
             title="Nusantara Chain / Rantai Nusantara"
-            description="Platform Web Generasi ke 3.0">
+            description={translate({id: "text.nextGenWebPlatform", message: "Platform Web Generasi ke 3.0"})}>
             <HomepageHeader />
             <NuchainVideo />
             <main>

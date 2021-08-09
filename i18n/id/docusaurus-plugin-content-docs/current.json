@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.General": {
+    "message": "General",
+    "description": "The label for category General in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Learn": {
+    "message": "Learn",
+    "description": "The label for category Learn in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Validator": {
+    "message": "Validator",
+    "description": "The label for category Validator in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Build": {
+    "message": "Build",
+    "description": "The label for category Build in sidebar tutorialSidebar"
+  }
+}
