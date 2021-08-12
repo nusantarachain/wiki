@@ -14,7 +14,7 @@ service_. Didesain sebagai platform pengembangan aplikasi terdistribusi yang kua
 Dikembangkan secara _open source_ dan kodenya bisa diakses secara publik di
 [Github](https://github.com/nusantarachain).
 
-Saat ini nuchain dikembangkan di bawah naungan yayasan Rantai Nusantara Teknologi (RNT), sebuah
+Saat ini nuchain dikembangkan di bawah naungan Yayasan Rantai Nusantara Teknologi (RNT), sebuah
 organisasi non profit yang bertujuan memajukan ekosistem digital di Indonesia khususnya pada
 aplikasi desentral.
 
@@ -38,7 +38,7 @@ terdistribusi dan aman yang disebut dengan rantai blok
   membutuhkan jaminan legitimasi tanpa perlu mempercayai satu sama lain.
 
 Nuchain bukan didesain untuk menjadi _crypto currency_, tetapi sebagai platform aplikasi
-terdistibusi (DApps) yang nantinya akan menjadi ekosistem baru di era teknologi digital yang
+terdistribusi (DApps) yang nantinya akan menjadi ekosistem baru di era teknologi digital yang
 membutuhkan keterbukaan, kejelasan, legitimasi, dan _good governance_.
 
 ## Mulai Pertama
