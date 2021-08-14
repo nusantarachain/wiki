@@ -59,7 +59,7 @@ validator.
 
 ## Mengajukan Sebagai Validator
 
-Untuk mengajukan diri sebagai validator masuk ke [Nuchain Dashboard](https://nuchain.riset.tech)
+Untuk mengajukan diri sebagai validator masuk ke [Nuchain Dashboard](https://dashboard.nuchain.network)
 lalu menuju ke menu **Network** > **Staking** > **Account actions** kemudian klik tombol "**+
 Validator**":
 
