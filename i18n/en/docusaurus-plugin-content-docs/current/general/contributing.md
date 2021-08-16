@@ -57,5 +57,5 @@ are Nuchain contributors:
 - Muslim Hidayat
 - Reza
 - Robin Shihab (anvie)
-- Ron (lantip)
+- Rony (lantip)
 - Muhammad Zuhair Zahid
