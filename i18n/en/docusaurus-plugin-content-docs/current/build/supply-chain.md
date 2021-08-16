@@ -1,103 +1,82 @@
 ---
 id: supply-chain
-title: Rantai Pasok
-sidebar_label: Rantai Pasok
+title: Supply Chain
+sidebar_label: Supply Chain
 ---
 
-Nuchain mendukung fungsi-fungsi untuk membangun sistem rantai pasok (supply chain).
+Nuchain supports functions for building supply chain systems.
 
-Kode untuk kebutuhan tersebut bisa ditemukan di dua modul berikut:
+The code for building supply chain systems can be found in the following two modules:
 
 - [Product Registry](https://github.com/nusantarachain/nuchain/tree/supplychain/frame/product-registry).
 - [Product Tracking](https://github.com/nusantarachain/nuchain/tree/supplychain/frame/product-tracking).
 
 :::info
 
-Untuk bisa mengikuti materi ini pastikan Anda telah membaca bagian
-[Getting Started](../learn/main.md) dan [Build](build-intro.md).
+To be able to follow this section make sure you have read the section
+[Getting Started](../learn/main.md) and [Build](build-intro.md).
 
 :::
 
-Sistem rantai pasok membutuhkan organisasi sebagai holder produk. Tentang organisasi dan bagaimana
-cara membuatnya bisa baca di bagian [Organisasi](build-organization.md).
+The supply chain system requires organizations as product holders. About the organization and how to create it can be found in section [Organization](build-organization.md)
 
-Secara gambaran besar sistem rantai pasok di Nuchain dikontrol oleh organisasi. Organisasi bisa
-digunakan untuk melakukan:
+Broadly speaking, the supply chain system at Nuchain is controlled by the organization. You can use organizations for:
 
-1. Registrasi produk.
-2. Registrasi _tracking_.
-3. Memberikan akses _tracker_.
+1. Product registration.
+2. Registration _tracking_.
+3. Grant access for _tracker_.
 
-_**Tracker**_ adalah entitas/individu yang bisa melakukan _update_ status _tracking_ atas ijin akses
-dari organisasi melalui [DIDs](build-did.md).
+_**Tracker**_ is an entity/individual that can do _update_ status _tracking_ with access permission from the organization via [DID](build-did.md).
 
 ![Nuchain Supply Chain](/img/nuchain-supply-chain.png)
 
-_(gambar: skema supply chain di Nuchain)_
+_(image: supply chain in Nuchain)_
 
-Setiap _update_ yang dilakukan oleh _tracker_ akan memunculkan _event_ dan _event_ akan diproses
-oleh [off-chain worker](../general/glossary.md#off-chain-worker) untuk dibuatkan notifikasi kemudian
-notifikasi akan di-_push_ melalui _webhook_.
+Every _update_ done by _tracker_ will produce _event_ and _event_ will be held by [off-chain worker](../general/glossary.md#off-chain-worker) to generate notification.Then the notification will be _pushed_ via _webhook_.
 
-## Alur Kerja
+## Workflow
 
-1. **Mendaftarkan produk**, produk perlu didaftarkan terlebih dahulu dengan cara mengirim transaksi
-   menggunakan fungsi [ekstrinsik](../learn/learn-extrinsic.md) `productRegistry.register` dengan
+1. **Registering the product**, the product needs to be registered by sending a transaction using functions [extrinsic](../learn/learn-extrinsic.md) `productRegistry.register` with parameter:
+
+   - `id` - this is the id product. It can be numeric, alpha-numeric, GS1 GTIN (Global Trade Item Number) or ASIN (Amazon Standard Identification Number).
+   - `org_id` - is the ID of the organization/agency that represents ownership of the products.
+   - `props` - a list of data containing key values ​​that describe the product. It usually contains at least the SKU or description of the product. It can also contains other information such as product's content, expiration date, weight, agricultural origin, harvest time, etc.
+
+2. **Registering tracking**, the product that will be _track_ed needs to be registered first. Use the function [extrinsic](../learn/learn-extrinsic.md) `productTracking.register` with
    parameter:
 
-   - `id` - sebagai id produk, ini bebas bisa berupa numeric atau alpha-numeric, bisa juga GS1 GTIN
-     (Global Trade Item Number) atau ASIN (Amazon Standard Identification Number).
-   - `org_id` - merupakan ID akun organisasi/instansi yang merepresentasikan kepemilikan atas
-     produk.
-   - `props` - list data yang berisi key value untuk menjelaskan produknya. Biasanya berisi
-     setidaknya SKU atau deskripsi dari produk. Bisa juga berisi informasi seperti kandungan, masa
-     kadaluarsa, berat, asal pertanian, waktu panen, dll.
+   - `id` - its _tracking_ id.
+   - `org_id` - the ID of the organization/agency that represents ownership of the product.
+   - `year` - _tracking_ initiation year, e.g. "2021".
+   - `products` - list/array ID of the product to be registered.
 
-2. **Mendaftarkan tracking**, produk yang akan di-_track_ perlu didaftarkan terlebih dahulu
-   menggunakan fungsi [ekstrinsik](../learn/learn-extrinsic.md) `productTracking.register` dengan
-   parameter:
+3. **Doing status updates**, updating the status of each process that has been passed by the product by sending transactions using the function [extrinsic](../learn/learn-extrinsic.md) 
+   `productTracking.updateStatus` with parameters:
 
-   - `id` - id _tracking_-nya.
-   - `org_id` - merupakan ID dari organisasi/instansi yang merepresentasikan kepemilikan atas
-     produk.
-   - `year` - tahun inisiasi _tracking_, contoh "2021".
-   - `products` - list/array ID dari produk yang akan didaftarkan.
+   - `id` - ID code tracking.
+   - `status` - (string) the status to be given.
+   - `timestamp` - timestamp (in milliseconds).
+   - `location` - the location where _tracking_ is performed.
+   - `readings` - additional information about the product.
 
-3. **Melakukan update status**, memperbaharui (update) status setiap proses yang dilalui oleh produk
-   dengan cara mengirimkan transaksi menggunakan fungsi [ekstrinsik](../learn/learn-extrinsic.md)
-   `productTracking.updateStatus` dengan parameter:
+To be able to _update status_, _caller_ must have access as _tracker_ assigned by the organization to the designated account. To give an access, you can use extrinsic function `did.createDelegate` of type `ProductTracker` that is located in module `did`. This access can be granted on a limited basis (with _expiration time_) or unlimited (without _expiration time_).
 
-   - `id` - ID kode tracking.
-   - `status` - (string) status yang akan diberikan.
-   - `timestamp` - timestamp dalam bentuk miliseconds.
-   - `location` - lokasi di mana _tracking_ dilakukan.
-   - `readings` - informasi tambahan yang akan dimasukkan berkaitan dengan produknya.
+## Verification
 
-Untuk bisa melakukan _update status_ maka _caller_ harus terlebih dahulu memiliki akses sebagai
-_tracker_ yang diberikan oleh organisasi kepada akun yang ditunjuk. Cara memberikan akses bisa
-menggunakan fungsi ekstrinsik `did.createDelegate` dengan tipe `ProductTracker` yang berada di modul
-`did`. Akses ini bisa diberikan secara terbatas (dengan _expritaion time_) atau secara bebas (tanpa
-_expiration time_).
+Verifying is possible by doing _query_ using the function _query_ `productTracking.tracking(ID)`. This function can be used to get detailed tracking data that contain _metadata_ and a list of included product IDs.
 
-## Verifikasi
-
-Untuk memverifikasi kita bisa melakukan _query_ menggunakan fungsi _query_
-`productTracking.tracking(ID)`. Fungsi tersebut bisa digunakan untuk mendapatkan detail data
-tracking yang berisi _metadata_ dan list ID produk yang disertakan.
-
-Sementara untuk mendapatkan _event-event_ yang terjadi pada objek _tracking_ bisa menggunakan fungsi
-_query_ `productTracking.eventsOfTracking(ID)`. Fungsi tersebut hanya mengembalikan ID dari event.
-Untuk mendapatkan detail event-nya bisa melakukan _query_ menggunakan fungsi
+Meanwhile, to get the _events_ that occur in the _tracking_ object, you can use the function _query_ `productTracking.eventsOfTracking(ID)`. The function only returns the ID of the event.
+To get the details of the event, you can _query_ using the function
 `productTracking.eventByIdx(IDX)`.
 
-## Notifikasi
+## Notifications
 
-Nuchain dapat mengirimkan notifikasi secara _real-time_ ke luar jaringan (_off-chain_) menggunakan
-_Web hook_ untuk setiap _event_ yang terjadi pada _tracking_ di jaringan _blockchain_.
+Nuchain can send real-time notifications out of the network (_off-chain_) using
+_Web hook_ for every _event_ that occurs on _tracking_ on the _blockchain_ network.
 
-Nuchain menggunakan _Off-chain Worker_ untuk keperluan ini.
+Nuchain uses _Off-chain Worker_ for this purpose.
 
 ## Demo
 
-Contoh kode demo penggunannya bisa ditemukan di Github
+Examples of the code can be found on Github
 [supplychain-sample-py](https://github.com/nusantarachain/supplychain-sample-py).

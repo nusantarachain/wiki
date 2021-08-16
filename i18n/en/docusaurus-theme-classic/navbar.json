@@ -1,7 +1,7 @@
 {
   "item.label.Memulai Pertama": {
-    "message": "Memulai Pertama",
-    "description": "Navbar item with label Memulai Pertama"
+    "message": "Getting Started",
+    "description": "Navbar item with label Getting Started"
   },
   "item.label.GitHub": {
     "message": "GitHub",

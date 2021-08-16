@@ -1,60 +1,50 @@
 ---
 id: build-certificate
-title: Sertifikat Digital
-sidebar_label: Sertifikat Digital
+title: Digital certificate
+sidebar_label: Digital certificate
 ---
 
-Nuchain mendukung pembuatan sertifikat digital.
+Nuchain supports creating digital certificate.
 
-Data sertifikat di Nuchain bersifat abadi --_sekali ditulis tidak dapat dihapus_, namun validitasnya
-tetap bisa dicabut (revoke).
+Certificate data in Nuchain is eternal --_once it is written, it can not be erased_, but the validity can still be revoked.
 
 :::info
 
-Sertifikat di Nuchain hanya sebagai _platform_ penyimpanan saja, bukan sebagai otoritas. Namun data
-di dalam _blockchain_ dengan sifat dasarnya yang abadi bisa dijadikan sebagai bukti keberadaan
-(eksistensi) sertifikat secara digital.
+Certificate in Nuchain is _platform for storage only_, it is not an authority. However, the data in the _blockchain_, that has eternal nature, can be used to prove the existence of the certificate digitally.
 
 :::
 
-## Membuat Sertifikat
+## Creating certificates
 
-Untuk dapat membuat sertifikat maka diperlukan organisasi sebagai wadah (holder) dari penerbit
-sertifikat tersebut, cara membuat organisasi bisa baca bagian [Organisasi](build-organization.md).
+Creating certificates requires an organisation, a holder of certificate issuer. Further details about creating organisation can be found at [Organisation](build-organization.md).
 
-Pembuatan sertifikat di Nuchain bisa digambarkan sebagai berikut:
+
+The steps of creating certificates in Nuchain are:
 
 ![Nuchain Certificate](/img/nuchain-certificate.svg)
 
-1. Organisasi perlu membuat sertifikat (sebagai _template_) untuk kemudian bisa digunakan untuk
-   diberikan (issued) kepada penerima sertifikat tersebut. Akun yang bisa membuat sertifikat adalah
-   `admin` dari organisasi atau akun yang memiliki akses [DId](build-did.md) ke organisasi.
-   Pembuatan sertifikat bisa menggunakan fungsi ekstrinsik `certificate.create`.
-2. Organisasi memberikan sertifikat kepada seseorang, menggunakan fungsi ekstrinsik
-   `certificate.issue`.
+1. The organisation needs to generate a certificate (as a _template_). The template then will be used in issuing certificates. The access of creating certificate is only available for account `admin` of the organisation and for accounts that has [DId](build-did.md) access to the organisation. Creating certificate is also possible using the extrinsic function `certificate.create`.
 
-## Memeriksa Sertifikat
+2. The organisation issues a certificate for a recipient by using extrinsic function `certificate.issue`.
 
-Sertifikat yang telah dibuat dan diterbitkan akan ditulis di _blockchain_ dan bisa dibuktikan dengan
-cara melakukan query melalui fungsi `certificate.issuedCert(ID)`.
+## Checking the certificates 
 
-Validitas sertifikat bisa dibuktikan dengan memastikan dua hal:
+Created and issued certificates are written on the _blockchain_ and its existence can be proven by querying using the function `certificate.issuedCert(ID)`.
 
-1. Sertifikat tidak dicabut.
-2. Sertifikat tidak kadaluarsa.
+The validity of the certificates can be proven by ensuring that
+1. the certificates are not revoked
+2. the certificates does not expire
 
-Contoh mendapatkan informasi sertifikat yang telah diterbitkan menggunakan javascript Api:
+Example of getting information of issued certificate using the javascript API: 
 
 ```javascript
 let cert = await api.query.certificate.issuedCert("A35tYxqSP6i");
 ```
 
-## Pencabutan
+## Revoking the certificates
 
-Sertifikat digital di Nuchain bisa dicabut sehingga menghilangkan validitasnya, untuk mencabutnya
-bisa menggunakan fungsi ekstrinsik `certificate.revoke`.
+The issued certificates are able to be revoked. Revoking the certificates will make them invalid. Use extrinsic function `certificate.revoke` to revoke the certificates.
 
-## Kadaluarsa
+## Expiration of certificates
 
-Sertifikat digital bisa memiliki kadaluarsa apabila penerbit menginginkannya. Hal ini bisa dilakukan
-dengan cara mengisi parameter `expired` ketika menerbitkan sertifikat.
+In Nuchain, the certificate issuer is able to set expiration time of the digital certificates by filling the parameter of `expired` when issuing a certificate.

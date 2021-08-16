@@ -4,43 +4,27 @@ title: Browser Extension
 sidebar_label: Extension
 ---
 
-Untuk mengakses sebuah layanan/aplikasi biasanya dibutuhkan login, namun istilah login di dunia Web3
-tidak relevan. Yang dibutuhkan di Web3 untuk otentikasi dan otorisasi adalah kunci kriptografi bukan
-lagi _user name_ dan _password_ seperti di dunia sentralisasi.
+A login is usually required to access a service/application, but the term login in the Web3 world is irrelevant. What is needed in Web3 for authentication and authorization is a cryptographic key instead of _user name_ and _password_ as in the centralized world.
 
-Saat ini perkembangan Web3 belum didukung oleh adanya native frontend pada browser, sehingga untuk
-mengakses jaringan Web3 masih membutuhkan alat bantu, sebagai contoh pada ekosistem Ethereum ada
-alat bantu Metamask, pada Polkadot ada Polkadot JS app, dll. hal ini untuk mempermudah pengguna
-dalam mengakses Web3, kedepannya ketika semua peramban (_browser_) sudah mendukung Web3 maka
-alat-alat bantu (_extension_) seperti ini tidak dibutuhkan lagi, karena telah tersedia secara native
-di peramban.
+Currently, the development of Web3 has not been supported by a native frontend in the browser, so that access to the Web3 network still requires tools. For example, on the Ethereum ecosystem there is the Metamask tool, on Polkadot there is the Polkadot JS app. The existence of this tools is to make it easier for users to access Web3. In the future, when all browsers (_browser_) already support Web3 then tools (_extension_) like this will no longer be needed, because they are available natively in the browser.
 
-## Memasang ekstensi
+## Installing the extension
 
-Untuk sementara ini hingga mayoritas peramban mendukung Web3, maka kita membutuhkan alat bantu untuk
-mengakses jaringan Nuchain, alat bantu ini berupa _browser extension_, yang bisa Anda dapatkan di:
+At the present until the majority of browsers support Web3, we need a tool to access the Nuchain network. This tool is a _browser extension_, which you can get at:
 
-1. [Nuchain App untuk peramban Chrome](https://chrome.google.com/webstore/detail/nuchain-app/hfcdboaniimgkememgmilhmnkdgggkne)
-2. [Nuchain App untuk peramban Firefox](#)
+1. [Nuchain App for Chrome browser](https://chrome.google.com/webstore/detail/nuchain-app/hfcdboaniimgkememgmilhmnkdgggkne)
+2. [Nuchain App for Firefox browser](https://addons.mozilla.org/en-US/firefox/addon/nuchain-app/)
 
-Setelah terpasang di peramban maka akan muncul icon Nuchain seperti pada gambar berikut:
+Once installed in the browser, the Nuchain icon will appear as shown in the following image:
 
 ![Nuchain App web extension](/img/nuchain-app-web-extension1.png)
 
-## Fungsi ekstensi
+## Extension function
 
-Fungsi dari ekstensi peramban Nuchain App ini adalah untuk menyimpan _private key_ dan
-mengamankannya secara _offline_ di peramban Anda dengan kata kunci, selanjutnya ketika Anda
-mengakses website yang mendukung Web3 maka ekstensi ini akan aktif dan meminta ijin Anda untuk
-otorisasi dalam melakukan operasi/transaksi yang diperlukan di jaringan Nuchain secara aman tanpa
-perlu meng-expose kunci privat Anda.
+The function of this Nuchain App browser extension is to store a _private key_ and secure it offline in your browser with a password. Furthermore, when you access a website that supports Web3 this extension will be active and ask for your permission to authorize the necessary operations/transactions on the Nuchain network securely without needing to expose your private key.
 
-Hal ini lebih aman daripada Anda menaruh kunci privat ke aplikasi pihak ke-3, dan lebih baik jangan
-pernah melakukan hal itu (menyimpan ke pihak ke-3).
+This is more secure than you putting the private key into a 3rd party application. It is recommended not to save your key in 3rd party app.
 
-## Membuat akun
+## Create an account
 
-Ekstensi peramban bisa juga untuk membuat akun. Pada hakekatnya akun di dunia Web3 itu hanyalah
-pasangan asimetris kunci kriptografi, jadi ekstensi ini hanya membuatkan kunci kriptografi secara
-acak. Untuk lebih detailnya silahkan baca bagian
-[Membuat akun menggunakan ekstensi peramban](account.md#menggunakan-ekstensi-peramban).
+Browser extensions can be used to create accounts. Basically, accounts in the Web3 are just asymmetric cryptographic key pairs, so this extension only generates random cryptographic keys. For more details, please read the section [Creating an account using a browser extension](account.md#using-browser-extension).

@@ -1,62 +1,50 @@
 ---
 id: contributing
-title: Kontribusi
-sidebar_label: Kontribusi
+title: Contribution
+sidebar_label: Contribution
 ---
 
-Proyek Nuchain diinisiasi oleh Yayasan Rantai Nusantara Teknologi dan merupakan proyek sumber
-terbuka (open source).
+The Nuchain project was initiated by the Rantai Nusantara Teknologi Foundation and is an open source project.
 
-Kami menerima _pull request_, _diskusi_, dan kontribusi lain untuk komunitas sangat kami apresiasi.
-Anggota komunitas yang aktif dan paling sering memberikan kontribusi yang bagus mungkin akan kami
-berikan akses menulis langsung ke beberapa repository yang berkaitan.
+We welcome and appreciate _pull requests_, _discussions_, and other contributions to the community.
+Community members who are active and give more contributions will probably granted direct access for writing in some associated repositories.
 
-## Cara Berkontribusi
+## How to Contribute
 
-Untuk berkontribusi sangatlah mudah, yang perlu Anda siapkan hanyalah akun Github. Di repository
-Nuchain ada beberapa proyek yang masih butuh pengembangan, akan sangat kami hargai apabila Anda bisa
-berkontribusi ke beberapa sub proyek Nuchain berikut:
+Contributing is very easy, all you need to set up is a Github account. Nuchain has several projects that still need development.We really appreciate it if you could contribute to the following Nuchain sub-projects:
 
-- [Nuchain Node & Runtime](https://github.com/nusantarachain/nuchain) - Merupakan repositori inti
-  dari Nuchain, di dalamnya terdapat implementasi _node_ dan _runtime_ dari Nuchain.
-- [Arascan](https://github.com/nusantarachain/arascan) - Merupakan data indexer jaringan Nuchain.
-- [Arascan UI](https://github.com/nusantarachain/arascan-ui) - Web user interface untuk
-  [Arascan](https://github.com/nusantarachain/arascan).
-- [Nuchain App](https://github.com/nusantarachain/nuchain-app) - Merupakan aplikasi mobile untuk
-  Nuchain, ditulis menggunakan Flutter.
-- [Dokumentasi](https://github.com/nusantarachain/wiki) - Website ini.
+- [Nuchain Node & Runtime](https://github.com/nusantarachain/nuchain) - This is the core repository of Nuchain, it includes the _node_ and _runtime_ implementations of Nuchain.
+- [Arascan](https://github.com/nusantarachain/arascan) - This is the Nuchain network indexer data.
+- [Arascan UI](https://github.com/nusantarachain/arascan-ui) - Web user interface for [Arascan](https://github.com/nusantarachain/arascan).
+- [Nuchain App](https://github.com/nusantarachain/nuchain-app) - This is a mobile application for Nuchain, built with Flutter.
+- [Documentation](https://github.com/nusantarachain/wiki) - Documentation of this website.
 
-Kami menggunakan [Github project](https://github.com/orgs/nusantarachain/projects/1) untuk mengelola
-pekerjaan, Anda bisa mulai dengan mengambil beberapa _task_ di bagian **Todo** dan melakukan **PR**
-untuk setiap pekerjaan yang telah diselesaikan.
+We use [Github project](https://github.com/orgs/nusantarachain/projects/1) to manage
+our work. You can start by taking some _task_ in the **Todo** section and doing **PR** for each job completed.
 
-Sebagai kontributor nama Anda akan ditulis sebagai kredit di halaman ini.
+As a contributor your name will be written as a credit on this page.
 
 :::info
 
-Beberapa _tasks_ yang tersedia ada yang bersifat _bounty_, dan yang menyelesaikannya akan
-mendapatkan ARA sesuai nilai _bounty_ yang tertera.
+Some of the available _tasks_ are _bounty_ in nature, and those who has completed the tasks will get ARA according to the _bounty_ value listed.
 
 :::
 
-## Peraturan
+## Regulation
 
-Berikut beberapa peraturan dasar untuk kontributor:
+Here are some basic rules for contributors:
 
-1. Jangan melakukan `--force` push atau memodifikasi Git _history_.
-2. Pull request disarankan terelasi dengan _issue_ apabila ada.
-3. Untuk kontribusi di dokumentasi kami menggunakan plugin _Prettier_ dalam menyesuaikan _style_
-   penulisan di setiap dokumen. Anda bisa menjalankannya menggunakan perintah
-   `npx prettier --write ./docs`.
+1. Do not `--force` push or modify Git _history_.
+2. Pull requests are suggested to be related to _issue_ (if any).
+3. For contributions in the documentation, we use the _Prettier_ plugin to customize the _style_ of writing in each document. You can run it using the command `npx prettier --write ./docs`.
 
-## Kontributor
+## Contributor
 
-Terimakasih Buat para kontributor Nuchain yang telah ikut mendukung visi & misi Nuchain. Berikut
-adalah para kontributor Nuchain:
+We would thank the Nuchain's contributors who have supported Nuchain's vision & mission. Following are Nuchain contributors:
 
 - Dian Asmarajati
 - Kadek Arika Pramana
 - Muslim Hidayat
 - Reza
-- Robin Syihab (anvie)
-- Rony (lantip)
+- Robin Shihab (anvie)
+- Ron (lantip)

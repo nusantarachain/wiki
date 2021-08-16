@@ -1,66 +1,43 @@
 ---
 id: nominator
-title: Nominator
-sidebar_label: Nominator
+title: Nominee
+sidebar_label: Nominee
 ---
 
-Nominator adalah individu yang ingin ikut berpartisipasi dalam mengamankan jaringan tanpa menjadi
-validator. Berbeda dengan validator, nominator tidak memerlukan mesin untuk melakukan validasi blok.
-Tetapi bisa menggunakan token yang dimiliki untuk membantu memperkuat validator lain agar kuat
-terpilih dan mudah masuk ke dalam jajaran validator. Sebagai imabalannya, nominator akan mendapatkan
-token ARA sesuai dengan prosentase bagi hasil yang diset oleh validator.
+Nominees are individuals who wish to participate in securing the network without being a validator. Unlike the validator, the nominee does not require a machine to perform block validation. Nominees can use their tokens to help strengthen other validators, so that the validators have more chance to be selected and enter the list of validators. As a return, the nominee will receive ARA tokens according to the profit sharing percentage set by the validator.
 
-## Cara Menjadi Nominator
+## How to Become a Nominee
 
-Untuk menjadi nominator Anda perlu [membuat akun](account.md) terlebih dahulu.
+To be a nominee you need to [create an account](account.md) first.
 
-Buka [Nuchain Dashboard](https://dashboard.nuchain.network) lalu pilih menu `Network` > `Staking` >
-`Account actions` lalu klik tombol `Nominator`
+Go to [Nuchain Dashboard](https://dashboard.nuchain.network). Select the `Network` menu > `Staking` >
+`Account actions` then click the `Nominator` . button
 
-Pada jendela nominator tampak beberapa input yang perlu diisi:
+There are several inputs that need to be filled in the nominee window.
 
-![Nominator](https://i.imgur.com/z3ZlnIg.png)
+![Nominee](https://i.imgur.com/z3ZlnIg.png)
 
-- **stash account** - adalah akun yang akan dijadikan sebagai _holding_ dari proses nominasi, akun
-  ini bukan digunakan untuk transaksi harian tetapi hanya untuk menghandle proses nominasi, dimana
-  Anda bisa menggunakan akun ini untuk meningkatkan jumlah _stake_ dari setiap _rewards_ yang
-  didapatkan.
-- **controller account** - adalah akun yang mengontrol _Stash Account_. Ini boleh sama dengan yang
-  akan digunakan sebagai _stash account_, namun direkomendasikan dibedakan.
-- **value bonded** - adalah jumlah ARA yang akan di-_stake_, jangan memasukkan semua yang ARA yang
-  Anda miliki, terutama apabila _stash_ dan _controller account_ sama maka Anda tidak bisa melakukan
-  _payout_ untuk menarik _rewards_ dikemudian hari, karena untuk menarik _rewards_ perlu ARA sebagai
-  _fee_-nya.
-- **on-chain bonding duration** - adalah masa tunggu _stake_ akan dikunci dan tidak bisa digunakan,
-  apabila Anda ingin melakukan _unstake_ maka akan terealisasikan setelah berakhir masa tunggu
-  tersebut.
-- **payment destination** - adalah akun yang akan dijadikan sebagai penerima **rewards** nantinya.
+- **stash account** - the account that will be used as _holding_ of the nomination process. This account is not used for daily transactions but only to handle the nomination process. You can use this account to increase the number of _stake_ from each _rewards_ earned.
+- **controller account** - the account that controls the _Stash Account_. This account may be the same account that will be used as the _stash account_, but it is recommended that you have different account for those two purposes.
+- **value bonded** - the number of ARA to be staked. Do not enter all the ARA you have, especially if the stash and controller account are the same, then you may not be able to conduct _payout_ to withdraw rewards in the future. Keep in mind that you need ARA as _fee_ to withdraw _rewards_.
+- **on-chain bonding duration** - _stake_ waiting period will be locked and cannot be used. If you want to _unstake_, the realization will be done after the waiting period ends.
+- **payment destination** - the account that will be used as the recipient of **rewards**.
 
 ![payment destination](https://i.imgur.com/YSW02Zs.png)
 
-**KETERANGAN:**
+**DESCRIPTION:**
 
-- **Stash account (increase the amount at stake)** - apabila Anda memilih ini maka setiap
-  **rewards** yang didapatkan akan ditransfer ke akun _stash_ dan akan meningkatkan jumlah
-  _stake_-nya secara otomatis (terkunci).
-- **Stash account (do not increase the amount at stake)** - _rewards_ akan ditransfer ke akun
-  _stash_ namun tidak meningkatkan jumlah _stake_-nya, artinya tidak dikunci dan bisa digunakan.
-- **Controller account** - _rewards_ akan ditransfer ke kaun _controller_ dan tidak meningkatkan
-  nilai _stake_-nya.
-- **Specified payment account** - _rewards_ akan ditransfer ke akun tertentu yang dipilih oleh Anda
-  selain _stash_ dan _controller_.
+- **Stash account (increase the amount at stake)** - every **rewards** earned will be transferred to the _stash_ account and will increase the amount of _stake_ automatically (locked).
+- **Stash account (do not increase the amount at stake)** - _rewards_ will be transferred to _stash_ account but it will not increase the amount of _stake_; it is unlocked and therefore it can be used.
+- **Controller account** - _rewards_ will be transferred to _controller_ account and not increase its _stake_ value.
+- **Specified payment account** - _rewards_ will be transferred to a specific account selected by you other than _stash_ and _controller_.
 
-Selanjutnya klik **Next** dan akan muncul jendela berikut:
+Then click **Next** and the following window will appear:
 
 ![Nominator select candidate](https://i.imgur.com/YkLLjtG.png)
 
-Pada bagian ini Anda perlu memilih validator mana Anda akan men-_stake_ ARA-nya, bisa lebih dari
-satu akun, pilihlah yang terbaik karena men-_stake_ ARA memiliki resiko yang sama dengan validator
-yakni apabila validator mesin-nya tidak reliable atau sering mati maka akan berpengaruh terhadap
-_rewards_ Anda. Dan pilihlah validator yang menetapkan nilai komisi rendah untuk _rewards_ yang
-optimal.
+In this section you need to choose which validator you will stake the ARA (Can be more than one account). Choose the best validator because doing _stake_ ARA has the same risk as validator; validator engine that is not reliable or often shuts down will affect your _rewards_. Choose a validator that sets a low commission value for optimal _rewards_.
 
-Setelah Anda selesai memilih, klik **Bond & Nominate**.
+After you finish selecting, click **Bond & Nominate**.
 
-Setelah berhasil Anda akan masuk ke _Waiting list_ di mana akun Anda akan diproses menjadi nominator
-dalam 24 jam (1 era).
+You will enter the _Waiting list_ in which your account will be processed as a nominee within 24 hours (1 era).

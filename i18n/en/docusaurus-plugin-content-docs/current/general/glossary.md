@@ -1,132 +1,89 @@
 ---
 id: glossary
-title: Istilah-istilah
-sidebar_label: Istilah-istilah
+title: Terms
+sidebar_label: Terms
 ---
 
-## Rantai Blok
+## Block Chain
 
-Atau semula dieja **block chain**, awalnya adalah catatan yang terus berkembang, disebut _block_,
-yang terhubung dan diamankan menggunakan teknik kriptografi. Setiap blok biasanya memuat
-[hash](https://id.wikipedia.org/wiki/Hash) kriptografis dari blok sebelumnya, _timestamp_, dan data
-transaksi. Secara desain, blockchain resistan terhadap modifikasi data.
+**Block chain** was originally an ever-growing record, called _block_, which was linked and secured using cryptographic techniques. Each block usually contains the cryptographic [hash](https://id.wikipedia.org/wiki/Hash) of the previous block, _timestamp_, and transaction data. By design, blockchain is resistant to data modification.
 
 ## NFT
 
-NFT atau _Non Fungible Token_ pada dasarnya adalah sebuah token digital yang ditautkan ke sistem
-besar _blockchain._ Tak jauh berbeda dengan beberapa aset mata uang kripto, bedanya NFT tidak bisa
-dipertukarkan, tapi bisa diperjualbelikan.
+NFT or _Non Fungible Token_ is basically a digital token that is linked to a large _blockchain system._ NFT is not much different from some crypto currency assets, the difference is that NFT cannot be exchanged, but can be traded.
 
-Sejauh ini NFT banyak digunakan untuk mewakili sebuah barang, kebanyakan adalah karya seni di forum
-digital. Bisa dibilang NFT adalah sebuah sertifikasi kepemilikan sebuah barang.
+So far NFT is widely used to represent an item (mostly works of art) in digital forums. You could say NFT is a certificate of ownership of an item.
 
-Paling umum, saat ini [NFT](https://www.detik.com/tag/nft) memang digunakan untuk membeli dan
-menjual karya seni digital. Yang dibeli di sini adalah NFT-nya, sebagai sebuah tanda kepemilikan
-sebuah karya seni.
+Nowadays [NFT](https://www.detik.com/tag/nft) is used to buy and sell digital artwork. What is being traded is NFT as a sign of ownership of a work of art
 
-## Fungible Token
+## Fungible Tokens
 
-Atau **FT** sama seperti **NFT** bedanya **FT** bisa ditukar belikan dengan **FT** lainnya, contoh
-**FT** adalah BTC pada Bitcoin dan ETH pada Ethereum.
+Or **FT**. It is similar to **NFT**. The difference is that **FT** can be traded with other **FT**. An example of **FT** is BTC on Bitcoin and ETH on Ethereum.
 
 ## SPoF
 
-Singkatan dari _Single Point of Failure_ merupakan kegagalan sebuah sistem yang disebabkan oleh
-adanya kegagalan salah satu komponen pada sistem, sehingga mengakibatkan komponen lainnya tidak bisa
-bekerja dan menghentikan semua fungsi sistem.
+The abbreviation for _Single Point of Failure_, is a system failure caused by the failure of one component in the system, resulting in other components unable to work and stopping all system functions.
 
 ## IoT
 
-_Internet of things_ adalah suatu konsep atau program dimana sebuah objek memiliki kemampuan untuk
-mentransmisikan atau mengirimkan data melalui jaringan tanpa menggunakan bantuan perangkat komputer
-dan manusia. Contoh IoT adalah pintu gerbang toll otomatis yang bisa beroperasi sendiri secara
-mandiri dan terhubung dengan layanan operasional dan keuangan melalui jaringan internet.
+_Internet of things_ is a concept or program where an object has the ability to transmit or transmit data over a network without using the help of computer and human devices. An example of IoT is an automatic toll gate that can operate independently and is connected to operational and financial services via the internet network.
 
 ## VPS
 
-_Virtual Private Server_ Adalah server komputer virtual yang jalan pada server induk dengan cara
-berbagi sumber daya pada server induk untuk bisa digunakan secara terisolasi oleh layanan lainnya.
-VPS ini bersifat terpusat.
+_Virtual Private Server_ Is a virtual computer server that runs on the parent server by sharing resources on the parent server to be used in isolation by other services. This VPS is centralized.
 
 ## Cloud Server
 
-Hampir sama dengan VPS bedanya biasanya memiliki fitur yang lebih kaya. Cloud server ini masih
-bersifat terpusat.
+Almost the same as VPS, the difference is that it usually has richer features. This cloud server is still centralized.
 
 ## DoS
 
-Denial of Service merupakan metode serangan yang dilakukan untuk melumpuhkan suatu layanan pada
-jaringan dengan cara membanjiri layanan dengan permintaan (request) atau data-data sampah secara
-terus menerus serta masif sehingga layanan sibuk dan gagal memproses permintaan yang legit.
+Denial of Service is an attack method carried out to disable a service on the network by flooding the service with requests or garbage data continuously and massively so that the service is busy and fails to process legitimate requests.
 
-## Validator
+## Validators
 
-adalah node/komputer yang berjalan membuat blok dan memvalidasi setiap blok yang tercipta. Validator
-bekerja untuk mengamankan jaringan dan mendapatkan benefit dari _rewards_ untuk setiap blok yang
-dibuatnya, _rewards_ ini berupa native token bernama ARA.
+Validators are nodes/computers that run creating blocks and validating each block created. The validator works to secure the network and gets the benefit of _rewards_ for every block it creates, these _rewards_ in the form of a native token called ARA.
 
 ## ARA
 
-adalah kode unit native token atau bahan bakar yang diperlukan untuk menunjang keberlangsungan
-jaringan. ARA ini digunakan untuk mengamankan sistem dari serangan DoS dan memberikan _rewards_
-kepada para validator yang telah mengamankan jaringan.
+ARA is a native token or fuel unit code needed to support network sustainability. This ARA is used to secure the system from DoS attacks and provide _rewards_ to validators who have secured the network.
 
-## Nominator
+## Nominee
 
-adalah individu yang ikut berpartisipasi sebagai validator namun tidak dalam bentuk node/komputer
-tetapi dalam bentuk _stake_ dengan meminjamkan ARA ke validator agar validator memiliki kesempatan
-besar terpilih sebagai pembuat blok di setiap putarannya. Nominator mendapatkan _rewards_ sesuai
-dengan nilai yang di-_stake_ dan prosentase bagi hasil yang ditetapkan oleh validator.
+Nominees are individuals who participate as validators but not in the form of nodes/computers. The nominees are in the form of stakes by lending ARA to certain validators so that the validator has a greater chance of being selected as a block creator in each round. Nominees get _rewards_ according to the staked value with the profit sharing percentage set by the validator.
 
 ## DApps
 
-_Distributed Apps_ adalah aplikasi yang dibuat untuk bisa jalan di atas jaringan rantai blok.
+_Distributed Apps_ are applications that are built to run on a blockchain network.
 
-## Kontrak Pintar
+## Smart Contract
 
-_Smart Contract_ adalah sebuah perjanjian antara beberapa pihak yang ditulis menggunakan kode
-komputer. Kontrak pintar bisa bertransaksi secara mandiri sesuai yang ditulis di kontrak tanpa perlu
-pihak ketiga untuk mengeksekusi dan memvalidasinya.
+_Smart Contract_ is an agreement between several parties written using computer code. Smart contracts can transact independently as written in the contract without the need for a third party to execute and validate it.
 
-## Kriptografi
+## Cryptography
 
-Merupakan keilmuan untuk mengamankan transaksi elektronik menggunakan sandi-sandi yang dikalkulasi
-secara matematis. Kriptografi bisa digunakan untuk memverifikasi kebenaran data, memverifikasi
-kebenaran pengirim data, dan mengacak data agar hanya yang memiliki kuncinya yang bisa membacanya.
+Cryptography is a field which disscuss how to secure electronic transactions using mathematically calculated passwords. Cryptography can be used to verify the correctness of the data, the correctness of the sender of the data, and to scramble the data so that only the owner of the key can read it.
 
-## Token
+## Tokens
 
-Adalah unit yang digunakan untuk membatasi akses pada sumber daya yang ada. Contoh token listrik
-membatasi pengguna menggunakan listrik melebihi dari token yang ada, token bank membatasi orang
-hanya yang memegang token tersebut yang bisa melakukan transaksi.
+A token is a unit used to restrict access to an existing resource. Examples of tokens are tokens from electricity companies that restrict users from using more electricity than existing tokens and tokens from banks that limit only those token holders who can make transactions.
 
-## Konsensus
+## Consensus
 
-Adalah kesepakatan bersama, dalam konteks rantai blok, contoh penggunaan konsensus adalah ketika
-tercipta blok baru maka semua validator akan memvalidasinya untuk memastikan apakah blok tersebut
-valid atau tidak, apabila mayoritas validator mengatakan valid maka blok tersebut akan ditulis di
-jaringan.
+Consensus is a collective agreement in the context of a block chain. An example of using consensus is when a new block is created, all validators will validate it to determine whether the block is valid or not. If the majority of validators say valid then the block will be written on the network.
 
 ## Web3
 
-merupakan spesifikasi untuk web generasi ke-3. Web generasi ke-3 adalah generasi web masa depan yang
-dirancang dengan tujuan agar pengguna bisa bertransaksi secara langsung dari pengguna satu dengan
-pengguna lainnya tanpa perlu perantara (pihak ketiga) yang biasanya ada di lapisan aplikasi
-(application layer). Di Web3 interaksi langsung ini bisa dilakukan di lapisan protokol (protocol
-layer).
+Web3 is a specification for the 3rd generation web. The 3rd generation web is a future web generation designed with the aim that users can transact directly from one user to another without the need for intermediaries (third parties) which usually exist in the application layer. In Web3 this direct interaction can be done at the protocol layer.
 
 ## PoW
 
-_Proof of work_ adalah mekanisme dalam _blockchain_ yang digunakan untuk mengamankan jaringan dari
-serangan dan sebagai bukti publik bahwa seseorang telah melakukan pekerjaannya dalam mengamankan
-sehingga layak untuk mendapatkan _rewards_.
+_Proof of work_ is a mechanism in _blockchain_ that is used to secure the network from attacks. PoW also serves as public proof that a person has done his or her job of securing and is therefore worthy of _rewards_.
 
 ## Testnet
 
-Adalah jaringan untuk ujicoba, biasanya digunakan oleh para pengembang dalam membangun aplikasi di
-jaringan _blockchain_ sebelum di-deploy ke jaringan utama (Mainnet).
+Is a network for testing, usually used by developers in building applications on the blockchain network before deploying to the main network (Mainnet).
 
 ## Off-chain Worker
 
-Adalah mekanisme dalam menangani operasi _non deterministic_ dan hanya tersedia di luar jaringan
-_blockchain_, seperti pemanggilan fungsi Rest API dari layanan luar.
+Is a mechanism for handling non-deterministic operations and is only available outside the blockchain network, such as calling Rest API function from an outside service.

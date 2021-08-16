@@ -1,46 +1,31 @@
 ---
-id: welcome
-title: Selamat Datang
-sidebar_label: Selamat Datang
+ID: welcome
+title: Welcome
+sidebar_label: Welcome
 ---
 
-Selamat datang di Nusantara Chain/Rantai Nusantara. Website ini berisi informasi tentang Nuchain dan
-cara memanfaatkan jaringan Nuchain.
+Welcome to Nusantara Chain. This website contains information about Nuchain and how to use the Nuchain network.
 
-## Apa itu Nuchain?
+## What is Nuchain?
 
-Nuchain adalah sistem terdistribusi ([blockchain](https://id.wikipedia.org/wiki/Rantai_blok)) _as a
-service_. Didesain sebagai platform pengembangan aplikasi terdistribusi yang kuat dan aman. Nuchain
-Dikembangkan secara _open source_ dan kodenya bisa diakses secara publik di
-[Github](https://github.com/nusantarachain).
+Nuchain is a distributed system ([blockchain](https://id.wikipedia.org/wiki/block_chain)) _as a service_. Designed as a robust and secure distributed application development platform, Nuchain is developed _open source_ and the code is publicly accessible on [Github](https://github.com/nusantarachain).
 
-Saat ini nuchain dikembangkan di bawah naungan yayasan Rantai Nusantara Teknologi (RNT), sebuah
-organisasi non profit yang bertujuan memajukan ekosistem digital di Indonesia khususnya pada
-aplikasi desentral.
+Currently, nuchain is being developed by the Rantai Nusantara Teknologi (RNT), a non-profit organization that aims to advance the digital ecosystem in Indonesia, especially in the area of decentralized applications.
 
-Yayasan Rantai Nusantara Teknologi telah terdaftar di Kemenkumham RI dengan nomor
-**AHU-0017288.AH.01.04**, tahun 2021.
+The Rantai Nusantara Teknologi (RNT) has been registered with the Ministry of Law and Human Rights of Indonesia under the registration number **AHU-0017288.AH.01.04** in 2021.
 
-## Motivasi
+## Motivation
 
-Nuchain diciptakan dengan tujuan untuk menyongsong Web generasi ke 3 (Web 3.0) melalui sistem
-terdistribusi dan aman yang disebut dengan rantai blok
-([blockchain](https://id.wikipedia.org/wiki/Rantai_blok)).
+Nuchain was created with the aim of welcoming the 3rd generation Web (Web 3.0) through a distributed and secure system called blockchain ([blockchain](https://id.wikipedia.org/wiki/block_chain)).
 
-## Mengapa Blockchain?
+## Why Blockchain?
 
-- Hampir semua aplikasi internet yang ada saat ini berjalan secara terpusat (centralized), salah
-  satu semangat Web 3.0 adalah aplikasi terdistribusi. Blockchain yang secara alamiahnya adalah
-  sistem terdistribusi bisa dijadikan fondasi untuk menuju era aplikasi internet terdistribusi.
-- Keamanan, sistem blockchain diamankan menggunakan kriptografi di lapisan paling dasarnya,
-  memberikan jaminan keamanan tinggi.
-- Blockchain merupakan _trustless system_ sangat bisa diandalkan untuk membangun aplikasi yang
-  membutuhkan jaminan legitimasi tanpa perlu mempercayai satu sama lain.
+- Almost all internet applications that exist today run centrally (centralized). One of the passions of Web 3.0 is the widespread use of distributed applications. Blockchain, which is a distributed system by nature, can be used as the foundation for the era of distributed internet applications.
+- Security. The blockchain system is secured using cryptography at its most basic layer, providing high security guarantees.
+- Blockchain is a very reliable _trustless system_ to build applications that require legitimacy guarantees without the need to trust each other.
 
-Nuchain bukan didesain untuk menjadi _crypto currency_, tetapi sebagai platform aplikasi
-terdistibusi (DApps) yang nantinya akan menjadi ekosistem baru di era teknologi digital yang
-membutuhkan keterbukaan, kejelasan, legitimasi, dan _good governance_.
+Nuchain is not designed to be a _crypto currency_, but as a distributed application platform (DApps) which will later become a new ecosystem in the era of digital technology that requires openness, clarity, legitimacy, and good governance.
 
-## Mulai Pertama
+## First Start
 
-Baca panduan awal untuk [memulai menggunakan Nuchain](../learn/main).
+Read the initial guide to [getting started with Nuchain](../learn/main).

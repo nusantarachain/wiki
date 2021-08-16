@@ -156,33 +156,33 @@
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
   "frontpage.welcomeTo": {
-    "message": "Selamat Datang di"
+    "message": "Welcome to"
   },
   "frontpage.welcomeToWebGen3": {
-    "message": "Web Generasi ke 3"
+    "message": "The third generation of web"
   },
   "frontpage.welcomeToGiveYou": {
-    "message": "Sebuah Dunia yang memberikan Anda"
+    "message": "A world that gives you"
   },
   "frontpage.msg.securePrivacy": {
-    "message": "Keamanan pada privasi"
+    "message": "secure privacy"
   },
   "frontpage.msg.ownedAssets": {
-    "message": "Kepemilikan aset digital"
+    "message": "ownership of digital asset"
   },
   "frontpage.msg.selfDataControl": {
-    "message": "Kekuasaan data sendiri"
+    "message": "your self data control"
   },
   "frontpage.msg.mediumNoThirdParty": {
-    "message": "Sarana tanpa perantara"
+    "message": "means without third party"
   },
   "frontpage.msg.transparency": {
-    "message": "Transparansi dalam proses"
+    "message": "transparency in processes"
   },
   "frontpage.enterButton": {
-    "message": "Masuk!"
+    "message": "Enter"
   },
   "text.nextGenWebPlatform": {
-    "message": "Platform Web Generasi ke 3.0"
+    "message": "The third generation of web platform"
   }
 }

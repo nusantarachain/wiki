@@ -4,46 +4,37 @@ title: Build
 sidebar_label: Intro
 ---
 
-Nuchain mendukung pengembangan aplikasi di atas _blockchain_ (on-chain app) yang biasa disebut juga
-dengan _smart contract_.
+Nuchain supports development of on-chain application, called _smart contract_. 
 
-Saat ini Nuchain secara _native_ memilik fitur untuk membangun aplikasi berbasis:
+At the moment, Nuchain has a native fiture for creating app based on:
 
 - DIDs (Decentralized Identifiers)
-- Organisasi
+- Organization
 - DAO (Decentralized Autonomous Organization).
 - Supply Chain.
 - Digital Certificate Platform.
 - NFT (Non Fungible Token).
 
-Semua fungsi yang dibutuhkan bisa diakses menggunakan [Ekstrinsik](../learn/learn-extrinsic.md).
+All required functions are easily accessed using [Extrinsic](../learn/learn-extrinsic.md)
 
-## Pengembangan
+## Development
 
-Ada dua cara memanfaatkan jaringan di Nuchain untuk membangun aplikasi:
+Utilising network in Nuchain to create application are possible in two means. 
 
-Yang pertama adalah dengan menggunakan [_smart contract_](../general/glossary.md#kontrak-pintar).
-Anda bisa membangun [DApps](../general/glossary.md#dapps) di atas jaringan Nuchain. Contoh kode
-untuk [DApps](../general/glossary.md#dapps) bisa dilihat di
-[onchain-apps](https://github.com/nusantarachain/onchain-apps).
+The first one is by utilising [_smart contract_](../general/glossary.md#kontrak-pintar). You can build [DApps](../general/glossary.md#dapps) on Nuchain network. Examples of code for [DApps](../general/glossary.md#dapps) can be found at [onchain-apps](https://github.com/nusantarachain/onchain-apps). 
 
-Yang kedua adalah dengan membuat modul pada _runtime_. Apabila dalam mengembangkan aplikasi ada
-kebutuhan khusus yang tidak bisa dilakukan di
-[_smart contract_](../general/glossary.md#kontrak-pintar) maka bisa membuat modul di _runtime_.
-Namun perlu dicatat bahwa setiap perubahan atau penambahan yang akan dibuat di _runtime_ harus
-memenuhi kriteria dan sarat khusus, karena perubahan di dalam _runtime_ sifatnya _global_ dan perlu
-melakukan _upgrade_ system.
+The second one is by creating module on _runtime_. This way is applicable especially for special cases that can not utilise [_smart contract_](../general/glossary.md#kontrak-pintar). However, you should pay attention that any change made in runtime should meet special criteria and requirements. The changes that has been made is _global_, therefore, you need to _upgrade_ the system. 
+
+
 
 ## Testnet
 
-Untuk mempermudah proses development Anda bisa menggunakan [jaringan](network.md)
-[Testnet](../general/glossary.md#testnet). Jaringan Testnet Nuchain bisa diakses melalui
-[dashboard](https://dashboard.nuchain.network), caranya:
+You can use [network](network.md) for easier development processes. 
+[Testnet](../general/glossary.md#testnet). The Testnet network of Nuchain is accessed by visiting [dashboard](https://dashboard.nuchain.network). The steps are:
+1. Visit web app [dashboard](https://dashboard.nuchain.network).
+2. Change the network by clicking Nuchain logo at top-left corner of your screen. In the "LIVE NETWORKS" choose menu "Nuchain Testnet" _hosted by Rantai Nusantara_.
 
-1. Kunjungi web app [dashboard](https://dashboard.nuchain.network).
-2. Kemudian ganti jaringan dengan cara klik logo Nuchain di sebelah kiri atas, lalu pada "LIVE
-   NETWORKS" pilih menu "Nuchain Testnet" _hosted by Rantai Nusantara_.
 
 ![How to change Nuchain Testnet](/img/change-network-testnet.png)
 
-3. Klik tombol "Switch" dan Anda sudah masuk jaringan Testnet.
+3. Click on the button "Switch" to enter the Testnet network

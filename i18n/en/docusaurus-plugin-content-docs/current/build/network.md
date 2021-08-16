@@ -1,59 +1,53 @@
 ---
 id: network
-title: Jaringan Nuchain
-sidebar_label: Jaringan
+title: Nuchain Network 
+sidebar_label: Network
 ---
 
-Di Nuchain ada ada dua jaringan: [Mainnet](../general/glossary.md#mainnet) dan
+There are two networks in Nuchain: [Mainnet](../general/glossary.md#mainnet) and
 [Testnet](../general/glossary.md#testnet).
 
-Mainnet adalah jaringan utama Nuchain, jaringan ini telah berjalan sejak bulan Februari tahun 2021.
-Sementara Testnet adalah jaringan ujicoba yang biasanya digunakan oleh para pengembang untuk
-membanun aplikasi di atas jaringan Nuchain.
+Mainnet, which is the main network of Nuchain, has been working since February 2021
+Testnet is the network for trials. This network is usually used by developer for developing applications on the Nuchain network.
 
-Baik jaringan Mainnet maupun Testnet berasal dari genesis yang sama:
+Both Mainnet and Testnet come from same genesis
 
 `0x789d2c1f6bd2948577506b4fa65d8f7c5b821eacc8612d0c86ff6a20994e5649`
 
 ## Daftar Nodes
 
-Dan berikut adalah daftar _nodes_ yang dihosting oleh Rantai Nusantara Foundation:
+Below is the lists of _nodes_ that are hosted by Rantai Nusantara Foundation.
 
 #### Mainnet
 
-- `sg.node.nuchain.network` (Singapura)
+- `sg.node.nuchain.network` (Singapore)
 - `id.node.nuchain.network` (Indonesia)
 - `in.node.nuchain.network` (India)
-- `jp.node.nuchain.network` (Jepang)
-- `ca.node.nuchain.network` (Kanada)
-- `us.node.nuchain.network` (Amerika Serikat)
+- `jp.node.nuchain.network` (Japan)
+- `ca.node.nuchain.network` (Canada)
+- `us.node.nuchain.network` (United States)
 
 #### Testnet
 
 - `testnet.nuchain.riset.tech` (Indonesia)
 
-## Lokal
+## Local
 
-Nuchain bisa juga dijalankan di jaringan intranet lokal tanpa perlu terhubung dengan jaringan utama
-(mainnet) maupun jaringan test (testnet). Jaringan lokal ini sangat membantu ketika kita ingin
-mencoba sistem secara terisolir dan dengan akun preset yang telah memiliki token.
+Nuchain also runs in the local network without need to connect to the Mainnet and Testnet. The local network is helpful for testing isolated systems and testing account preset that has tokens.
 
-Untuk menjalankan Nuchain di jaringan lokal kita bisa menjalankan Nuchain dengan parameter `--dev`:
+To run Nuchain in local network, use parameter `--dev`:
 
 ```console
 ./nuchain --dev
 ```
 
-Apabila kita ingin _storage_-nya bersifat temporer (hilang ketika restart), yang mana sangat
-bermanfaat ketika sedang mengembangkan modul Nuchain di lapisan _runtime_, maka Anda bisa
-menjalankannya dengan penambahan parameter `--tmp`:
+If you want the storage used as temporary (will be deleted automatically after restart), you can run the Nuchain by adding parameter `--tmp`. This features is beneficial for those who develops Nuchain module on _runtime_ layer.
 
 ```console
 ./nuchain --dev --tmp
-```
+``` 
 
-Tersedia juga pre built docker image apabila Anda ingin menjalankannya di platform yang belum
-tersedia pre compiled binary-nya dan tidak mau repot dengan proses kompilasi:
+Pre built docker image is also available for those who want to run Nuchain on the platform that has no pre compiled binary and those who does not want to bother with the compilation process:
 
 ```bash
 docker run --rm anvie/nuchain:latest nuchain --dev --tmp
@@ -61,5 +55,5 @@ docker run --rm anvie/nuchain:latest nuchain --dev --tmp
 
 ## Telemetry
 
-Anda bisa memantau semua aktifitas jaringan Nuchain melalui _telemetry_ di
+You can monitor all activities that are running in the Nuchain network through _telemetry_ in
 [telemetry.nuchain.network](https://telemetry.nuchain.network/#/Nuchain).

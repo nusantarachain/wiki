@@ -5,91 +5,69 @@ sidebar_label: FAQ
 ---
 
 <!--
-Dokumen ini dibagikan menjadi tiga topik utama:
+This document is divided into three main topics:
 
-- [Teknikal](faq-technical) untuk yang berkaitan dengan pengembangan aplikasi di Nuchain.
-- [Pemelihara Jaringan](faq-network-maintainer) untuk yang berkaitan dengan pemeliharaan jaringan
-  Nuchain seperti mekanisme validator dan nominator.
-- [General](faq-general) untuk yang berkaitan dengan pertanyaan seputar Nuchain secara general. -->
+- [Technical](faq-technical) for those related to application development on Nuchain.
+- [Network Maintainer](faq-network-maintainer) for those related to network maintenance of Nuchain such as a validator and nominee mechanism.
+- [General](faq-general) for questions related to Nuchain in general. -->
 
-## Bagaimana cara menjadi validator?
+## How to become a validator?
 
-Baca: [cara menjadi validator](../learn/become-validator.md)
+Read: [how to become a validator](../learn/become-validator.md)
 
-## Kenapa validator saya berada di waiting list terus?
+## Why is my validator on the waiting list all the time?
 
-Ini berkaitan dengan maksimal validator pada Nuchain yang bisa dilihat di bagian **Staking** >
+This relates to the maximum number of validator on Nuchain which can be seen in the **Staking** section >
 **Staking overview**
 
-![maksimal validator](https://i.imgur.com/8snPCSR.png)
+![maximum validator](https://i.imgur.com/8snPCSR.png)
 
-Apabila jumlah validator telah mencapai batas maksimal maka sistem akan melakukan mekanisme
-pemilihan untuk menentukan siapa yang layak untuk masuk ke jajaran validator yang mana kelayakannya
-ditentukan oleh beberapa hal:
+If the number of validators has reached the maximum limit, the system will perform a mechanism of election to determine who is eligible to enter the ranks of validators. The eligiblity is determined by several things:
 
-1. Ketersediaan mesin validator yang selalu aktif/online. Jadi kalau mesin posisi mati atau sering
-   mati maka akan jarang terpilih.
-2. Jumlah _stake_ yang dijaminkan, semakin tinggi jumlah _stake_ yang dijaminkan semakin tinggi
-   kemungkinan terpilih sebagai validator.
+1. Availability of validator engine which is always active/online. If the engine is in off position or being off frequently, it will rarely be selected.
+2. The number of guaranteed _stakes_. If the number of guaranteed _stakes_ is higher, then the probability of being selected as a validator is also higher
 
-## Berapa stake minimal untuk bisa selalu terpilih sebagai validator?
+## What is the minimum stake to always be selected as a validator?
 
-Tidak ada jumlah stake minimal, tetapi apabila batas maksimal jumlah validator telah tercapai
-validator yang tidak masuk butuh _stake_ lebih besar dari _stake_ validator terkecil saat ini untuk
-bisa menggantikannya, untuk melihat berapa nilai _stake_ terkecil pada validator saat ini bisa lihat
-bagian **Staking** > **Targets**:
+There is no minimum stake. But if the maximum number of validators has been reached, the candidate validator needs need a _stake_ greater than the current smallest validator _stake_ to be able to replace it. To see what is the smallest _stake_ value in the current validator, see
+**Staking** section > **Targets**:
 
-![Minimal rata-rata stake nuchain](https://i.imgur.com/OTA9AfB.png)
+![Minimum average nuchain stake](https://i.imgur.com/OTA9AfB.png)
 
-## Kapan validator dipilih?
+## When is the validator selected?
 
-Validator dipilih oleh sistem setiap akhir sesi (4 jam sekali).
+The validator is selected by the system at the end of each session (4 hours).
 
-## Saya telah menjadi validator tapi setelah sekian hari tidak mendapatkan _rewards_?
+## I have become a validator but after so many days not getting _rewards_?
 
-Ada beberapa kemungkinan:
+There are several possibilities:
 
-1. **Belum terpilih** - pastikan validator Anda telah masuk ke daftar validator aktif, bisa lihat
-   [di dashboard bagian staking](https://dashboard.nuchain.network/#/staking). Apabila belum
-   kemungkinan validator Anda berada di bagian _waiting_ yang artinya belum terpilih oleh sistem.
-2. **Belum di-payout** - validator mendapatkan _rewards_ di setiap akhir era, dimana user perlu
-   melakukan _payout_ untuk mencairkan ARA-nya. Cara _payout_ bisa baca
-   [di sini](https://github.com/nusantarachain/nuchain/wiki/Payout).
-3. **Mesin mati** - mesin yang digunakan untuk validator mati atau tidak aktif sehingga tidak
-   membuat blok sama sekali.
-4. **Belum dihubungkan** - mesin validator belum dihubungkan menggunakan _session key_, baca
-   [cara menjadi validator](../learn/become-validator.md) untuk melihat cara menghubungkannya.
+1. **Not selected** - make sure your validator has been in the list of active validators. You can see it [in the staking section of the dashboard](https://dashboard.nuchain.network/#/staking). If you can not find your validator in the list, your validator might be in the _waiting_ section which means that it hasn't been selected by the system.
+2. **Unpaid** - validator earns _rewards_ at the end of each era, where users need to do _payout_ to cash out their ARA. You can read the _payout_ method [here](https://github.com/nusantarachain/nuchain/wiki/Payout).
+3. **Machine off** - the engine used for the validator is off or inactive so it doesn't create any blocks at all.
+4. **Not yet connected** - the validator engine has not been connected using the _session key_. Read [how to become a validator](../learn/become-validator.md) to see how to connect it.
 
-## Apakah Nuchain mendukung Smart Contract?
+## Does Nuchain support Smart Contracts?
 
-Ya, Nuchain mendukung Smart Contract, contoh aplikasi Smart Contract-nya bisa lihat
-[di sini](https://github.com/nusantarachain/onchain-apps).
+Yes, Nuchain supports Smart Contracts, you can see an example of the Smart Contract application
+[here](https://github.com/nusantarachain/onchain-apps).
 
-## Apakah ada program Faucet?
+## Is there a Faucet program?
 
-Ya, ada dari komunitas: [https://faucet.nuchain.id](https://faucet.nuchain.id/).
+Yes, there is a Faucet program from the community: [https://faucet.nuchain.id](https://faucet.nuchain.id/).
 
-## Apa itu Era
+## What is Era?
 
-Era adalah putaran waktu yang di dalamnya terdiri dari beberapa sesi, pada Nuchain 1 era setara
-dengan 24 jam. Era ini memudahkan sistem dalam menghitung _rewards_ dan melakukan perubahan yang
-terjadwal.
+An era is a time loop that consists of several sessions. In Nuchain an era is equivalent to 24 hours. The era ease the system in calculating _rewards_ and make scheduled changes.
 
-## Ketika saya menjadi validator aktif dan komputer validator saya mati, apakah ada efeknya?
+## When I become an active validator and my validator computer shuts down, is there any effect?
 
-Ya ada, apabila komputer yang dijadikan validator mati atau membuat _malicious block_ ada
-kemungkinan sistem akan menghukum dengan cara memotong (slashing) **stake** yang Anda jaminkan
-(**bond**). Adapun besaran nilai yang dipotong dinamis tergantung seberapa membahayakan sebuah
-aktifitas tersebut pada jaringan.
+Yes. If the computer that is used as the validator off or creates a _malicious block_, there is a possibility that the system will give punishment by slashing the **stake** that you guarantee (**bond**). The value that is cut is dynamic, depending on how dangerous an activity is on the network.
 
-## Apa yang dimaksud `sync` ketika menjalankan node pertama kali
+## What does `sync` mean when running node for the first time?
 
-Ketika menjalankan _nuchain node_ untuk pertama kali maka _node_ akan melakukan proses singkronisasi
-untuk mendapatkan seluruh data blok di jaringan, proses ini akan memakan waktu yang lumayan lama
-ketika blok sudah sangat banyak, untuk mempercepat proses singkronisasi Anda bisa download _presync_
-data berikut:
+When you run _nuchain node_ for the first time, _node_ will synchronize to get all data blocks on the network. This process takes a long time when there are too many blocks. To speed up the synchronization process, you can download the following _presync_ data:
 
-- [Nuchain Data 1 April 2021 full RocksDB](http://dmcd6hvaqrxz0.cloudfront.net/nuchain/presync-data/nuchain-snapshot-20210401-full-rocks.7z)
+- [Nuchain Data April 1, 2021 full RocksDB](http://dmcd6hvaqrxz0.cloudfront.net/nuchain/presync-data/nuchain-snapshot-20210401-full-rocks.7z)
 
-Extract menggunakan [7zip](https://www.7-zip.org/) dan arahkan _Nuchain node_ ke data tersebut
-menggunakan parameter `--base-path`.
+Extract using [7zip](https://www.7-zip.org/) and point _Nuchain node_ to the data using the `--base-path` parameter.

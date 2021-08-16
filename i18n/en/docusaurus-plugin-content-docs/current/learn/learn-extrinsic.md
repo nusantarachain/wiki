@@ -1,50 +1,43 @@
 ---
-id: learn-extrinsic
-title: Ekstrinsik
-sidebar_label: Ekstrinsik
+en: learn-extrinsic
+title: Extrinsic
+sidebar_label: Extrinsic
 ---
 
-Ekstrinsik adalah istilah untuk mengeksekusi transaksi atau operasi di dalam jaringan yang bersifat
-_mutable_, artinya operasi akan mempengaruhi state/data di dalam jaringan.
+Extrinsic is a term for executing transactions or operations on the network that are _mutable_, meaning that operations will affect state/data on the network.
 
-Ada dua cara untuk mengakses ekstrinsic:
+There are two ways to access extrinsic:
 
-## Menggunakan Dashboard
+## Using Dashboard
 
-Cara paling mudah adalah dengan menggunakan [dashboard Nuchain](https://dashboard.nuchain.network).
-Cara ini biasanya digunakan untuk ujicoba atau eksplorasi saja. Cara yang praktikal adalah dengan
-diprogram, lihat bagian [Programmatic](#programmatic).
+The easiest way is to use [Nuchain dashboard](https://dashboard.nuchain.network). This method is usually used for testing or exploration only. The practical way is the programmatic way, see the section [Programmatic](#programmatic).
 
-Kita bisa mengakses fungsi ekstrinsik melalui
-[dashboard Nuchain](https://dashboard.nuchain.network) > menu **Ekstrinsik**:
+You can access extrinsic functions via [Nuchain dashboard](https://dashboard.nuchain.network) > **Extrinsic**: menu
 
-![Menu Ekstrinsik](/img/extrinsics-menu.png)
+![Extrinsic Menu](/img/extrinsics-menu.png)
 
-Pada halaman **Ekstrinsik** akan ditemukan antar muka yang memudahkan kita untuk melakukan
-pemanggilan fungsi berdasarkan modul yang tersedia di Nuchain:
+On the **Extrinsic** page you will find an interface that makes it easy for you to call function based on the modules available in Nuchain.
 
-![Submisi Ekstrinsik](/img/extrinsic-submission.png)
+![Extrinsic Submission](/img/extrinsic-submission.png)
 
-Contoh pada gambar tersebut adalah apabila kita ingin mentransfer ARA ke akun lain melalui fungsi
-ekstrinsik menggunakan modul `balances` dengan nama fungsi `transfer`.
+The above image is an example of transferring an ARA to another account via an extrinsic function using the `balances` module with the function name `transfer`.
 
 ## Programmatic
 
-Nuchain menyediakan [pustaka javascript](https://github.com/nusantarachain/api) untuk mempermudah
-mengakses ekstrinsic secara terprogram.
+Nuchain provides a [javascript library](https://github.com/nusantarachain/api) to make it easier to access extrinsic programmatically.
 
-Contoh melakukan transfer secara terprogram:
+Example of doing transfer programmatically:
 
 ```javascript
 const api = await ApiPromise.create({
   provider: new WsProvider(NUCHAIN_NODE_ADDRESS),
 });
 
-// lakukan pemanggilan fungsi ekstrinsik
-// di modul `balances` fungsi `transfer`.
+// make extrinsic function calls
+// in the `balances` module of the `transfer` function.
 api.tx.balances.transfer(recipient, 100).signAndSend(sender, ({ status, events }) => {
   if (status.isInBlock || status.isFinalized) {
-    console.log("transfer sukses!");
+    console.log("Transfer successful!");
   }
 });
 ```

@@ -1,44 +1,38 @@
 ---
 id: build-organization
-title: Organisasi
-sidebar_label: Organisasi
+title: Organization
+sidebar_label: Organization
 ---
 
-Nuchain mendukung pembuatan organisasi di dalam _blockchain_.
+Nuchain supports the creation of organization in the _blockchain_ 
 
-Organisasi adalah objek yang sama seperti akun menggunakan _address_ yang sama seperti akun biasa
-bedanya organisasi tidak dikontrol secara langsung tetapi dikontrol oleh `admin` atau orang yang
-memiliki akses sebagai `admin` melalui delegasi [Decentralized ID](build-did.md).
+Organization uses same _address_ as regular acccount. The different is that an organization can not be controlled directly. Instead, organization is controlled by `admin` or by an account that is registered as delegated administrator [Decentralized ID](build-did.md). 
 
-Organisasi ini diperlukan untuk menggunakan fitur lainnya, seperti sertifikat digital, supply chain,
-dll.
+The existence of organisation is required for accessing digital certificates, supply chain, and other features. 
 
-### Membuat Organisasi
+### Creating organization
 
-Untuk mendaftar sebagai organisasi masuk ke [Nuchain Dashboard](https://nuchain.riset.tech) lalu
-menuju ke menu **Accounts** > **Organizations** kemudian klik tombol **+ Register**.
-`NOTE! Fitur organizations sementara baru tersedia di jaringan Testnet.`
+Registering organization is started by entering [Nuchain Dashboard](https://nuchain.riset.tech) then go to menu **Accounts** > **Organizations** and click button **+ Register**.
 
-Kemudian isi data dengan parameter sebagai berikut:
+`NOTE! At the moment, organization and its related features are only available in the Testnet network`
+
+Next stage is filling required data using parameter: 
 
 ![Set Session Key](https://i.imgur.com/WmVC5CU.png)
 
-Keterangan:
+Notes:
+- `name` - name of the organization
+- `description` - short description of the organization
+- `admin` - ID account that has access to the organization
+- `website` - URL website of the organization
+- `email` - Email of the organization
 
-- `name` - nama dari organisasi.
-- `description` - deskripsi singkat yang menjelaskan tentang organisasi.
-- `admin` - ID akun yang akan memiliki akses pada organisasi.
-- `website` - URL website organisasi.
-- `email` - Email organisasi.
-
-Kemudian masukkan **password** akun yang digunakan sebagai admin dan klik tombol **Sign and
-Submit**.
+Enter **password** of the account that is assigned as admin, and click the button **Sign and Submit**.
 
 ![Set Session Key](https://i.imgur.com/ks7Hyjh.png)
 
-Maka muncul organisasi yang telah dibuat di dashboard My organizations.
+The created organization will appear in dashboard My organizations.
 
 ![Set Session Key](https://i.imgur.com/PSbwVEP.png)
 
-**_Catatan:_** Pembuatan organisasi di jaringan Nuchain **membutuhkan biaya 10 ARA** (belum termasuk
-biaya transaksi) biaya ini akan masuk ke kebendaharaan.
+**_Note:_** Creating an organization in Nuchain network **costs 10 ARA** (excluding the transaction fee). The expenditure of creating organization will be recorded in the treasury.

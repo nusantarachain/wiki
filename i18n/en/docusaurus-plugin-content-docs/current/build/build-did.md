@@ -4,16 +4,14 @@ title: Decentralized Identifiers (DIDs)
 sidebar_label: Decentralized Identifiers
 ---
 
-Nuchain mendukung DIDs dan menjadikannya sebagai pondasi untuk mengontrol akses dan otorisasi pada
-objek di dalam Nuchain.
+Nuchain supports DIDs and use it as a base for controlling objects' access and otorization 
 
-## Apa itu Decentralized ID
 
-DIDs adalah sebuah mekanisme pengelolaan ID dan otorisasi tak terpusat. Konsep DIDs sangat
-_powerful_, karena memungkinkan kita mengakses berbagai layanan tanpa perlu menyerahkan data
-personal (privacy) pada pihak ketiga (aplikator).
+## What is Decentralized ID?
 
-Fungsi-fungsi DIDs pada _runtime_ bisa ditemukan di
+DIDs is a decentralized mechanism to manage ID and otorization. DIDs is _powerful_ since it allows you to access services without the need of giving away your personal data to third party applicator. 
+
+DIDs functions for _runtime_ can be found at
 [modul DIDs](https://github.com/nusantarachain/nuchain/tree/develop/frame/did).
 
-Implementasi DIDs mengikuti spesifikasi dari [W3C](https://w3c.github.io/did-core/)
+DIDs implementation follows specification from [W3C] (https://w3c.github.io/did-core/)

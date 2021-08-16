@@ -1,11 +1,8 @@
 ---
-id: faucet
+ID: faucet
 title: Faucet
 ---
 
-Merupakan program distribusi token [ARA](glossary.md#ara) secara gratis untuk para pengadopsi awal
-(early adopter). Tujuannya adalah agar siapa saja yang tertarik menggunakan layanan Nuchain bisa
-segera mencoba dan ikut berkontribusi sebagai validator.
+This is a free [ARA](glossary.md#ara) token distribution program for early adopters. The goal is that anyone who is interested in using Nuchain's services can immediately try and contribute as a validator.
 
-Untuk mengikuti program faucet bisa buka [faucet.nuchain.id](https://faucet.nuchain.id) dan ikuti
-panduannya.
+To join the faucet program, go to [faucet.nuchain.id](https://faucet.nuchain.id) and follow the guide.
