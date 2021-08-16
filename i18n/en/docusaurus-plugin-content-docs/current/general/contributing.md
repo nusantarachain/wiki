@@ -58,3 +58,4 @@ are Nuchain contributors:
 - Reza
 - Robin Shihab (anvie)
 - Ron (lantip)
+- Muhammad Zuhair Zahid
