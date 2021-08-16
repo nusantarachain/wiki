@@ -1,7 +1,7 @@
 ---
 id: community
-title: Komunitas
-sidebar_label: Komunitas
+title: Community
+sidebar_label: Community
 ---
 
 The Nuchain community is expanding every day. Below are the most essential links to the community
