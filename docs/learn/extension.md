@@ -21,7 +21,7 @@ Untuk sementara ini hingga mayoritas peramban mendukung Web3, maka kita membutuh
 mengakses jaringan Nuchain, alat bantu ini berupa _browser extension_, yang bisa Anda dapatkan di:
 
 1. [Nuchain App untuk peramban Chrome](https://chrome.google.com/webstore/detail/nuchain-app/hfcdboaniimgkememgmilhmnkdgggkne)
-2. [Nuchain App untuk peramban Firefox](#)
+2. [Nuchain App untuk peramban Firefox](https://addons.mozilla.org/en-US/firefox/addon/nuchain-app/)
 
 Setelah terpasang di peramban maka akan muncul icon Nuchain seperti pada gambar berikut:
 
