@@ -154,5 +154,35 @@
   "theme.common.skipToMainContent": {
     "message": "Skip to main content",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "frontpage.msg.securePrivacy": {
+    "message": "Keamanan pada privasi"
+  },
+  "frontpage.msg.ownedAssets": {
+    "message": "Kepemilikan aset digital"
+  },
+  "frontpage.msg.selfDataControl": {
+    "message": "Kedaulatan data"
+  },
+  "frontpage.msg.mediumNoThirdParty": {
+    "message": "Sarana tanpa perantara"
+  },
+  "frontpage.msg.transparency": {
+    "message": "Transparansi dalam proses"
+  },
+  "frontpage.welcomeTo": {
+    "message": "Selamat Datang di"
+  },
+  "frontpage.welcomeToWebGen3": {
+    "message": "Web Generasi ke 3"
+  },
+  "frontpage.welcomeToGiveYou": {
+    "message": "Sebuah Dunia yang memberikan Anda"
+  },
+  "frontpage.enterButton": {
+    "message": "Masuk!"
+  },
+  "text.nextGenWebPlatform": {
+    "message": "Platform Web Generasi ke 3.0"
   }
 }

@@ -60,3 +60,4 @@ adalah para kontributor Nuchain:
 - Reza
 - Robin Syihab (anvie)
 - Rony (lantip)
+- Muhammad Zuhair Zahid
