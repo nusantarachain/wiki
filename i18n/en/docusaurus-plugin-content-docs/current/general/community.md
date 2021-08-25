@@ -12,11 +12,12 @@ prior contact and anyone doing so is likely trying to scam you.
 
 - [Nuchain GitHub](https://github.com/nusantarachain/nuchain/) - Source repository for Nuchain.
 
-## Matrix Chats
+## Chats / Discussion
 
-- [Nuchain Lounge](https://app.element.io/#/room/!aYWUxhUvutqbMBQIsN:matrix.org) - All about Nuchain
-  discussion.
+- [Nuchain Lounge (Telegram)](https://t.me/nusantarachain) - All about nuchain in general
+- [Nuchain Technical (Matrix)](https://app.element.io/#/room/!aYWUxhUvutqbMBQIsN:matrix.org) - All about technical
 
 ### Social media and forums
 
-- [Nuchain Twitter](https://twitter.com/nusantarachain)
+- [Twitter (@nusantarachain)](https://twitter.com/nusantarachain)
+- [Youtube](https://www.youtube.com/channel/UC2of6i3ywKX5xyMvcPZt8AQ)
