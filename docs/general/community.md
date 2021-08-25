@@ -16,7 +16,6 @@ prior contact and anyone doing so is likely trying to scam you.
 
 - [Nuchain Lounge (Telegram)](https://t.me/nusantarachain) - All about nuchain in general
 - [Nuchain Technical (Matrix)](https://app.element.io/#/room/!aYWUxhUvutqbMBQIsN:matrix.org) - All about technical
-  discussion.
 
 ### Social media and forums
 
