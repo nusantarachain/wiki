@@ -93,3 +93,12 @@ data berikut:
 
 Extract menggunakan [7zip](https://www.7-zip.org/) dan arahkan _Nuchain node_ ke data tersebut
 menggunakan parameter `--base-path`.
+
+## Gagal Kompilasi error "expected comma after minor version number, found '\t'"
+
+Apabila menemukan error seperti ini maka perlu melakukan update untuk dependensi parity-db dengan
+cara:
+
+```bash
+cargo update -p parity-db
+```

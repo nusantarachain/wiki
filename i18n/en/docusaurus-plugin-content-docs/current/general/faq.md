@@ -92,3 +92,11 @@ synchronization process, you can download the following _presync_ data:
 
 Extract using [7zip](https://www.7-zip.org/) and point _Nuchain node_ to the data using the
 `--base-path` parameter.
+
+## Got "expected comma after minor version number, found '\t'" error when compiling
+
+If you encounter error like this you need to update parity-db dependency by typing:
+
+```bash
+cargo update -p parity-db
+```

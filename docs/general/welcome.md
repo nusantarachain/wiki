@@ -44,3 +44,18 @@ membutuhkan keterbukaan, kejelasan, legitimasi, dan _good governance_.
 ## Mulai Pertama
 
 Baca panduan awal untuk [memulai menggunakan Nuchain](../learn/main).
+
+## Pranala
+
+Berikut adalah pranala-pranala penting di dalam ekosistem nuchain:
+
+- [Dashboard](https://dashboard.nuchain.network/) - web app serba guna untuk berinteraksi dengan
+  ekosistem nuchain.
+- [Telemetry](https://telemetry.nuchain.network/#/Nuchain) - peta jaringan validator.
+- [Komunitas](community) - kanal dan jaringan komunitas nuchain.
+- [Nuchain App untuk Android](https://play.google.com/store/apps/details?id=network.nuchain.app) -
+  Mobile app serba guna untuk berinteraksi dengan ekosistem nuchain.
+- [Nuchain App untuk peramban Chrome](https://chrome.google.com/webstore/detail/nuchain-app/hfcdboaniimgkememgmilhmnkdgggkne) -
+  browser extension.
+- [Nuchain App untuk peramban Firefox](https://addons.mozilla.org/en-US/firefox/addon/nuchain-app/) -
+  browser extension.

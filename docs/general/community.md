@@ -4,9 +4,11 @@ title: Komunitas
 sidebar_label: Komunitas
 ---
 
-The nuchain community is expanding every day. Below are the most essential links to the community
-channels. Keep in mind that no admin or moderator will ever DM you for any reason whatsoever without
-prior contact and anyone doing so is likely trying to scam you.
+Komunitas nuchain terus berkembang setiap hari. Berikut adalah pranala-pranala penting bagi
+komunitas. Perlu diperhatikan bahwa tidak akan ada admin atau moderator yang akan menghubungi Anda
+secara privat (DM) untuk tujuan apapun tanpa perjanjian terlebih dahulu, dan apabila ada orang yang
+mengaku sebagai admin atau moderator nuchain yang mencoba melakukannya bisa dipastikan itu adalah
+penipuan.
 
 ## General
 
@@ -15,7 +17,8 @@ prior contact and anyone doing so is likely trying to scam you.
 ## Chats / Discussion
 
 - [Nuchain Lounge (Telegram)](https://t.me/nusantarachain) - All about nuchain in general
-- [Nuchain Technical (Matrix)](https://app.element.io/#/room/!aYWUxhUvutqbMBQIsN:matrix.org) - All about technical
+- [Nuchain Technical (Matrix)](https://app.element.io/#/room/!aYWUxhUvutqbMBQIsN:matrix.org) - All
+  about technical
 
 ### Social media and forums
 
