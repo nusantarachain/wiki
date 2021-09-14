@@ -56,6 +56,6 @@ Berikut adalah pranala-pranala penting di dalam ekosistem nuchain:
 - [Nuchain App untuk Android](https://play.google.com/store/apps/details?id=network.nuchain.app) -
   Mobile app serba guna untuk berinteraksi dengan ekosistem nuchain.
 - [Nuchain App untuk peramban Chrome](https://chrome.google.com/webstore/detail/nuchain-app/hfcdboaniimgkememgmilhmnkdgggkne) -
-  browser extension.
+  pengaya peramban.
 - [Nuchain App untuk peramban Firefox](https://addons.mozilla.org/en-US/firefox/addon/nuchain-app/) -
-  browser extension.
+  pengaya peramban.
