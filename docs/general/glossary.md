@@ -67,7 +67,7 @@ dibuatnya, _rewards_ ini berupa native token bernama ARA.
 
 ## ARA
 
-adalah kode unit native token atau bahan bakar yang diperlukan untuk menunjang keberlangsungan
+Adalah kode unit native token atau bahan bakar yang diperlukan untuk menunjang keberlangsungan
 jaringan. ARA ini digunakan untuk mengamankan sistem dari serangan DoS dan memberikan _rewards_
 kepada para validator yang telah mengamankan jaringan.
 

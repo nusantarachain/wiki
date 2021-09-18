@@ -87,12 +87,7 @@ aktifitas tersebut pada jaringan.
 Ketika menjalankan _nuchain node_ untuk pertama kali maka _node_ akan melakukan proses singkronisasi
 untuk mendapatkan seluruh data blok di jaringan, proses ini akan memakan waktu yang lumayan lama
 ketika blok sudah sangat banyak, untuk mempercepat proses singkronisasi Anda bisa download _presync_
-data berikut:
-
-- [Nuchain Data 1 April 2021 full RocksDB](http://dmcd6hvaqrxz0.cloudfront.net/nuchain/presync-data/nuchain-snapshot-20210401-full-rocks.7z)
-
-Extract menggunakan [7zip](https://www.7-zip.org/) dan arahkan _Nuchain node_ ke data tersebut
-menggunakan parameter `--base-path`.
+data, lebih detailnya silahkan baca [Presync Data](../learn/become-validator.md#presync-data).
 
 ## Gagal Kompilasi error "expected comma after minor version number, found '\t'"
 

@@ -86,12 +86,8 @@ network.
 
 When you run _nuchain node_ for the first time, _node_ will synchronize to get all data blocks on
 the network. This process takes a long time when there are too many blocks. To speed up the
-synchronization process, you can download the following _presync_ data:
-
-- [Nuchain Data April 1, 2021 full RocksDB](http://dmcd6hvaqrxz0.cloudfront.net/nuchain/presync-data/nuchain-snapshot-20210401-full-rocks.7z)
-
-Extract using [7zip](https://www.7-zip.org/) and point _Nuchain node_ to the data using the
-`--base-path` parameter.
+synchronization process, please use presync data, for more detail please read
+[Presync Data](../learn/become-validator.md#presync-data).
 
 ## Got "expected comma after minor version number, found '\t'" error when compiling
 
