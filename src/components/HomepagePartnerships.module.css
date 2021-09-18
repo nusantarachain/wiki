@@ -1,0 +1,14 @@
+/* stylelint-disable docusaurus/copyright-header */
+
+.partner {
+  height: 100px;
+  width: 150px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.partnerships {
+  /* background-color: #dce2dd; */
+  padding: 2em;
+  /* color: rgb(58, 58, 58); */
+}

@@ -6,7 +6,8 @@ import Translate, {translate} from '@docusaurus/Translate';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
-import HomepageFooter from '../components/HomepageFooter';
+import NextGenBlockchain from '../components/NextGenBlockchain';
+import HomePagePartnerships from '../components/HomepagePartnerships';
 
 import ReactTypingEffect from 'react-typing-effect';
 
@@ -76,11 +77,13 @@ export default function Home() {
             title="Nusantara Chain / Rantai Nusantara"
             description={translate({id: "text.nextGenWebPlatform", message: "Platform Web Generasi ke 3.0"})}>
             <HomepageHeader />
-            <NuchainVideo />
             <main>
+                <NuchainVideo />
                 <HomepageFeatures />
+                <NextGenBlockchain />
+                <HomePagePartnerships />
             </main>
-            <HomepageFooter />
+            
         </Layout>
     );
 }
