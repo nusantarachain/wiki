@@ -97,3 +97,14 @@ cara:
 ```bash
 cargo update -p parity-db
 ```
+
+## Apa fungsi ARA?
+
+ARA adalah native token, berfungsi untuk:
+1. Pembiayaan jaringan seperti membayar beban komputasi, penggunaan bandwidth, dan penyimpanan data. 
+2. Sebagai biaya layanan (gas fee).
+3. Membayar para validator sebagai insentif karena telah berkontribusi dalam menghidupi dan mengamankan jaringan.
+4. Keperluan governance seperti voting dalam menentukan kebijakan dan keputusan pengembangan.
+5. Biaya pembuatan organisasi dalam rantai blok (on-chain governance).
+6. Penggunaan fungsi-fungsi lainnya di dalam jaringan, seperti penggunaan _smart contract_.
+
