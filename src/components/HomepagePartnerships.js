@@ -23,7 +23,8 @@ export default function HomePagePartnerships() {
                     <PartnerItem image={require("../../static/img/ansvia-logo.png")} link="https://ansvia.com/" title="Ansvia Logo" />
                     <PartnerItem image={require("../../static/img/delameta-logo.png")} link="https://delameta.com/" title="Delameta Logo" />
                     <PartnerItem image={require("../../static/img/pramjazz-logo.png")} link="https://www.prambananjazz.com/" title="Prambanan Jazz Logo" />
-                    <PartnerItem image={require("../../static/img/akbara-logo.png")} link="https://www.akbara.ac.id/" title="Akbara Logo" />
+                    <PartnerItem image={require("../../static/img/pramjazz-logo.png")} link="https://www.prambananjazz.com/" title="Prambanan Jazz Logo" />
+                    <PartnerItem image={require("../../static/img/satnet-logo.png")} link="#" title="Satnet Logo" />
                 </div>
             </div>
         </section>
