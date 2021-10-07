@@ -102,11 +102,11 @@ When you become a new validator for the first time, the _node_ will synchronize.
 take quite a while when there are too many blocks. To speed up the sync process, you can download
 the following _presync_ data:
 
-- [Nuchain Data 8 September 2021 pruning 1000](http://dmcd6hvaqrxz0.cloudfront.net/nuchain/presync-data/nuchain-snapshot-20210908-pruning1000-rocks.7z)
+- [Nuchain Data 7 Oct 2021 pruning 1000](http://dmcd6hvaqrxz0.cloudfront.net/nuchain/presync-data/nuchain-pruning-1000-snapshot-2021-10-07.7z)
   (2GB)
-- [Nuchain Data 21 Mei 2021 pruning 1000](http://dmcd6hvaqrxz0.cloudfront.net/nuchain/presync-data/nuchain-snapshot-20210521-pruning1000-rocks.7z)
+- [Nuchain Data 21 May 2021 pruning 1000](http://dmcd6hvaqrxz0.cloudfront.net/nuchain/presync-data/nuchain-snapshot-20210521-pruning1000-rocks.7z)
   (993M)
-- [Nuchain Data 9 Mei 2021 full](http://dmcd6hvaqrxz0.cloudfront.net/nuchain/presync-data/nuchain-snapshot-2021-05-09.7z)
+- [Nuchain Data 9 May 2021 full](http://dmcd6hvaqrxz0.cloudfront.net/nuchain/presync-data/nuchain-snapshot-2021-05-09.7z)
   (6GB)
 - [Nuchain Data 14 April 2021 full](http://dmcd6hvaqrxz0.cloudfront.net/nuchain/presync-data/nuchain-snapshot-20210421-full-rocks.7z)
   (2GB)

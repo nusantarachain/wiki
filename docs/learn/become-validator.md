@@ -104,8 +104,8 @@ Ketika menjadi validator baru untuk pertama kali maka _node_ akan melakukan pros
 proses ini akan memakan waktu yang lumayan lama ketika blok sudah sangat banyak, untuk mempercepat
 proses singkronisasi Anda bisa download _presync_ data berikut:
 
-- [Nuchain Data 8 September 2021 pruning 1000](http://dmcd6hvaqrxz0.cloudfront.net/nuchain/presync-data/nuchain-snapshot-20210908-pruning1000-rocks.7z)
-  (2GB)
+- [Nuchain Data 7 Oktober 2021 pruning 1000](http://dmcd6hvaqrxz0.cloudfront.net/nuchain/presync-data/nuchain-pruning-1000-snapshot-2021-10-07.7z)
+  (2.3GB)
 - [Nuchain Data 21 Mei 2021 pruning 1000](http://dmcd6hvaqrxz0.cloudfront.net/nuchain/presync-data/nuchain-snapshot-20210521-pruning1000-rocks.7z)
   (993M)
 - [Nuchain Data 9 Mei 2021 full](http://dmcd6hvaqrxz0.cloudfront.net/nuchain/presync-data/nuchain-snapshot-2021-05-09.7z)
