@@ -57,7 +57,7 @@ WantedBy=multi-user.target
 Simpan konfigurasi di atas ke file `/etc/systemd/system/nuchain.service` lalu ketikkan:
 
 ```bash
-$ systemctl systemctl daemon-reload
+$ systemctl daemon-reload
 $ systemctl enable nuchain
 $ systemctl start nuchain
 ```
