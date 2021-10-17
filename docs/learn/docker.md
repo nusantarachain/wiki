@@ -48,7 +48,7 @@ StartLimitBurst=5
 LimitNOFILE=10000
 ExecStartPre=-/usr/bin/docker stop nuchain
 ExecStartPre=-/usr/bin/docker rm nuchain
-ExecStart=/usr/bin/docker run --rm -v '/var/data:/data' -p '9933:9933' -p '9944:9944' -p '30333:30333' --name nuchain anvie/nuchain:latest nuchain --validator --base-path=/data --ws-external --rpc-external --rpc-methods=Unsafe
+ExecStart=/usr/bin/docker run --rm -v '/var/data/nuchain:/data' -p '9933:9933' -p '9944:9944' -p '30333:30333' --name nuchain anvie/nuchain:latest nuchain --validator --base-path=/data --ws-external --rpc-external --rpc-methods=Unsafe
 
 [Install]
 WantedBy=multi-user.target
