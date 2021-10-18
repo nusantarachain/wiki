@@ -31,6 +31,7 @@ Below is the lists of _nodes_ that are hosted by Rantai Nusantara Foundation.
 #### Testnet
 
 - `testnet.nuchain.riset.tech` (Indonesia)
+- `satnet-testnet.node.nuchain.network` (Indonesia)
 
 ## Local
 

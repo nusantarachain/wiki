@@ -31,6 +31,7 @@ Dan berikut adalah daftar _nodes_ yang dihosting oleh Rantai Nusantara Foundatio
 #### Testnet
 
 - `testnet.nuchain.riset.tech` (Indonesia)
+- `satnet-testnet.node.nuchain.network` (Indonesia)
 
 ## Lokal
 
