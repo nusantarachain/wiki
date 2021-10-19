@@ -25,6 +25,7 @@ export default function HomePagePartnerships() {
                     <PartnerItem image={require("../../static/img/pramjazz-logo.png")} link="https://www.prambananjazz.com/" title="Prambanan Jazz Logo" />
                     <PartnerItem image={require("../../static/img/akbara-logo.png")} link="https://www.akbara.ac.id/" title="Akbara Logo" />
                     <PartnerItem image={require("../../static/img/satnet-logo.png")} link="#" title="Satnet Logo" />
+                    <PartnerItem image={require("../../static/img/sms-logo.png")} link="https://solusimedia.co.id" title="Solusi Media Semesta Logo" />
                 </div>
             </div>
         </section>
