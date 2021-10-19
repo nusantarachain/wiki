@@ -25,8 +25,8 @@ module.exports = {
       },
       items: [
         {
-          type: 'localeDropdown',
-          position: 'right',
+          type: "localeDropdown",
+          position: "right",
         },
         {
           type: "doc",
@@ -34,7 +34,11 @@ module.exports = {
           position: "right",
           label: "Memulai Pertama",
         },
-        // {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          to: "http://nuchain.network/nuchain-whitepaper.pdf",
+          label: "Whitepaper",
+          position: "right",
+        },
         {
           href: "https://github.com/nusantarachain/nuchain",
           label: "GitHub",
@@ -113,7 +117,7 @@ module.exports = {
     ],
   ],
   i18n: {
-    defaultLocale: 'id',
-    locales: ['en', 'id']
-  }
+    defaultLocale: "en",
+    locales: ["en", "id"],
+  },
 };
