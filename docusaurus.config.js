@@ -35,11 +35,6 @@ module.exports = {
           label: "Memulai Pertama",
         },
         {
-          to: "http://nuchain.network/nuchain-whitepaper.pdf",
-          label: "Whitepaper",
-          position: "right",
-        },
-        {
           href: "https://github.com/nusantarachain/nuchain",
           label: "GitHub",
           position: "right",
@@ -86,6 +81,10 @@ module.exports = {
         {
           title: "More",
           items: [
+            {
+              label: "Whitepaper",
+              href: "http://nuchain.network/nuchain-whitepaper.pdf",
+            },
             {
               label: "GitHub",
               href: "https://github.com/nusantarachain",
