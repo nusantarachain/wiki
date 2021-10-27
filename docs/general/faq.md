@@ -108,3 +108,55 @@ ARA adalah native token, berfungsi untuk:
 5. Biaya pembuatan organisasi dalam rantai blok (on-chain governance).
 6. Penggunaan fungsi-fungsi lainnya di dalam jaringan, seperti penggunaan _smart contract_.
 
+
+
+## Apa itu 'Targets' yang ada di Dashboard menu: Network > Staking ?
+
+Targets merupakan bagian di mana kita bisa melihat performa validator dan calon validator yang secara economic menguntungkan untuk di-nominasi, biasanya digunakan untuk mencari target validator mana yang paling profitable untuk dinominasi.
+
+![Apa itu Targets](https://i.imgur.com/5lePl1W.png)
+
+
+
+
+## Apa itu 'Waiting' yang ada di Dashboard menu: Network > Staking ?
+
+Waiting merupakan bagian untuk melihat calon validator yang masih di status menunggu untuk kepilih menjadi validator aktif.
+
+![Apa itu Waiting](https://i.imgur.com/1dFjOMs.png)
+
+
+
+## Apa itu 'Slashes' yang ada di Dashboard menu: Network > Staking ?
+
+Slashes merupakan bagian untuk melihat validator-validator yang akan dihukum dengan cara dipotong stake-nya karena melakukan pelanggaran.
+
+![Apa itu Slashes](https://i.imgur.com/4uXZ5oL.png)
+
+
+## Apa itu Reward commission percentage?
+
+Reward commission adalah reward yg akan diambil dari setiap membuat/memvalidasi block. Kalau reward commission-nya diisi 100% maka semua reward akan menjadi milik Validator, tapi misal diisi 50% maka reward dari setiap yang didapatkan 50% untuk Validator dan 50%nya lagi akan dibagi ke Nominator.
+
+![Reward commission percentage](https://i.imgur.com/6rzEKV1.png)
+
+Contoh:
+Misal Reward commission-nya 60%, itu artinya validator dapat 60%, sedangkan yang 40% dibagi ratio jumlah staking validator dan nominator.
+Perlu diketahui, Percent yang tinggi semakin tidak menarik untuk nominator, tanpa nominator staking kita tetap sedikit, kalau validator punya ARA banyak sih tidak masalah.
+
+Misal satu validator dapat fee 10 ARA. maka validator dapat 5 + ((100/300) * 5) ARA.
+Nominator mendapat (200/300) * 5 ARA.
+5 itu dari 50%nya 10 ARA yg didapat satu ERA.
+
+
+
+## Apa semua validator mendapat jumlah reward yang sama?
+
+Semua validator mendapat sama, tergantung point-nya tapi rata-rata sama. Tergantung berapa banyak transaksi dalam 1 ERA di jaringan nuchain.
+
+
+## Setelah 1 ERA, kenapa kadang payout saya withdraw sendiri?
+
+Payout itu bisa dilakukan oleh siapa saja, tidak terbatas hanya validator atau nominator sebenarnya.
+Validator tidak perlu keluar biaya gas untuk payout apabila sudah dipayout oleh orang lain.
+
