@@ -82,10 +82,6 @@ module.exports = {
           title: "More",
           items: [
             {
-              label: "Whitepaper",
-              href: "http://nuchain.network/nuchain-whitepaper.pdf",
-            },
-            {
               label: "GitHub",
               href: "https://github.com/nusantarachain",
             },
