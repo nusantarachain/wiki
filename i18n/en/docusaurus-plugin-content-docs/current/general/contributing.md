@@ -46,16 +46,3 @@ Here are some basic rules for contributors:
 2. Pull requests are suggested to be related to _issue_ (if any).
 3. For contributions in the documentation, we use the _Prettier_ plugin to customize the _style_ of
    writing in each document. You can run it using the command `npx prettier --write ./docs`.
-
-## Contributor
-
-We would thank the Nuchain's contributors who have supported Nuchain's vision & mission. Following
-are Nuchain contributors:
-
-- Dian Asmarajati
-- Kadek Arika Pramana
-- Muslim Hidayat
-- Reza
-- Robin Shihab (anvie)
-- Rony (lantip)
-- Muhammad Zuhair Zahid

@@ -49,15 +49,3 @@ Berikut beberapa peraturan dasar untuk kontributor:
    penulisan di setiap dokumen. Anda bisa menjalankannya menggunakan perintah
    `npx prettier --write ./docs`.
 
-## Kontributor
-
-Terimakasih Buat para kontributor Nuchain yang telah ikut mendukung visi & misi Nuchain. Berikut
-adalah para kontributor Nuchain:
-
-- Dian Asmarajati
-- Kadek Arika Pramana
-- Muslim Hidayat
-- Reza
-- Robin Syihab (anvie)
-- Rony (lantip)
-- Muhammad Zuhair Zahid
