@@ -21,6 +21,7 @@ module.exports = {
           'general/welcome',
           'general/contributing',
           'general/community',
+          'general/governance',
           'general/faucet',
           'general/faq',
           'general/glossary',
