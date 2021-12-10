@@ -1,6 +1,7 @@
 ---
 id: governance
 title: Governance
+sidebar_label: Governance
 ---
 
 Governance memberikan kesempatan pada komunitas dalam menentukan arah dan kebijakan sistem secara
