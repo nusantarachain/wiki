@@ -48,4 +48,3 @@ Berikut beberapa peraturan dasar untuk kontributor:
 3. Untuk kontribusi di dokumentasi kami menggunakan plugin _Prettier_ dalam menyesuaikan _style_
    penulisan di setiap dokumen. Anda bisa menjalankannya menggunakan perintah
    `npx prettier --write ./docs`.
-
