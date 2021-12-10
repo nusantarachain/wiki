@@ -61,3 +61,8 @@ sistem:
 4. Memindahkan proposal yang diajukan oleh dewan teknis (technical commite) ke mosi.
 5. Menambahkan registrar (verifikator on-chain identity).
 6. Mengeluarkan (kick) validator dari daftar aktif.
+7. Dll.
+
+Contoh keputusan strategis adalah menurunkan _gass fee_, ketika nilai token native terlalu tinggi
+maka perlu ada mekanisme untuk memastikan biaya _gass fee_ di jaringan nuchain tetap terjangkau,
+melalui mekanisme governance hal ini bisa dilakukan dalam hitungan hari.
