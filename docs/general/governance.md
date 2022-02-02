@@ -31,7 +31,8 @@ Anggota dewan dipilih melalui mekanisme voting, dimana siapapun bisa mengajukan 
 kandidat dan siapapun bisa memberikan suaranya kepada kandidat tertentu agar memiliki kekuatan yang
 cukup untuk terpilih sebagai anggota dewan.
 
-Jumlah anggota dewan dibatasi maksimal 13 kursi.
+Saat ini jumlah anggota dewan dibatasi maksimal 13 kursi, dan bisa ditambahkan atau dikurangi sesuai
+kesepakatan bersama.
 
 Daftar anggota dewan bisa dilihat di dashboard > Governance >
 [Council](https://dashboard.nuchain.network/#/council)
@@ -40,7 +41,7 @@ Anggota dewan bisa mengajukan rencana perubahan/pengembangan, dengan cara membua
 ([motions](https://dashboard.nuchain.network/#/council/motions)), kemudian anggota dewan lainnya
 bisa melakukan voting pada mosi yang ada.
 
-## Proposal
+## Proposal & Motion
 
 Ada beberapa cara untuk mengajukan perubahan/pengembangan di jaringan Nuchain, pertama melalui mosi
 dan kedua melalui referendum.
@@ -65,4 +66,4 @@ sistem:
 
 Contoh keputusan strategis adalah menurunkan _gass fee_, ketika nilai token native terlalu tinggi
 maka perlu ada mekanisme untuk memastikan biaya _gass fee_ di jaringan nuchain tetap terjangkau,
-melalui mekanisme governance hal ini bisa dilakukan dalam hitungan hari.
+melalui mekanisme on-chain governance hal ini bisa dilakukan dalam hitungan hari.
