@@ -27,6 +27,7 @@ export default function HomePagePartnerships() {
                     <PartnerItem image={require("../../static/img/satnet-logo.png")} link="#" title="Satnet Logo" />
                     <PartnerItem image={require("../../static/img/sms-logo.png")} link="https://solusimedia.co.id" title="Solusi Media Semesta Logo" />
                     <PartnerItem image={require("../../static/img/unsiq-logo.png")} link="https://unsiq.ac.id" title="Universitas Sains Al-Qur'an" />
+                    <PartnerItem image={require("../../static/img/mulo-logo.png")} link="https://muloapp.id" title="Mulo App" />
                 </div>
             </div>
         </section>
