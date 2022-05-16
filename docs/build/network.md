@@ -28,6 +28,10 @@ Dan berikut adalah daftar _nodes_ yang dihosting oleh Rantai Nusantara Foundatio
 - `ca.node.nuchain.network` (Kanada)
 - `us.node.nuchain.network` (Amerika Serikat)
 
+#### Gama
+
+- `gama.sg.node.nuchain.network` (Singapura)
+
 #### Testnet
 
 - `testnet.nuchain.riset.tech` (Indonesia)

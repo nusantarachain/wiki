@@ -28,6 +28,11 @@ Below is the lists of _nodes_ that are hosted by Rantai Nusantara Foundation.
 - `ca.node.nuchain.network` (Canada)
 - `us.node.nuchain.network` (United States)
 
+#### Gama
+
+- `gama.sg.node.nuchain.network` (Singapura)
+
+
 #### Testnet
 
 - `testnet.nuchain.riset.tech` (Indonesia)
