@@ -53,7 +53,7 @@ These are important links for the nuchain ecosystem:
 - [Telemetry](https://telemetry.nuchain.network/#/Nuchain) - validator map.
 - [Community](community) - channel and community network.
 - [Nuchain App for Android](https://play.google.com/store/apps/details?id=network.nuchain.app)
-- [Nuchain App untuk peramban Chrome](https://chrome.google.com/webstore/detail/nuchain-app/hfcdboaniimgkememgmilhmnkdgggkne) -
+- [Nuchain App for Chrome](https://chrome.google.com/webstore/detail/nuchain-app/hfcdboaniimgkememgmilhmnkdgggkne) -
   browser extension.
-- [Nuchain App untuk peramban Firefox](https://addons.mozilla.org/en-US/firefox/addon/nuchain-app/) -
+- [Nuchain App for Firefox](https://addons.mozilla.org/en-US/firefox/addon/nuchain-app/) -
   browser extension.
